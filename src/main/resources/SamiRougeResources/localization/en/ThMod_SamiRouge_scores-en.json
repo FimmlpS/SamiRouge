@@ -1,0 +1,38 @@
+{
+  "samirg:SamiTreeHole": {
+    "NAME": "Bosky Passage",
+    "DESCRIPTIONS": [
+      "Enter the secret floor, and leave safely."
+    ]
+  },
+  "samirg:SamiTreeHoleBoss": {
+    "NAME": "BOSS in Bosky Passage",
+    "DESCRIPTIONS": [
+      "Defeat a BOSS in Bosky Passage."
+    ]
+  },
+  "samirg:ToTalkWithMountains": {
+    "NAME": "To Talk with the Mountains",
+    "DESCRIPTIONS": [
+      "Defeat Samivilinn. NL Cold and ice are merely manifestations of nature. How can the land invite you to face the unconventional enemy in the north if you can't even overcome this?"
+    ]
+  },
+  "samirg:WinterFall": {
+    "NAME": "Winterfall",
+    "DESCRIPTIONS": [
+      "Defeat \"Eikthyrnir,\" the Scar of the Shattered. NL No matter what long-cherished aspirations this Sami hero once had, he is now but a collapsed symbol stripped of his self—just like the thousands of Ursus behind him."
+    ]
+  },
+  "samirg:LongIntoAnAbyss": {
+    "NAME": "Long into an Abyss",
+    "DESCRIPTIONS": [
+      "Defeat Crazelyseon, the Ascendant of Cosmoi. NL It opens its vacuous eye, examining everything in this dimension. Only when the eye shuts will humanity get to chance a glimpse at the secret beyond the ends of the earth."
+    ]
+  },
+  "samirg:WhatBeginsFollowsWhatEnds": {
+    "NAME": "From Start to End",
+    "DESCRIPTIONS": [
+      "Defeat Kharanduu Khagan and Lugalszargus. NL The footnotes of time have been removed, and the strife bears no fruit. Their war will continue on, but where will you go?"
+    ]
+  }
+}

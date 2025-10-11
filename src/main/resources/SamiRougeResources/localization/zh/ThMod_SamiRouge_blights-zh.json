@@ -1,0 +1,165 @@
+{
+  "samirg:AntiInterference": {
+    "NAME": "抗干扰指数",
+    "DESCRIPTION": [
+      "你当前拥有 #b",
+      " 级抗干扰指数。 NL 你进入 #y树篱之途 或横向移动时需要消耗1级抗干扰指数。 NL NL #b获取方式 ：战斗胜利后有概率掉落，或可以在商店使用 #y50金币 购买。"
+    ]
+  },
+  "samirg:IrreversibleMatrix": {
+    "NAME": "不可逆矩",
+    "DESCRIPTION": [
+      " #y全局生效 NL 所有敌人提升 #b",
+      "% 最大生命，造成的伤害提升 #b",
+      "% 。 NL 不可逆矩不低于3级时，战斗会出现额外敌人。"
+    ]
+  },
+
+  "samirg:Dequantization01": {
+    "NAME": "范式：去量化",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 在非战斗节点失去金币或生命时，额外失去 #b25％ （不会因此死亡） NL #y所有敌人失去2点力量 。"
+    ]
+  },
+  "samirg:Dequantization02": {
+    "NAME": "范式：去量深化",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 在非战斗节点失去金币或生命时，额外失去 #b50％ （不会因此死亡）。 NL #r范式已加深"
+    ]
+  },
+
+  "samirg:SubstantialCollapse01": {
+    "NAME": "范式：实质性坍缩",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 你的 #y攻击牌 在打出后降低 #b1 点伤害（最多降低4点）。"
+    ]
+  },
+  "samirg:SubstantialCollapse02": {
+    "NAME": "范式：蔓延性坍缩",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 你的 #y攻击牌 在打出后降低 #b2 点伤害（最多降低4点）。 NL #r范式已加深"
+    ]
+  },
+
+  "samirg:NonlinearMovement01": {
+    "NAME": "范式：非线性移动",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 所有敌人生命额外提升 #b20％ ，并获得 #b1 层飞行。 NL #y你获得2点敏捷 。"
+    ]
+
+  },
+  "samirg:NonlinearMovement02": {
+    "NAME": "范式：非线性行动",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 所有敌人生命额外提升 #b30％ ，并获得 #b3 层飞行。 NL #r范式已加深"
+    ]
+
+  },
+
+  "samirg:EmotionalEntity01": {
+    "NAME": "范式：情绪实体",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 所有 #y单位 随机获得 #b1 种效果： NL 1. #y1层人工制品 NL 2. #y2层再生 NL 3. #y4层金属化 NL 4. #y8层多层护甲"
+    ]
+
+  },
+  "samirg:EmotionalEntity02": {
+    "NAME": "范式：恐怖实体",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 所有 #r敌人 随机获得 #b2 种效果： NL 1. #y1层人工制品 NL 2. #y2层再生 NL 3. #y4层金属化 NL 4. #y8层多层护甲 NL #r范式已加深"
+    ]
+
+  },
+
+  "samirg:PansocialParadox01": {
+    "NAME": "范式：泛社会悖论",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 商店物品的售价提升 #b25％ "
+    ]
+
+  },
+  "samirg:PansocialParadox02": {
+    "NAME": "范式：泛文明悖论",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 商店物品的售价提升 #b50％ ， #y普通 遗物、药水和卡牌的售价额外提升 #b50％  NL #r范式已加深"
+    ]
+
+  },
+
+  "samirg:AbnormalAirpressure01": {
+    "NAME": "范式：气压异常",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 战斗开始时，向抽牌堆洗入 #b1 张 #y虚空 。 NL #y你在下一回合额外抽2张牌 。"
+    ]
+
+  },
+  "samirg:AbnormalAirpressure02": {
+    "NAME": "范式：气压失序",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 战斗开始时，向抽牌堆洗入 #b3 张 #y虚空 。 NL #r范式已加深"
+    ]
+
+  },
+
+  "samirg:TriggeringInjury01": {
+    "NAME": "范式：触发性损伤",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 战斗开始时，获得 #b1 层 #y脆弱 。 NL #y你获得1点能量 。"
+    ]
+
+  },
+  "samirg:TriggeringInjury02": {
+    "NAME": "范式：触发性危殆",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 战斗开始时，获得 #b1 层 #y虚弱 、 #y脆弱 和 #y易伤 。 NL #r范式已加深"
+    ]
+
+  },
+
+  "samirg:ConvergentConsumption01": {
+    "NAME": "范式：趋同性消耗",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 每场战斗后，你失去 #b1 点最大生命（不会低于20）， #y并回复4点生命 。"
+    ]
+
+  },
+  "samirg:ConvergentConsumption02": {
+    "NAME": "范式：趋同性缺失",
+    "DESCRIPTION": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 每场战斗后，你失去 #b2 点最大生命（不会低于20）。 NL #r范式已加深"
+    ]
+
+  }
+}

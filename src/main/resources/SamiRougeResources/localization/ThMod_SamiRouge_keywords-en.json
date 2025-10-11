@@ -1,0 +1,57 @@
+[
+  {
+    "NAMES": [
+      "扭矩"
+    ],
+    "DESCRIPTION": ""
+  },
+  {
+    "NAMES": [
+      "singular-Matrix"
+    ],
+    "DESCRIPTION": "When enter the #ySecluded #yPassage , obtain 1 . Increase the HP of the enemies and the damage they can deal."
+  },
+  {
+    "NAMES": [
+      "hunting"
+    ],
+    "DESCRIPTION": "When drawn , apply #b1 #yWeak to a random enemy. If the enemy has #yWeak , apply #yVulnerable instead."
+  },
+  {
+    "NAMES": [
+      "eternal"
+    ],
+    "DESCRIPTION": "If this card is Exhausted , it will be put on the top of the draw pile at the start of the next turn."
+  },
+  {
+    "NAMES": [
+      "freezing"
+    ],
+    "DESCRIPTION": "Lose 1 energy when played."
+  },
+  {
+    "NAMES": [
+      "boundless-Gift"
+    ],
+    "DESCRIPTION": "When an enemy dies, all the enemies lose #b1 #yStrength . NL Unlock new choice in #yBosky #yPassage of Act Ⅲ(You can only choose this special choice for once)."
+  },
+
+  {
+    "NAMES": [
+      "arcticalpine"
+    ],
+    "DESCRIPTION": "When played, draw cards eqauls to two times as this card's cost, and remove this effect."
+  },
+  {
+    "NAMES": [
+      "permafrost"
+    ],
+    "DESCRIPTION": "When played, gain energy equals to this card's cost, and remove this effect."
+  },
+  {
+    "NAMES": [
+      "polar"
+    ],
+    "DESCRIPTION": "Increase the damage this card can deal and the Block this card can gain by 50%. Remove this effect after played."
+  }
+]

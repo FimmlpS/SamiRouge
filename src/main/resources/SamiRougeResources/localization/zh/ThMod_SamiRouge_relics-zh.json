@@ -1,0 +1,336 @@
+{
+  "samirg:WarnWood": {
+    "NAME": "警戒篱木",
+    "FLAVOR": "土地没有边界，但漫游的心神需要知道恐惧在何处潜伏。",
+    "DESCRIPTIONS": [
+      "拾起时，失去1级 #ysamirg:不可逆矩 。"
+    ]
+  },
+  "samirg:StoneRelic": {
+    "NAME": "圆石祭坛",
+    "FLAVOR": "送上祭品，获得回馈。它是如此地便利，以至于人们都没有思考过，他们到底在向什么献祭。",
+    "DESCRIPTIONS": [
+      "抽到牌后，有 #b",
+      "% 概率使其攻击和格挡值+ #b1 。战斗胜利后，使概率永久+ #b3％ 。"
+    ]
+  },
+  "samirg:MissHome": {
+    "NAME": "流浪术师的怀乡",
+    "FLAVOR": "刀刃划过空气时演奏的旋律令人感到诡异的和谐，但并不依循十二平均律。",
+    "DESCRIPTIONS": [
+      "进入 #y深埋迷境 时，随机 #y升级 1张牌。"
+    ]
+  },
+  "samirg:IcyBody": {
+    "NAME": "冰结的躯壳",
+    "FLAVOR": "随着生命流向大地，他们原本被冻僵的身体变得越来越轻快。",
+    "DESCRIPTIONS": [
+      "你失去生命后，使你下一次攻击提升 #b等量 伤害。"
+    ]
+  },
+  "samirg:RoadVine": {
+    "NAME": "指路藤偶",
+    "FLAVOR": "萨满们用藤蔓制作的小傀儡，时常被用于在林间寻路。",
+    "DESCRIPTIONS": [
+      "离开 #y深埋迷境 时的奖励会更加丰厚。"
+    ]
+  },
+  "samirg:CloudMover": {
+    "NAME": "移云者图腾",
+    "FLAVOR": "据说只要诚心呼唤，它就会鼓动双翼扬起风暴，让大地为之震颤。",
+    "DESCRIPTIONS": [
+      "战斗开始时给予所有敌人 #b1 层 #y飞行 。你对 #y飞行 敌人的攻击伤害提升 #b50％ （并无视原效果）。"
+    ]
+  },
+  "samirg:Friston": {
+    "NAME": "Friston.P",
+    "FLAVOR": "弗里斯顿当然不会错过探寻另一个前人类文明秘密的机会。",
+    "DESCRIPTIONS": [
+      "在你回合开始时，有 #b",
+      "% 概率获得 [E] 。战斗胜利后，使概率永久+ #b3％ 。"
+    ]
+  },
+  "samirg:NorthWind": {
+    "NAME": "北风的造物",
+    "FLAVOR": "即使常常以失败告终，她仍热衷于为挑战悲惨命运之人提供帮助。",
+    "DESCRIPTIONS": [
+      "当你受到拥有 #y人工制品 的敌人的攻击时，使其失去 #b2 点 #y力量 。"
+    ]
+  },
+  "samirg:ExploreBag": {
+    "NAME": "探索者背包",
+    "FLAVOR": "他们总是会把一切利于生存的物资塞进背包里，然后带上那一往无前的决心与意志，挑战认知的边界。",
+    "DESCRIPTIONS": [
+      "当你获得负面效果时，抽 #b1 张牌。"
+    ]
+  },
+  "samirg:MidMachine": {
+    "NAME": "范式中和仪",
+    "FLAVOR": "事关对邪魔源头的探索，在多国施压下，乌萨斯最终还是分享了部分秘密技术。",
+    "DESCRIPTIONS": [
+      "每有1级 #ysamirg:不可逆矩 ，战斗结束时回复 #b1 点生命。"
+    ]
+  },
+
+  "samirg:UrsasBlade": {
+    "NAME": "乌萨斯断刃",
+    "FLAVOR": "他并非缺乏决心，其意志也无可置疑，只是在自决那一瞬间，身体的本能反应铸成了不可挽回的错误。",
+    "DESCRIPTIONS": [
+      "每有1级 #ysamirg:不可逆矩 ，战斗获得的金币+ #b10％ 。"
+    ]
+  },
+  "samirg:RitualBell": {
+    "NAME": "仪式铃",
+    "FLAVOR": "闭上眼。你所渴望的，都要向内寻求。",
+    "DESCRIPTIONS": [
+      "进入 #y深埋迷境 时，提升 #b5 点最大生命。"
+    ]
+  },
+  "samirg:LiveWood": {
+    "NAME": "活木甲",
+    "FLAVOR": "萨满们知晓树木对于生存的执着，所以当战士也拥有这种意志时，他们便会邀请树木成为战士的护甲。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得相当于最大生命 #b20％ 的 #y格挡 ，若在 #y树篱之途 中改为 #b40％ 。"
+    ]
+  },
+  "samirg:RockHorn": {
+    "NAME": "岩角号",
+    "FLAVOR": "想要在萨米召集人手，吹号绝对是最为有效的措施。",
+    "DESCRIPTIONS": [
+      "你的牌组中每有 #b10 张牌，战斗开始时获得1点 #y力量 。"
+    ]
+  },
+  "samirg:ImmortalTorch": {
+    "NAME": "不灭的火炬",
+    "FLAVOR": "火焰代表着光芒与温暖，聚集在火焰下，绝望就成了希望。",
+    "DESCRIPTIONS": [
+      "你的牌组中每有 #b10 张牌，战斗开始时获得1点 #y敏捷 。"
+    ]
+  },
+  "samirg:ImprovePackage": {
+    "NAME": "极地改进包",
+    "FLAVOR": "能对各种通用型号装置进行极地适应性改修，令其在寒冷环境下发挥更大效用。",
+    "DESCRIPTIONS": [
+      "每场战斗第一个回合结束时，你可以 #y保留 至多 #b3 张手牌。"
+    ]
+  },
+  "samirg:ShellShield": {
+    "NAME": "鳞皮壳甲",
+    "FLAVOR": "来自远方的层层创伤，越不过躯壳垒起的重重防护。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，获得3层 #y柔韧 。"
+    ]
+  },
+  "samirg:BlackHoleProtocol": {
+    "NAME": "黑洞协议",
+    "FLAVOR": "泰拉诸国都在极北的巨构前投入了大量资源，非政府组织罗德岛成了该行动的实际管理者。",
+    "DESCRIPTIONS": [
+      "若你的能量不低于上限，你从卡牌造成的伤害提升 #b3 点，每比上限多1，再提升 #b1 点。"
+    ]
+  },
+
+
+  "samirg:HunterSee": {
+    "NAME": "猎人的洞察",
+    "FLAVOR": "“让我拉弓，让我战胜它，让我永不畏惧。”",
+    "DESCRIPTIONS": [
+      "仅在 #y树篱之途 生效。",
+      " #y全局生效",
+      " NL 将你每回合抽到的第一张 #y攻击/技能牌 标记为 #ysamirg:射猎 。"
+    ]
+  },
+  "samirg:GoldenCup": {
+    "NAME": "金酒之杯",
+    "FLAVOR": "圣人、骑士、虔信之徒，无人不为之疯狂。老天啊，连杯子本身都是纯金的！",
+    "DESCRIPTIONS": [
+      "你每有 #b100 金币， #y攻击 目标时附加 #b1 点额外伤害。"
+    ]
+  },
+  "samirg:ToBeAHunter": {
+    "NAME": "狩猎，永恒",
+    "FLAVOR": "萨卡兹少女曾向自然起誓：她将与邪魔战斗下去，直至永远。",
+    "DESCRIPTIONS": [
+      "在你回合结束时， #b提丰 将对生命值最高的敌人造成2点伤害5次。以下条件会提升 #b提丰 的伤害值： NL ①每有1级 #ysamirg:不可逆矩 ，提升 #b1 点。 NL ②目标每有1层 #y虚弱 / #y易伤 ，提升 #b1 点（至多10点）。 NL ③若目标为BOSS敌人，提升 #b2 点。"
+    ]
+  },
+
+
+  "samirg:HandOfBurst": {
+    "NAME": "溃决之手",
+    "FLAVOR": "砸开每一道裂痕，或者制造第一道裂痕。",
+    "DESCRIPTIONS": [
+      "每回合开始时给予所有敌人 #y溃决 ：生命值每降低1％，受到来自 #y攻击 的伤害提升1％（最多 #b50％ ）。"
+    ]
+  },
+  "samirg:HandOfOpportunity": {
+    "NAME": "应机之手",
+    "FLAVOR": "现在我们不缺战场情报，我们缺一个来得及读完情报的队长。",
+    "DESCRIPTIONS": [
+      "每场战斗第1个回合中，将你抽到的 #y能力牌 的耗能降低1点。 NL 你打出 #y能力牌 后抽1张牌。"
+    ]
+  },
+  "samirg:HandOfDogfight": {
+    "NAME": "缠斗之手",
+    "FLAVOR": "她站在那里的意思就是，不可越过。",
+    "DESCRIPTIONS": [
+      "你每打出一张 #y攻击牌 ，给予所有敌人 #b2 层 #y缠绕 。"
+    ]
+  },
+  "samirg:HandOfFlowing": {
+    "NAME": "永流之手",
+    "FLAVOR": "海洋从不断流，在于它永远奔涌。",
+    "DESCRIPTIONS": [
+      "战斗中每经过1个回合，在你回合开始时额外抽 #b1 张牌（至多 #b3 张）。"
+    ]
+  },
+  "samirg:HandOfHardness": {
+    "NAME": "坚实之手",
+    "FLAVOR": "锦上添花，险地妙用。",
+    "DESCRIPTIONS": [
+      "每 #b3 个回合，获得 #b5 层 #y金属化 。"
+    ]
+  },
+  "samirg:HandOfExplosion": {
+    "NAME": "炸裂之手",
+    "FLAVOR": "数量越多，力量越强。",
+    "DESCRIPTIONS": [
+      "当你对每个敌人 #b首 次 #y攻击 时，获得 [E] [E] 。"
+    ]
+  },
+  "samirg:HandOfRapidness": {
+    "NAME": "极速之手",
+    "FLAVOR": "振臂一挥，只留残影。",
+    "DESCRIPTIONS": [
+      "你手中最后一张 #y攻击牌 / #y技能牌 会额外打出一次。 NL #r每回合各限一次 。"
+    ]
+  },
+  "samirg:HandOfClean": {
+    "NAME": "净尘之手",
+    "FLAVOR": "所在，即为无尘之地。",
+    "DESCRIPTIONS": [
+      "在你回合结束时，对所有敌人造成相当于你已 #y消耗 的牌数量 #b2 倍的伤害。"
+    ]
+  },
+
+  "samirg:EveryNight": {
+    "NAME": "“永夜的窥视”",
+    "FLAVOR": "她转身走向北地的那一刻，黑色的群山铺陈于眼前，如她多年前所见的预兆。",
+    "DESCRIPTIONS": [
+      "在你的第二回合开始时，从抽牌堆和弃牌堆随机展示 #b5 张牌，你选择一张放入手中，使其本回合耗能为 #b0 。"
+    ]
+  },
+  "samirg:EchoWood": {
+    "NAME": "“枯木的回声”",
+    "FLAVOR": "一位又一位萨满巫医接过兽骨锤，其中有些人留下的回声比别人更长久。",
+    "DESCRIPTIONS": [
+      "每场战斗每种类型的第一张牌会额外打出 #b1 次。"
+    ]
+  },
+  "samirg:IceGrindingStone": {
+    "NAME": "凝冰砥石",
+    "FLAVOR": "石面光滑如冰，制作者请求了山岩的许可，将它过于沉重的力量复写在刀刃上。",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，将一张 #y升级 且 #y虚无 的随机牌洗入抽牌堆，使其各数值提升 #b1 倍且耗能+1。"
+    ]
+  },
+  "samirg:FarScry": {
+    "NAME": "远见者之示",
+    "FLAVOR": "没有任何一个方向能避开厄运。",
+    "DESCRIPTIONS": [
+      "抽到牌后，使其攻击值提升 #b2 点，每3个回合将这一回合内的 #g提升 改为 #r降低 。"
+    ]
+  },
+
+  "samirg:HatOfTreeScar": {
+    "NAME": "树痕之盔",
+    "FLAVOR": "有的人丢弃它是为了去离职责，有的人丢弃它，只是为了坚定自己舍弃生命的决心。",
+    "DESCRIPTIONS": [
+      "当你打出耗能不低于 #b3 的牌时，获得 [E] 。 NL 在第三幕的 #y树篱之途 中解锁额外选项（仅限进入一次）。"
+    ]
+  },
+  "samirg:RouteMap": {
+    "NAME": "路网",
+    "FLAVOR": "一张错综复杂的网织成了无人理解的地图。看上去是在显现四通八达的道路，但它所展示的，只有结果。",
+    "DESCRIPTIONS": [
+      "战斗中会出现额外敌人。 NL 累计击败 #b10 种敌人后，获得 #ysamirg:无垠赠礼 。"
+    ]
+  },
+  "samirg:LimitlessGift": {
+    "NAME": "无垠赠礼",
+    "FLAVOR": "在眼见不到的地方扎根，从想象不及的去处吸收养分，花朵绽放跨越无垠，成为边界之外的第一枚信标。",
+    "DESCRIPTIONS": [
+      "每当有一名敌人死亡时，使所有敌人失去 #b1 点 #y力量 。 NL 在第三幕的 #y树篱之途 中解锁额外选项（仅限进入一次）。"
+    ]
+  },
+  "samirg:DimensionalFluidity": {
+    "NAME": "维度流质",
+    "FLAVOR": "融合各国技术，对坍缩体和冰原巨构进行深入研究后研制的核心原料。",
+    "DESCRIPTIONS": [
+      "每有一级 #ysamirg:不可逆矩 ，战斗开始时获得 #b2 层 #y金属化 。 NL 在结束 #y终幕 后会出现特殊的 #y树篱之途 。"
+    ]
+  },
+  "samirg:CollapseSeed": {
+    "NAME": "坍缩之种",
+    "FLAVOR": "坍缩的痕迹落在此处，拒绝被清除。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，失去1点 #y力量 和 #y敏捷 。"
+    ]
+  },
+  "samirg:SpaceFragment": {
+    "NAME": "空间碎片",
+    "FLAVOR": "所处的空间被乱流撕碎，只剩下小小一方。",
+    "DESCRIPTIONS": [
+      "在你回合开始时，向手中放入一张 #y虚空 。"
+    ]
+  },
+  "samirg:DeepBurn": {
+    "NAME": "深度灼痕",
+    "FLAVOR": "磅礴能量烧尽了躯体与灵魂，它们再也无法复原。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，向弃牌堆放入3张 #y灼伤+ 。"
+    ]
+  },
+
+  "samirg:TerraMap": {
+    "NAME": "地形图",
+    "FLAVOR": "一份颇有年代感的手绘地图，图上的名称和对应地形都有较大更易，比例尺似乎也有些问题。",
+    "DESCRIPTIONS": [
+      "战斗开始前，使牌堆中随机3张牌分别获得 #ysamirg:高寒化 ， #ysamirg:冻土化 和 #ysamirg:极地化 。"
+    ]
+  },
+  "samirg:ActionPlan": {
+    "NAME": "地区行动方案",
+    "FLAVOR": "罗德岛在各个重要的枢纽区域都设有专门的办事处。信使们努力在这片大地上勉强织了一张易碎的网。",
+    "DESCRIPTIONS": [
+      "回合开始时，使随机手牌获得 #ysamirg:高寒化 ， #ysamirg:冻土化 和 #ysamirg:极地化 中的随机一种。"
+    ]
+  },
+  "samirg:CombatPlan": {
+    "NAME": "全局作战文件",
+    "FLAVOR": "陆上行舟，如履薄冰。记得要培养自己的大局观。",
+    "DESCRIPTIONS": [
+      "回合开始时，使手中和抽牌堆各一张牌获得 #ysamirg:高寒化 、 #ysamirg:冻土化 和 #ysamirg:极地化 中的随机一种。"
+    ]
+  },
+  "samirg:PeopleLetter": {
+    "NAME": "人事部密信",
+    "FLAVOR": "“■■■给你的？哦那没事了。”",
+    "DESCRIPTIONS": [
+      "回合开始时，使手中、抽牌堆和弃牌堆各一张牌获得 #ysamirg:高寒化 、 #ysamirg:冻土化 和 #ysamirg:极地化 中的随机一种。"
+    ]
+  },
+  "samirg:OperationCall": {
+    "NAME": "罗德岛战术电台",
+    "FLAVOR": "保持联络，支援马上抵达。",
+    "DESCRIPTIONS": [
+      "在选奖励牌时，可供选择的牌数增加 #b1 张。每张卡牌奖励会获得 #ysamirg:高寒化 、 #ysamirg:冻土化 和 #ysamirg:极地化 中的随机一种。"
+    ]
+  },
+  "samirg:ThornRing": {
+    "NAME": "荆棘环",
+    "FLAVOR": "你得以从扭曲的恐惧中稳定自我。荆棘上残留着血渍，不知道是刺伤了你还是雪祀自己。他们使用任何手段时都不会眨一下眼睛。",
+    "DESCRIPTIONS": [
+      "当你不因出牌而失去能量时，获得 [E] 。"
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "Coldness_SamiRouge": {
+    "NAME": "寒冷",
+    "DESCRIPTION": " 消耗 。 NL 在手中时，你无法打出技能牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 时回到手中。 NL 在手中时，你无法打出技能牌。",
+    "EXTENDED_DESCRIPTION": [
+      "好冷……"
+    ]
+  },
+  "Hypothermia_SamiRouge": {
+    "NAME": "失温",
+    "DESCRIPTION": " 消耗 。 NL 在手中时，你无法打出攻击牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 时回到手中。 NL 在手中时，你无法打出攻击牌。",
+    "EXTENDED_DESCRIPTION": [
+      "感觉不到四肢的温度……"
+    ]
+  },
+  "Freeze_SamiRouge": {
+    "NAME": "冻结",
+    "DESCRIPTION": " 消耗 。 NL 在手中时，你无法打出其他牌名的牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 时回到手中。 NL 在手中时，你无法打出其他牌名的牌。",
+    "EXTENDED_DESCRIPTION": [
+      "身体……动不了……"
+    ]
+  },
+  "ActivateMatrix_SamiRouge": {
+    "NAME": "激活矩阵",
+    "DESCRIPTION": " 消耗 。 NL 使所有敌人的虚实映射暂时失效，直至你再打出除此牌外的 !M! 张牌。"
+  },
+
+  "TeamForeverHunt_SamiRouge": {
+    "NAME": "永恒狩猎分队",
+    "DESCRIPTION": ""
+  },
+
+  "RelicPreviewCard_SamiRouge": {
+    "NAME": "遗物名",
+    "DESCRIPTION": "遗物描述",
+    "EXTENDED_DESCRIPTION":[
+      "该遗物的效果",
+      "该遗物的注脚"
+    ]
+  },
+
+  "ColdProtection_SamiRouge": {
+    "NAME": "御寒措施",
+    "DESCRIPTION": "失去格挡或生命时，立即获得失去量25％的格挡。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 失去格挡或生命时，立即获得失去量25％的格挡。"
+  },
+  "PastWeaveFuture_SamiRouge": {
+    "NAME": "过去与未来交织",
+    "DESCRIPTION": " 消耗 。 NL 将1张手牌标记为 samirg:永恒 。",
+    "UPGRADE_DESCRIPTION": " 保留 ， 消耗 。 NL 将1张手牌标记为 samirg:永恒 。"
+  },
+
+  "samirg:C01": {
+    "NAME": "黜人",
+    "DESCRIPTION": "*布局 NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "万钧罪责无可赦，再无相聚时"
+    ]
+  },
+  "samirg:C02": {
+    "NAME": "猎手",
+    "DESCRIPTION": "*布局 NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "引弓捕影风声切，逐猎无终日"
+    ]
+  },
+  "samirg:C03": {
+    "NAME": "战士",
+    "DESCRIPTION": "*布局 NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "坚石高墙起群山，角盔覆冰寒"
+    ]
+  },
+  "samirg:C04": {
+    "NAME": "萨满",
+    "DESCRIPTION": "*布局 NL X=1 NL 若当前幕数不低于3， NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "启开慧眼识密语，鸣呼驱鬼祟"
+    ]
+  },
+  "samirg:C05": {
+    "NAME": "雪祀",
+    "DESCRIPTION": "*布局 NL X=2 NL 若在树篱之途中使用， NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "卜问天地通万灵，寻求我去路"
+    ]
+  },
+  "samirg:C06": {
+    "NAME": "英雄",
+    "DESCRIPTION": "*布局 NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "荆棘丛生枯骸骨，死亡亦归途"
+    ]
+  },
+  "samirg:C07": {
+    "NAME": "树冠",
+    "DESCRIPTION": "*布局 NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "枝节蔓生叶繁茂，百兽长栖息"
+    ]
+  },
+  "samirg:C08": {
+    "NAME": "水面",
+    "DESCRIPTION": "*布局 NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "雪泥洗濯发与肤，明镜无风波"
+    ]
+  },
+  "samirg:C09": {
+    "NAME": "眼睛",
+    "DESCRIPTION": "*布局 NL X=1 NL 若你没有其他布局， NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "所见所知所觅求，幽暗昏黑中"
+    ]
+  },
+  "samirg:C10": {
+    "NAME": "拱门",
+    "DESCRIPTION": "*布局 NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "角兽踪迹银铃音，恍惚至彼端"
+    ]
+  },
+  "samirg:C11": {
+    "NAME": "光芒",
+    "DESCRIPTION": "*布局 NL X=2 NL 若在战斗外使用， NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "地上炬火借白日，照临寒冬夜"
+    ]
+  },
+  "samirg:C12": {
+    "NAME": "大地",
+    "DESCRIPTION": "*布局 NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "万物生发复归根，凡事从此始"
+    ]
+  },
+  "samirg:C13": {
+    "NAME": "源石",
+    "DESCRIPTION": "*布局 NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "泥土血肉皆不容，百相映其中"
+    ]
+  },
+  "samirg:C14": {
+    "NAME": "乔木",
+    "DESCRIPTION": "*布局 NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "行于高处如星辰，俯瞰霜雪色"
+    ]
+  },
+  "samirg:C15": {
+    "NAME": "砂石",
+    "DESCRIPTION": "*布局 NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "不见生机不见移，终古长静寂"
+    ]
+  },
+  "samirg:C16": {
+    "NAME": "灌木",
+    "DESCRIPTION": "*布局 NL 每有1个与当前节点相连的后续节点，X+1",
+    "EXTENDED_DESCRIPTION": [
+      "行于低处如伏兽，听闻号角声"
+    ]
+  },
+  "samirg:C17": {
+    "NAME": "兽类",
+    "DESCRIPTION": "*布局 NL X=2 NL 若触发协语， NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "啃啮土石摘雾凇，动静随心意"
+    ]
+  },
+  "samirg:C18": {
+    "NAME": "人类",
+    "DESCRIPTION": "*布局 NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "一日发蒙生灵智，代代相连结"
+    ]
+  },
+  "samirg:C19": {
+    "NAME": "到来",
+    "DESCRIPTION": "*布局 NL X=1 NL 必然触发协语",
+    "EXTENDED_DESCRIPTION": [
+      "跨越山川终已至，定数无可避。"
+    ]
+  },
+  "samirg:C20": {
+    "NAME": "离去",
+    "DESCRIPTION": "*布局 NL X=2 NL 必然触发协语",
+    "EXTENDED_DESCRIPTION": [
+      "声闻形貌终已远，变数未可知。"
+    ]
+  },
+  "samirg:C21": {
+    "NAME": "伤痕",
+    "DESCRIPTION": "*布局 NL 只能和“空无”组合。",
+    "EXTENDED_DESCRIPTION": [
+      "灾祸磨难降生大地，行路之人灵魂浑浊"
+    ]
+  },
+  "samirg:C22": {
+    "NAME": "歌唱",
+    "DESCRIPTION": "*本因 。 NL 接下来X场战斗开始时，获得3点 力量 。 NL *战斗中 ：立即生效。",
+    "EXTENDED_DESCRIPTION": [
+      "弹弦高唱声回环，千羽驻林间",
+      "额外获得1层 #y仪式 。",
+      "接下来 #b",
+      " 场战斗开始时，获得3点 #y力量 。",
+      " 场战斗开始时，获得3点 #y力量 和1层 #y仪式 。"
+    ]
+  },
+  "samirg:C23": {
+    "NAME": "沉默",
+    "DESCRIPTION": "*本因 。 NL 接下来X场战斗开始时，提升50％最大生命直至战斗结束。 NL *战斗中 ：立即生效。",
+    "EXTENDED_DESCRIPTION": [
+      "指木问路无回音，山岩自伫立",
+      "额外召唤 #y盾卫 。",
+      "接下来 #b",
+      " 场战斗开始时，提升50％最大生命直至战斗结束。",
+      " 场战斗开始时，提升50％最大生命直至战斗结束，并召唤 #y盾卫 。"
+    ]
+  },
+  "samirg:C24": {
+    "NAME": "朗诵",
+    "DESCRIPTION": "*本因 。 NL 接下来X场战斗结束时，回复6点生命，精英或首领战斗改为12点。",
+    "EXTENDED_DESCRIPTION": [
+      "循诵古训祝亲族，言语定心神",
+      "额外提升3点最大生命，精英或首领战斗改为6点。",
+      "接下来 #b",
+      " 场战斗结束时，回复6点生命，精英或首领战斗改为12点。",
+      " 场战斗结束时，回复6点生命并提升3点最大生命，精英或首领战斗分别改为12点和6点。"
+    ]
+  },
+  "samirg:C25": {
+    "NAME": "辩论",
+    "DESCRIPTION": "*本因 。 NL 接下来X场战斗开始时，抽2张牌并获得 [E] [E] 。 NL *战斗中 ：立即生效。",
+    "EXTENDED_DESCRIPTION": [
+      "你方唱罢我登场，思维见真知",
+      "获得 #y医疗箱 直至战斗结束。",
+      "接下来 #b",
+      " 场战斗开始时，抽2张牌并获得 [E] [E] 。",
+      " 场战斗开始时，抽2张牌并获得 [E] [E] ，获得 #y医药箱 直至战斗结束。"
+    ]
+  },
+  "samirg:C26": {
+    "NAME": "慰藉",
+    "DESCRIPTION": "*本因 。 NL 接下来X场战斗结束时，额外掉落1组选卡。",
+    "EXTENDED_DESCRIPTION": [
+      "击鼓燃叶唤先灵，低语解哀戚",
+      "改为2组选卡。",
+      "接下来 #b",
+      " 场战斗结束时，额外掉落1组选卡。",
+      " 场战斗结束时，额外掉落2组选卡。"
+    ]
+  },
+  "samirg:C27": {
+    "NAME": "告解",
+    "DESCRIPTION": "*本因 。 NL 接下来X场战斗结束时，回复4点生命，若为精英或首领战斗，额外掉落1件遗物。",
+    "EXTENDED_DESCRIPTION": [
+      "独见古木诉悔恨，恳请相宽恕",
+      "改为2件遗物。",
+      "接下来 #b",
+      " 场战斗结束时，回复4点生命，若为精英或首领战斗，额外掉落1件遗物。",
+      " 场战斗结束时，回复4点生命，若为精英或首领战斗，额外掉落2件遗物。"
+    ]
+  },
+  "samirg:C28": {
+    "NAME": "呼救",
+    "DESCRIPTION": "凄厉号声震天响，孤木成众林。",
+    "EXTENDED_DESCRIPTION": [
+
+    ]
+  },
+  "samirg:C29": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+
+    ]
+  },
+  "samirg:C30": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+
+    ]
+  },
+  "samirg:C31": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+
+    ]
+  },
+  "samirg:C32": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+
+    ]
+  },
+  "samirg:C33": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+
+    ]
+  },
+  "samirg:C34": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "samirg:WillOfSami": {
+    "NAME": "Samivilinn",
+    "MOVES": [],
+    "DIALOG": [
+      "You will face the test from the earth……",
+      "Only determinate ones can head further north!",
+      "The daughter of Sami……Just go ahead……"
+    ]
+  },
+  "samirg:WoodCrack": {
+    "NAME": "\"Eikthyrnir,\" the Scar of the Shattered",
+    "MOVES": [],
+    "DIALOG": [
+      "……",
+      "…………",
+      "………………",
+      "……………………",
+      "You……,the enemy of Sami……"
+    ]
+  },
+  "samirg:SamiWarSoldier": {
+    "NAME": "Shattered Champion",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "samirg:Cresson": {
+    "NAME": "Crazelyseon, the Ascendant of Cosmoi",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "samirg:Nursery": {
+    "NAME": "Seedbeds",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "samirg:SixTimeEater": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "[Sami] Time Eater",
+    "DIALOG": [
+      "~Ah……~ NL ~…company…~",
+      "~Folish……~ NL @FOOOLISH!@",
+      "~Never……~ NL ~……liked…~ NL ~…you……~",
+      "~……Another~ ~myself~ NL ~…The~ ~time~ ~is~ ~in~ ~disorder…~"
+    ]
+  },
+  "samirg:ThreeGremlinLeader": {
+    "MOVES": [
+      "Rally!"
+    ],
+    "NAME": "[Sami]GremlinLeader",
+    "DIALOG": [
+      "Don't ever give up!",
+      "We're not done yet!",
+      "We shall escape together!",
+      "@Retreat@ NL @Retreaaat!@",
+      "@Where the hell is here!@"
+    ]
+  },
+  "samirg:CurseNemesis": {
+    "NAME": "[Sami]Nemesis",
+    "DIALOG": []
+  },
+  "samirg:Smgia": {
+    "NAME": "Weaving Vinecreeps",
+    "DIALOG": []
+  },
+  "samirg:Smgrd": {
+    "NAME": "\"Demon's Blade\"",
+    "DIALOG": []
+  },
+  "samirg:Flking": {
+    "NAME": "\"Gravestone\"",
+    "DIALOG": [
+      "~Death~ NL ~is~ ~coming~ ~for~ ~you~"
+    ]
+  },
+  "samirg:Smkght": {
+    "NAME": "Kharanduu Khagan, the Scourge of the Land",
+    "DIALOG": [
+      "Wealth, Fame, History NL ……",
+      " ~AS~ ~I~ ~arrive,~ ~I~ ~shall~ ~extinguish~ ~the~ ~light~ ~of~ ~the~ ~sun,~ ~leave~ ~the~ ~nightmares~ ~to~ ~the~ ~dreams~ ",
+      "Blowing Sands、crumbling earth, buring wind NL I have eventually found my fianl battlefieled.",
+      "\"The King of Kings\"? NL ~An~ ~interesting~ ~title!!!~"
+    ]
+  },
+  "samirg:Smlion": {
+    "NAME": "Lugalszargus, the Overlord of Ages",
+    "DIALOG": [
+      "If you were satisfied with your conquer till now…… NL you could have escape from your fate end up in the sand",
+      "I find your way in the ages NL Livings screaming with sufferings, blood converging into rivers.",
+      "…… NL The land you have abused has all been burnt in flame. So that people called you \"the Scourge of the Land\"",
+      "I haven't found your destination in ages yet NL ~However,~ ~now~ ~your~ ~fate~ ~shall~ ~be~ ~in~ ~my~ hand!~"
+    ]
+  },
+  "samirg:Smshdw": {
+    "NAME": "Khaganshadow"
+  },
+  "samirg:Smhond": {
+    "NAME": "Royal Companion"
+  },
+  "samirg:Smdrn": {
+    "NAME": "Collapsed Construct"
+  },
+  "samirg:Redace": {
+    "NAME": "\"Redmark\" Infiltrator"
+  },
+  "samirg:Redman": {
+    "NAME": "\"Redmark\" Eradicator"
+  },
+  "samirg:Hologc": {
+    "NAME": "Holographic Mirage"
+  },
+  "samirg:NamelessHero": {
+    "NAME": "Nameless Hero",
+    "DIALOG": [
+      "My name?…… NL ~You~ ~don't~ ~need~ ~to~ ~know~ ~and~ ~won't~ ~have~ ~the~ ~chance~ ~to~ ~know~"
+    ],
+    "MOVES": [
+      "Scrape from the Nameless",
+      "Entangle from the Nameless"
+    ]
+  },
+  "samirg:SmallSlimeBoss": {
+    "MOVES": [
+      "Mini Slam",
+      "Mini Preparing",
+      "Mini Split",
+      "Mini Goop Spray"
+    ],
+    "NAME": "Mini Slime Boss",
+    "DIALOG": [
+      "~Slime...~ NL #r~CRUSH!!!~",
+      "Interrupted!"
+    ]
+  },
+  "samirg:BossAcidSlime": {
+    "MOVES": [
+      "Corrosive Spit",
+      "Split",
+      "Lick"
+    ],
+    "NAME": "Acid Slime (M)?",
+    "DIALOG": [
+      "Interrupted!"
+    ]
+  },
+  "samirg:ThreeBandits": {
+    "NAME": "Masked Bandits",
+    "DIALOG": [
+      "@You busters! Want to know what we got?!@",
+      "Wai... Who the hell are you then?",
+      "Pointy, Bear! NL NL @Let's start it!@"
+    ]
+  },
+  "samirg:ThreeSlavers": {
+    "NAME": "The Taskmaster and Slavers",
+    "DIALOG": [
+      "~Heee,~ ~you~ ~ask~ ~for~ ~this~",
+      "……Well, another trash",
+      "@Boys, let us kill this intruder first!@"
+    ]
+  },
+  "samirg:Smsha": {
+    "NAME": "Fallen Snowpriest"
+  },
+  "samirg:Smsbr": {
+    "NAME": "Tainted Carcass"
+  },
+  "samirg:Smwiz": {
+    "NAME": "Distorted Caster"
+  }
+}

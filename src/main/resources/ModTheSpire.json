@@ -1,0 +1,15 @@
+{
+  "modid": "SamiRouge_FimmlpS",
+  "name": "SamiRouge_Mod(萨米)",
+  "author_list": [
+    "FimmlpS"
+  ],
+  "description": "集成战略《探索者的银淞止境》相关改编。为什么邪魔会来到尖塔？",
+  "dependencies": [
+    "basemod",
+    "TreeHoleMod"
+  ],
+  "version": "0.9.2",
+  "sts_version": "5-6-2024",
+  "mts_version": "3.8.0"
+}

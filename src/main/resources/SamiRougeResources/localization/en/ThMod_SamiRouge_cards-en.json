@@ -1,0 +1,55 @@
+{
+  "Coldness_SamiRouge": {
+    "NAME": "Cold",
+    "DESCRIPTION": " Exhaust  . NL When this card is in your hand, you can't play Skill .",
+    "UPGRADE_DESCRIPTION": " When Exhausted , returned to your hand . NL When this card is in your hand, you can't play Skill .",
+    "EXTENDED_DESCRIPTION": [
+      "It's so cold……"
+    ]
+  },
+  "Hypothermia_SamiRouge": {
+    "NAME": "Hypothermia",
+    "DESCRIPTION": " Exhaust  . NL When this card is in your hand, you can't play Attack .",
+    "UPGRADE_DESCRIPTION": " When Exhausted, returned to your hand. NL When this card is in your hand, you can't play Attack .",
+    "EXTENDED_DESCRIPTION": [
+      "I almost can't feel my limbs……"
+    ]
+  },
+  "Freeze_SamiRouge": {
+    "NAME": "Freeze",
+    "DESCRIPTION": " Exhaust  . NL When this card is in your hand, you can't play other cards except Freeze .",
+    "UPGRADE_DESCRIPTION": " When Exhausted, returned to your hand . NL When this card is in your hand, you can't play other cards except Freeze.",
+    "EXTENDED_DESCRIPTION": [
+      "I……can't move……"
+    ]
+  },
+  "ActivateMatrix_SamiRouge": {
+    "NAME": "Activate the Matrix",
+    "DESCRIPTION": " Exhaust  . NL Let the Mapping between Virtuality and Reality of all enemies lose effect , until you play other !M! cards."
+  },
+
+  "TeamForeverHunt_SamiRouge": {
+    "NAME": "Eternal Hunt Team",
+    "DESCRIPTION": ""
+  },
+
+  "RelicPreviewCard_SamiRouge": {
+    "NAME": "Relic Name",
+    "DESCRIPTION": "Relic description",
+    "EXTENDED_DESCRIPTION":[
+      "The effect of this relic",
+      "The Flavor of this relic"
+    ]
+  },
+
+  "ColdProtection_SamiRouge": {
+    "NAME": "Cold Protection",
+    "DESCRIPTION": "After HP or block loss, gain Block equal to its 25% amount.",
+    "UPGRADE_DESCRIPTION": "Innate. NL After HP or block loss, gain Block equal to its 25% amount."
+  },
+  "PastWeaveFuture_SamiRouge": {
+    "NAME": "Past Weave With Future",
+    "DESCRIPTION": " Exhaust  . NL Mark 1 card in your hand as samirg:Eternal .",
+    "UPGRADE_DESCRIPTION": " Retain , Exhaust  . NL Mark 1 card in your hand as samirg:Eternal ."
+  }
+}

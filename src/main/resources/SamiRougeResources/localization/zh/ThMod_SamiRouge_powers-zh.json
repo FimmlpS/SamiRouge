@@ -1,0 +1,181 @@
+{
+  "samirg:ColdnessPower": {
+    "NAME": "寒冷",
+    "DESCRIPTIONS": [
+      "受到来自攻击的伤害降低 #b",
+      " 点。打出牌后层数减半，变为0时重置至 #b",
+      " 层并给予你 #b",
+      " 层 #y缠绕 。"
+    ]
+  },
+  "samirg:SelfCollapsePower": {
+    "NAME": "自我泯灭",
+    "DESCRIPTIONS": [
+      "生命低于 #b",
+      " 时，将一张 #y",
+      " 放入你手中，并立即获得 #b",
+      " 点格挡和1层 #y无实体 。"
+    ]
+  },
+  "samirg:NonAndExistencePower": {
+    "NAME": "虚实映射",
+    "DESCRIPTIONS": [
+      "防止受到的所有伤害。"
+    ]
+  },
+  "samirg:SpaceRefractionPower": {
+    "NAME": "空间折射",
+    "DESCRIPTIONS": [
+      "行动后，在 #b3X3 区域内随机变换位置，并在原位置召唤 #y苗圃 。"
+    ]
+  },
+  "samirg:SpaceStabilityPower": {
+    "NAME": "空间稳定设施",
+    "DESCRIPTIONS": [
+      "在你的回合开始前，向你手中放入 #b",
+      " 张 #y",
+      "激活矩阵 。",
+      "激活矩阵+ 。"
+    ]
+  },
+  "samirg:MatrixPower": {
+    "NAME": "维度稳定矩阵",
+    "DESCRIPTIONS": [
+      "再打出 #b",
+      " 张牌，失去此效果，使敌人恢复 #y虚实映射 。"
+    ]
+  },
+  "samirg:DimensionCollapsePower": {
+    "NAME": "维度坍缩",
+    "DESCRIPTIONS": [
+      "无法打出 #y激活矩阵 。打出 #b",
+      " 张牌后失去此效果。",
+      "现在还有维度坍缩，不能激活矩阵。"
+    ]
+  },
+  "samirg:RootagePower": {
+    "NAME": "生根",
+    "DESCRIPTIONS": [
+      "受到的 #y非攻击 伤害提升 #b100％ 。 NL 受到伤害后，本回合提升1点攻击伤害（已提升 #b",
+      " 点）。"
+    ]
+  },
+  "samirg:EndingPower": {
+    "NAME": "终结",
+    "DESCRIPTIONS": [
+      "你从卡牌造成的伤害和获取的格挡降低 #b50％ 。"
+    ]
+  },
+  "samirg:BowToBowPower": {
+    "NAME": "以暴制暴",
+    "DESCRIPTIONS": [
+      "#y",
+      " 的回合开始时若有格挡剩余，你受到等同于其格挡值的伤害。"
+    ]
+  },
+  "samirg:CountryPower": {
+    "NAME": "国度",
+    "DESCRIPTIONS": [
+      "每损失 #b25％ 生命，额外行动一次。 NL 目前： #b",
+      "每损失 #b20％ 生命，额外行动一次。 NL 目前： #b"
+    ]
+  },
+  "samirg:ScarePower": {
+    "NAME": "恐惧",
+    "DESCRIPTIONS": [
+      "使你抽到的下一张牌耗能提升 #b",
+      " 点。"
+    ]
+  },
+  "samirg:KhanPower": {
+    "NAME": "梦魇之征兆",
+    "DESCRIPTIONS": [
+      "每当有 #r攻击牌 打出后，受到的攻击伤害- #b5％ ，造成的攻击伤害+ #b5％ ，回合结束时效果减半。 NL 目前： #b",
+      "％",
+      "每当有 #r攻击牌 打出后，受到的攻击伤害- #b5％ ，造成的攻击伤害+ #b5％ ，回合结束时效果减半。达到 #b20 层时你无法再打出 #r攻击牌 。 NL 目前： #b"
+    ]
+  },
+  "samirg:LionPower": {
+    "NAME": "历法之古今",
+    "DESCRIPTIONS": [
+      "每当有 #g技能牌 打出后，受到的 #y非攻击 伤害- #b5％ ，造成的攻击伤害+ #b5％ ，回合结束时效果减半。 NL 目前： #b",
+      "％",
+      "每当有 #g技能牌 打出后，受到的 #y非攻击 伤害- #b5％ ，造成的攻击伤害+ #b5％ ，回合结束时效果减半。达到 #b20 层时你无法再打出 #g技能牌 。 NL 目前： #b"
+    ]
+  },
+  "samirg:KhanCardPower": {
+    "NAME": "梦魇-攻击牌禁用",
+    "DESCRIPTIONS": [
+      "无法打出 #r攻击牌 。",
+      "梦魇……恐惧…… NL ~我无法进行攻击！~"
+    ]
+  },
+  "samirg:LionCardPower": {
+    "NAME": "历法-技能牌禁用",
+    "DESCRIPTIONS": [
+      "无法打出 #g技能牌 。",
+      "时间……威严…… NL ~我无法使用技能！~ "
+    ]
+  },
+  "samirg:VictoryPower": {
+    "NAME": "决胜",
+    "DESCRIPTIONS": [
+      "当 #y路加萨尔古斯 死亡后，增加 #b50％ 最大生命，获得其的 #g历法之古今 。 NL 并召唤 #r可汗片影 。",
+      "当 #y哈兰杜汗 死亡后，增加 #b50％ 最大生命，获得其的 #r梦魇之征兆 。 NL 并召唤 #g王者友伴 。",
+      "当 #y路加萨尔古斯 死亡后，增加 #b80％ 最大生命，获得其的 #g历法之古今 。 NL 并召唤 #r可汗片影 。",
+      "当 #y哈兰杜汗 死亡后，增加 #b80％ 最大生命，获得其的 #r梦魇之征兆 。 NL 并召唤 #g王者友伴 。"
+    ]
+  },
+  "samirg:UndyingPower": {
+    "NAME": "无尽恐惧",
+    "DESCRIPTIONS": [
+      "死亡后给予 #r哈兰杜汗 2点力量，并召唤 #y可汗片影 。"
+    ]
+  },
+  "samirg:HondPower": {
+    "NAME": "荣耀",
+    "DESCRIPTIONS": [
+      "失去生命时，会为 #g路加萨尔古斯 回复等量生命。"
+    ]
+  },
+  "samirg:ProjectPower": {
+    "NAME": "召唤幻影",
+    "DESCRIPTIONS": [
+      "首次受到 #y攻击 后，召唤一个 #y全息幻影 。"
+    ]
+  },
+  "samirg:AbsorbFirePower":{
+    "NAME": "吸收火力",
+    "DESCRIPTIONS": [
+      "将其他敌人受到伤害的 #b50％ 转移到自身。"
+    ]
+  },
+  "samirg:OneLivePower": {
+    "NAME": "一线生机",
+    "DESCRIPTIONS": [
+      "受到 #y攻击 后，立即获得 #b",
+      " 点格挡并结束你的回合。"
+    ]
+  },
+  "samirg:TwistedPower": {
+    "NAME": "扭曲的巫术",
+    "DESCRIPTIONS": [
+      "每次行动后，给予你抽牌堆、手牌和弃牌堆中各一张牌 #b极寒 效果（可叠加3次）。 NL #b极寒 ：打出后失去1点能量。"
+    ]
+  },
+
+  "samirg:BurstPower": {
+    "NAME": "溃决",
+    "DESCRIPTIONS": [
+      "生命值每降低1％，额外受到1％的 #y攻击 伤害（最多 #b50％ ）。 NL 目前已提升： #b",
+      "％ 。"
+    ]
+  },
+  "samirg:ColdProtectionPower": {
+    "NAME": "御寒措施",
+    "DESCRIPTIONS": [
+      "失去格挡或生命时，立即获得失去量 #b",
+      "％ 的格挡。"
+    ]
+  }
+}

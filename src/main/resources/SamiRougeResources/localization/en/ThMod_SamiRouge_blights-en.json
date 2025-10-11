@@ -1,0 +1,165 @@
+{
+  "samirg:AntiInterference": {
+    "NAME": "Anti-Interference Index",
+    "DESCRIPTION": [
+      "You have #b",
+      " Anti-Interference Index. NL You should consume 1 Anti-Interference Index to enter the #ySecluded #yPassage or move horizontally. NL NL #bWay #bto #bgain: Dropped after the combat, or bought in the shop for #y50 coins."
+    ]
+  },
+  "samirg:IrreversibleMatrix": {
+    "NAME": "Singular Matrix",
+    "DESCRIPTION": [
+      " #yTake #yeffect #yall #yalong NL Increase the Max HP of all enemies by #b",
+      "%, increase the damage they can deal by #b",
+      "% . NL If the level of Singular Matrix is unless than 3, extra enemy will appear in combats."
+    ]
+  },
+
+  "samirg:Dequantization01": {
+    "NAME": "Paradigm:De-quantification",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL When you lose coins or HP in non-combat node, lose extra #b25% of them (You won't die because of this) NL #yEvery #yenemies #ylose #y2 #yStrength ."
+    ]
+  },
+  "samirg:Dequantization02": {
+    "NAME": "Paradigm:Intensified De-quantification",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL When you lose coins or HP in non-combat node, lose extra #b50% of them (You won't die because of this) NL The #rParadigm has been intensified"
+    ]
+  },
+
+  "samirg:SubstantialCollapse01": {
+    "NAME": "Paradigm:Substantial Collapse",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL The damage your #yAttack can deal will be decreased by #b1 after being played each time(At most 4)."
+    ]
+  },
+  "samirg:SubstantialCollapse02": {
+    "NAME": "Paradigm:Propagating Collapse",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL The damage your #yAttack can deal will be decreased by #b2 after being played each time(At most 4). NL The #rParadigm has been intensified"
+    ]
+  },
+
+  "samirg:NonlinearMovement01": {
+    "NAME": "Paradigm:Non-linear Movement",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL Increase the HP of all enemies by extra #b20% . Every enemies get #b1Flight. NL #yYou #ygian #y2 #yDexterity ."
+    ]
+
+  },
+  "samirg:NonlinearMovement02": {
+    "NAME": "Paradigm:Non-linear Action",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL NL Increase the HP of all enemies by extra #b30% . Every enemies get #b1Flight. NL The #rParadigm has been intensified"
+    ]
+
+  },
+
+  "samirg:EmotionalEntity01": {
+    "NAME": "Paradigm:Emotional Entity",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL Every #yEntity get #b1 random effect: NL 1. #y1 #yArtifact NL 2. #y2 #yRegen NL 3. #y4 #yMetallicize NL 4. #y8 #yPlated #yArmor"
+    ]
+
+  },
+  "samirg:EmotionalEntity02": {
+    "NAME": "Paradigm:Terrifying Entity",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL Every #yEnemy get #b2 random effect: NL 1. #y1 #yArtifact NL 2. #y2 #yRegen NL 3. #y4 #yMetallicize NL 4. #y8 #yPlated #yArmor NL The #rParadigm has been intensified"
+    ]
+
+  },
+
+  "samirg:PansocialParadox01": {
+    "NAME": "Paradigm:Pan-Society Paradox",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL The items' price sold in the shop will be increased by #b25% "
+    ]
+
+  },
+  "samirg:PansocialParadox02": {
+    "NAME": "Paradigm:Pan-Civilization Paradox",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL The items' price sold in the shop will be increased by #b50% . The price of #yCommon relics,potions and card will be increased by extra #b50%  NL The #rParadigm has been intensified"
+    ]
+
+  },
+
+  "samirg:AbnormalAirpressure01": {
+    "NAME": "Paradigm:Barometric Anomaly",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL At the start of combat, shuffle #b1 #yVoid to your draw pile . NL #yYou #ywill #ydraw #y2 #yextra #ycards #yin #ynext #yturn ."
+    ]
+
+  },
+  "samirg:AbnormalAirpressure02": {
+    "NAME": "Paradigm:Barometric Disorder",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL At the start of combat, shuffle #b3 #yVoid to your draw pile . NL The #rParadigm has been intensified"
+    ]
+
+  },
+
+  "samirg:TriggeringInjury01": {
+    "NAME": "Paradigm:Injury Trigger",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL At the start of combat, gain #b1 #yFrail . NL #yYou #ygain #y1 #yenergy ."
+    ]
+
+  },
+  "samirg:TriggeringInjury02": {
+    "NAME": "Paradigm:Crisis Trigger",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL At the start of combat, gain #b1 #yWeak, #yFrail and #yVulnerable . NL The #rParadigm has been intensified"
+    ]
+
+  },
+
+  "samirg:ConvergentConsumption01": {
+    "NAME": "Paradigm:Convergence Consumption",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL After every combat, you lose #b1 Max HP(Won't be less than 20), #yand #yheal #y4 #yHP ."
+    ]
+
+  },
+  "samirg:ConvergentConsumption02": {
+    "NAME": "Paradigm:Convergence Deficiency",
+    "DESCRIPTION": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #yTake #yeffect #yall #yalong",
+      " NL After every combat, you lose #b2 Max HP(Won't be less than 20). NL The #rParadigm has been intensified"
+    ]
+
+  }
+}

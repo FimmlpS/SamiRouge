@@ -1,0 +1,38 @@
+{
+  "samirg:SamiTreeHole": {
+    "NAME": "树篱之途",
+    "DESCRIPTIONS": [
+      "从树洞进入，并顺利地离开。"
+    ]
+  },
+  "samirg:SamiTreeHoleBoss": {
+    "NAME": "树篱之途 BOSS",
+    "DESCRIPTIONS": [
+      "击败一名树洞的BOSS。"
+    ]
+  },
+  "samirg:ToTalkWithMountains": {
+    "NAME": "越过群山",
+    "DESCRIPTIONS": [
+      "击败萨米的意志。 NL 寒冷与冰结只不过是自然的表象，如果连这都无法克服，大地又怎能邀请你面对北方那不循常理的敌人？"
+    ]
+  },
+  "samirg:WinterFall": {
+    "NAME": "直至冬夜降临",
+    "DESCRIPTIONS": [
+      "击败“木裂”埃克提尔尼尔。 NL 无论这位萨米英雄曾有何种夙愿，如今，他都只是一个剥离本我后坍缩的表征——正如他身后那万千乌萨斯人一般。"
+    ]
+  },
+  "samirg:LongIntoAnAbyss": {
+    "NAME": "自深处的一瞥",
+    "DESCRIPTIONS": [
+      "击败无垠回荡克雷松。 NL 它睁着那只空洞的眼，审视这个维度的一切，只有当它阖上眼，人类才有机会去一窥大地尽头之后的奥秘。"
+    ]
+  },
+  "samirg:WhatBeginsFollowsWhatEnds": {
+    "NAME": "终始",
+    "DESCRIPTIONS": [
+      "击败哈兰杜汗和路加萨尔古斯。 NL 时间的注脚被抽去，战争就此没有结果。他们的战争还会持续下去，你又将何去何从？"
+    ]
+  }
+}

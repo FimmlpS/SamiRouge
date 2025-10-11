@@ -1,0 +1,206 @@
+{
+  "samirg:TreeHole": {
+    "NAME": "Bosky Passage",
+    "DESCRIPTIONS": [
+      "Gnarled trees and vines completely block your path, and the fates of innumerable Sami beings extend along the branches and leaves, crisscrossing and connecting before your eyes. You check over and over that the map provided by the locals truly points in this direction. NL #b~Now,~ #b~choose~ #b~a~ #b~way~ #b~to~ #b~move~ #b~on~",
+      "You finally cut through the overgrowth of trees and vines, and something falls to the ground as the sun shines into the forest. You feel a strange premonition—you might just have damaged an exquisite artifact. But the damage done is irreversible, and you can do nothing but to pick up the fallen object and leave.",
+      "Clear the vines and open the path, you finally get back to the Spire. However, the way you came has dispare in fog already."
+    ],
+    "OPTIONS": [
+      "[Beast path] May #gnot #gencounter #gany #gbattle ",
+      "[Trails] There may be #genemies #gawaiting ",
+      "[Valley] There may be #rdangerous #renemies #rawaiting ",
+      "[Icefield] You will encounter #rBOSS ",
+      "[-|Δ] Enter the #ySpecial #yEnding ",
+      "[Whip out woodcutting axe] Obtain #greward and leave ",
+      "[Ruins] #gObtain",
+      " and leave",
+      "[Wealth] #gObtain",
+      "coins and leave",
+      "[Hopeness] #gHeal",
+      "HP and leave",
+      "[Leave]",
+      "[Stormy icefield] Face #rSamivilinn ",
+      "[Dark icefield] Face #r\"#rThe #rScar #rof #rthe #rShattered\" ",
+      "[?? ✋︎👍︎☜☞︎✋︎☜☹👎︎] Face #rCrazelyseon, #rthe #rAscendant #rof #rCosmoi ",
+      "[Enter the Bosky Passage] Consume 1 #yAnti-Interference #yIndex "
+    ]
+  },
+  "samirg:TreeHoleEnd": {
+    "NAME": "Back to the Spire",
+    "DESCRIPTIONS": [
+      "Your journey come to an end."
+    ],
+    "OPTIONS": [
+      "[Back to the Spire]"
+    ]
+  },
+  "samirg:LostAndFound": {
+    "NAME": "Lost and Found",
+    "DESCRIPTIONS": [
+      "A huge clan tree sits submerged in a swamp, with Sami traders all over the trunks, the roots, and by the banks. Branches move back and forth between the stalls, as animals cry out to peddle goods or transmit information. Wooden puppets trudge between the ground and swamp to store their cargo. Everything just feels so exotic!",
+      "A puppet fully covered in vines emerges from the swamp and takes away your item as it also drags a chest out from the water, placing the item you picked inside.",
+      "You obtain much needed supplies from the Sami people and can now continue your expedition. Before you leave, you let an accompanying research team member take a few more photos, so you'll have something to silence your skeptical associates with when you brag about this later.",
+      "This place is just too strange, so you quickly urge the research team members to leave."
+    ],
+    "OPTIONS": [
+      "[Exchaneg relics] Lose a relic and obtain a new relic",
+      "[Exchange cards] Lose a card and obtain a new card",
+      "[Pick your rewards] #gObtain ",
+      "[One more time] Consume 1 #yAnti-Interference #yIndex and continue exchanging",
+      "[Leave] #gHeal #g5 #gHP",
+      "[Move forward]",
+      "[Locked] You don't have relic to exchange",
+      "[Locked] You don't have card to exchange",
+      "[Locked] You need Anti-Interference Index to consume",
+      "[Leave]",
+      "Choose 1 to exchange"
+    ]
+  },
+  "samirg:NoMountains": {
+    "NAME": "Missing Mountains",
+    "DESCRIPTIONS": [
+      "Just as you are about to make a misstep, someone pulls you backward. The mountains' shadows overlap, and a distorted darkness creeps across your eyes. In the face of your trepidation, the fortuneteller-looking woman asks you to draw a card. NL #b~——How~ #b~strange.~ #b~As~ #b~far~ #b~as~ #b~you~ #b~know,~ #b~neither~ #b~the~ #b~Sami~ #b~or~ #b~the~ #b~Cyclopes~ #b~Sarkaz~ #b~use~ #b~divination~ #b~as~ #b~a~ #b~way~ #b~to~ #b~tell~ #b~the~ #b~future.~",
+      "\"Don't be afraid of your own fate... and don't fear turning away from it either.\" NL NL \"A prophecy, hmm? You'll see the light when you reunite with it, and understand that it has, all along, been waiting for you in the future.\" NL NL You look at the crystal ball she gave you. However, inside lies only a black mountain range, clearly solidifying, as if... it's not related to your fate.",
+      "Be at ease, the object he left behind is untainted. NL NL \"He was a shaman who led many through life and death, until he himself also 'rose from the dead'... now that is a truly frightening memory.\" NL NL \"I've been wandering between the mountains ever since, in order to bring him back from the gigantic shadow.\"",
+      "You can't clearly see her expression. Is it regret... or relief? "
+    ],
+    "OPTIONS": [
+      "[Pick the tarot card on the left] #rLose all of your Potion. Obtain #y\"Peek #yinto #ythe #yEternal #yNight\" ",
+      "[Pick the tarot card on the right] #rLose 25% of your Max HP . Obtain #y\"Dead #yTree's #yEcho\" ",
+      "[Pick the discarded tarot card by her hand] Remove a card",
+      "[Go ahead]",
+      "Choose a card to remove"
+    ]
+  },
+  "samirg:FarSee": {
+    "NAME": "Clairvoyance's Direction",
+    "DESCRIPTIONS": [
+      "The blizzard on the uninhabited icefield makes it impossible to see anything, and you and your research team companions fight the extreme cold as you try your best to keep up with the mysterious procession in black. Where are these Cyclopes headed to? NL NL #g~They~ #g~reply:~ #g~\"The~ #g~next~ #g~millennium.\"~",
+      "They sigh and march northward, none of them answering your question save for one who hands you something as he passes by. You realize that it is a whetstone, a possible catalyst for Sami Arts. NL #b~\"The~ #b~only~ #b~tool~ #b~is~ #b~an~ #b~indestructible~ #b~self.\"~",
+      "They sigh and march northward, none of them answering your question save for one who hands you something as he passes by. You realize that it is a compass containing the Cyclopes' Originium Arts. NL #b~\"Now~ #b~that~ #b~you~ #b~have~ #b~started,~ #b~do~ #b~not~ #b~ever~ #b~stop.\"~",
+      "The Cyclopes do not answer, but one whispers a warning as they pass: \"Your destiny is already unclear. Can you even remember where you're headed?\" NL NL ~……\"The~ ~ending~ ~is~ ~the~ ~purpose,~ ~and~ ~the~ ~purpose~ ~is~ ~the~ ~reason.\"~"
+    ],
+    "OPTIONS": [
+      "[Tell me about the \"Tool\"] Obtain #yFrozen #yWhetstone ",
+      "[Tell me about the \"Path\"] Obtain #Clairvoyant's #yReveal ",
+      "[Tell me about the \"Reason\"] Obtain #r1 #rSingular #rMatrix . Obtain #yboth #yrelics #yobove ",
+      "[Move ahead]"
+    ]
+  },
+  "samirg:BeforeWoodCrack": {
+    "NAME": "Shattered Omen",
+    "DESCRIPTIONS": [
+      "The Foldartal leads you to the location of the Treescar. His clan looks to have just gone through a terrible battle, and everyone seems to have some sort of injury. But there is no one groaning or cursing. They are like the forest itself: silent, and yet powerful. You wish to go up and talk to him, and hand him the Foldartal. But after he sees the woodcut in your hands from afar, he orders the warriors to rise and continue marching across the snowfield.  NL ~All~ ~that~ ~is~ ~left~ ~for~ ~you~ ~is~ ~a~ ~messy~ ~camp~",
+      "They take most of their supplies as they leave, but you find the Treescar's helmet in his tent. A Sami warrior leaving their helmet behind as they go off to fight means that they are determined to die in battle.  NL ~You~ ~think~ ~over~ ~the~ ~Foldartal's~ ~contents,~ ~and~ ~hurriedly~ ~lead~ ~your~ ~team~ ~to~ ~catch~ ~up~ ~with~ ~Treescar.~ ",
+      "You scavenge whatever remains of the camp and leave with your teammates. You are concerned with the life or death of this one Sami, but the Foldartal already states his fate clearly.  NL ~You~ ~don't~ ~wish~ ~to~ ~put~ ~your~ ~own~ ~life~ ~at~ ~risk.~ "
+    ],
+    "OPTIONS": [
+      "[Search the camp] Obtain 1 #rParadigm . Obtain #yTreescar #yHelm ",
+      "[Grab resources] Lose 1 #rParadigm , #gHeal #g5 #gHP.",
+      "[Leave]"
+    ]
+  },
+  "samirg:SadCage": {
+    "NAME": "Pessimist's Cage",
+    "DESCRIPTIONS": [
+      "The route Valarqvin drew for you leads you to a huge cave. There are no light sources at all, and Valarqvin stops you from any attempt to light a lamp or turn on a flashlight. All you can do is hold her hand and move forward step by step. When you finally see light again, you spot an altar with a flower atop: rootless, blooming, and incomparably sharp. Many Cyclopes are sitting around the altar, and they are silent as they \"stare\" at the flower in front of them. NL ~\"Your~ ~path~ ~will~ ~be~ ~darker~ ~than~ ~the~ ~one~ ~you~ ~have~ ~just~ ~traveled,\"~ Valarqvin says to herself. ~\"If~ ~you~ ~can~ ~still~ ~walk,~ ~then~ ~pick~ ~up~ ~the~ ~flower.\"~ NL #bAs #bshe #butters #bthe #bvery #blast #bword, #ball #bthe #BCyclopes #blook #btowards #byou.",
+      "You reach out to hold it. But you don't even manage to touch it. You try to focus your mind on the flower, but soon feel your head spinning... You try many methods to move the flower even a bit, but it is all in vain—and just as your head is in chaos, its roots take hold in your mind. \"Virtual earth, a rootless flower, the key to the other side,\" Valarqvin mumbles to herself. You still don't manage to touch the flower, but its position relative to you is fixed. You can \"take\" it \"away\" . NL ~The~ ~Cyclopes~ ~raise~ ~their~ ~heads~ ~and~ ~whisper~ ~as~ ~they~ ~watch~ ~you~ ~and~ ~Valarqvin~ ~leave.~ ",
+      "\"Then let us return, this path is not an easy one to walk.\" Valarqvin brings you back to the team, and it feels like none of this happened at all. The Cyclopes remain silent the whole time. NL ~For~ ~some~ ~reason~ ~you~ ~feel~ ~a~ ~lot~ ~lighter~ ~inside.~ "
+    ],
+    "OPTIONS": [
+      "[Follow the Routeweave Net] Obtain #yRouteweave #yNet .",
+      "[Forget it] Lose 1 #rParadigm , #gHeal #g5 #gHP .",
+      "[Leave]"
+    ]
+  },
+  "samirg:Change": {
+    "NAME": "Change",
+    "DESCRIPTIONS": [
+      "Many years have passed since the giant facility at the end of the icefield was discovered, and many great things have happened since then: #b\"Spire #bIcefield #bMegastructure #bResearch #band #bRestoration #bConvention\" ——the birth of the Black Hole Protocol, the Feranmut Sami's departure, and a spike in technological advancements brought by Collapsal research. Every explorer undoubtedly dreams of traveling north to the place that changed everything, but... what exactly is the test mentioned in the invitation? That's when you notice an unfamiliar figure in camp that no one else seems to perceive.",
+      "You subconsciously pull out the invitation and hand it over to him. He takes a look, nods, and turns around before vanishing before your eyes. You seem to catch a glimpse of the Rhodes Island logo and a bone pen as he disappears. However, the very next moment you find yourself in the sands of Sargon. Your team members are panicking at this sudden shift, NL #r~but~ #r~you~ #r~are~ #r~fully~ #r~aware~ #r~that~ #r~this~ #r~is~ #r~a~ #r~test~ #r~for~ #r~you~ #r~to~ #r~prove~ #r~yourself.~ ",
+      "Just as you are about to attack him, he vanishes into the mist, and the other expeditioners look to you in surprise. NL ~Luckily,~ ~the~ ~farce~ ~passes~ ~quickly,~ ~and~ ~you~ ~resume~ ~your~ ~journey~ ~towards~ ~the~ ~icefield.~"
+    ],
+    "OPTIONS": [
+      "[Display the Horizon Invitation] Lose 1 coin.",
+      "[Ignore him] Leave.",
+      "[Enter battle] Encounter a special battle.",
+      "[Leave]"
+    ]
+  },
+  "samirg:DarkRoom": {
+    "NAME": "A Dark Room",
+    "DESCRIPTIONS": [
+      "Following the directions left by a snowpriest on their deathbed, you find a hut lodged in the wind and snow. Your companions switch on their searchlights, but the darkness is barely dispelled. You notice traces of a snowpriest spell lingering on the light's edge. Just what did they fight here? NL NL #r@The@ #r@doors@ #r@suddenly@ #r@slam@ #r@shut.@",
+      "It is quiet all around you with no movement, and you bend down to pick up a few coins lying at your feet. Then, you find it increasingly difficult to breathe, and realize you might have misunderstood what the snowpriest meant by pointing in this direction. You shut the door out of an irrational fear of suffocating. NL ~A~ ~gust~ ~of~ ~wind~ ~blows~ ~into~ ~the~ ~hut,~ ~but~ ~for~ ~a~ ~long~ ~time~ ~you~ ~hear~ ~only~ ~silence.~",
+      "An inexplicable panic grips the room, but you and your companions keep silent. You realize that some supplies have been left here, and perhaps you can find something useful for the research team..",
+      "Ever since you came to Sami, you've learned to trust your intuition, and especially your bad hunches.",
+      "You push open a door to find a safe room, the objects within seemingly well preserved. NL ——This is how you explain where the object in your hand came from, but your companions all look at you with strange expressions. NL #r~\"There~ #r~was~ #r~no~ #r~room~ #r~or~ #r~door~ #r~there.\"~",
+      "As you hold your device up to the wall, you confirm some kind of energy signal is getting picked up, stable and continuous. You and your companions then examine the entire room, but remain confused by the signals randomly distributed around the room. Eventually you choose to avoid spots with stronger signals and take some safer-looking objects with you to continue your journey.",
+      "Your group dares not take a step as you watch the Sarkaz girl pull out an arrow to draw a slash across the wall. Perhaps it is her Arts at work, as the wallborne moss curls up as if burning, falling off in large chunks. NL #y~The~ #y~room~ #y~brightens~ #y~up,~ #y~as~ #y~it~ #y~used~ #y~to~ #y~be.~"
+    ],
+    "OPTIONS": [
+      "[Look around the area] Obtain 1 #rParadigm , #gObtain",
+      "coins",
+      "[Explore with caution] Fear only comes from the unknown",
+      "[Leave] The darkness past the door is scarier than the outside!",
+      "[ #bTyphon ] #gRemove #g3 #grandom #gParadigm",
+      "[Rummage through the depths] Obtain 1 #rSingular #rMatrix . #gObtain #g2 #grare #grelics",
+      "[Probe with your instrument] #rLose #ryour #rlast #rrelic . #gObtain a relic of the same rarity",
+      "[Leave] The thorns left by the snowpriest have already wilted",
+      "[Move ahead]"
+    ]
+  },
+  "samirg:Reconstruction": {
+    "NAME": "Reconstruction",
+    "DESCRIPTIONS": [
+      "By the time your squad arrives at the camp, everything else is already ready. You hand Kal'tsit the materials, and she separates them before distributing them to every department. As the instruments sound, the scientists take their positions, and the gigantic megastructure restoration project officially begins. In phase one, expeditioners have to clean up the Collapsals and eradicate their influence on the ring-shaped megastructure.",
+      "After eradicating the Collapsal menace, we need to investigate the megastructure and attached buildings, simultaneously repairing any damage done with Terran materials and activating the dimensional stabilizers originally used to deal with Crazelyseon. With the Sami Snowpriests' assistance and the analysis and application of the Elves' prehistoric knowledge, we should be able to completely stabilize the disorderly dimensional currents and ensure our investigations and repairs will not be interrupted.",
+      "Restoration and on-site cleanup is complete. Finally, we have to decipher the connection between the megastructure and the various operating devices in the surrounding buildings. Columbian researchers, Leithanian Casters, Sami Shamans, and a few squads of Sarkaz proficient in witchcraft work together to overcome this final problem. On the other hand, the engineers have to figure out how to power the enormous complex.",
+      "The entire facility has been repaired, and the megastructure restarts. The rootless garden is flooded with starlight, and the ring now displays a serene cavity. The door is already open, quietly awaiting its visitors. The supplies, personnel, and contingency plans are all ready to go, and you will be the first to go through the gate."
+    ],
+    "OPTIONS": [
+      "[Ignore Collapsal contamination] Obtain #rCollapsal #rSeed",
+      "[Overload survey equipment] Lose #y",
+      "[]",
+      "[Bruteforce repairs, and disregard the crack in space] Obtain #rFragment #rof #rSpace",
+      "[Purchase high quality materials] #rLose #r400 #rcoins",
+      "[Stabilize the Snowpriest's Artifact] Lose #yTreescar #yHelm",
+      "[]",
+      "[Solve it in the crudest way] Obtain #rProfound #rScorchmarks",
+      "[Harbor hope with every step you take] #rLose #rall #rof #ryour #rpotion #r(At #rleast #r2)",
+      "[Power it with the Boundless Gift] Lose #yBoundless #yGift",
+      "[]",
+      "[Move ahead]",
+      "[Locked] Need rare card"
+    ]
+  },
+  "samirg:Rain": {
+    "NAME": "Rain!",
+    "DESCRIPTIONS": [
+      "\"We just finished harvesting a few samples,\" the man says in a numb voice, \"but now both my samples and equipment are destroyed, and my people have run away... What do I do about the money I owe the company?\"",
+      "The equipment is intact, untouched by the rain. But the man seems to be seeing a different scene, and he pushes you away, asking you to take whatever you want and leave quickly. You try persuading him a few more times, but he ignores you completely.",
+      "There is not even a single drop of water on his equipment, and it works perfectly. But the man seems to be seeing a different scene, and he pushes you away, asking you to take whatever you want and leave quickly. You try persuading him a few more times, but he ignores you completely."
+    ],
+    "OPTIONS": [
+      "[Hold up his detector in front of his face] #gGain #g1 #gAnti-Interference #gIndex",
+      "[Have him take a good look at his drone] #gHeal #g12 #gHP",
+      "[Move ahead]"
+    ]
+  },
+  "samirg:CureRitual": {
+    "NAME": "Ceremony of Healing",
+    "DESCRIPTIONS": [
+      "This funerary fleet is performing some sort of rite. Drums beat to a rhythm as people bend down to kiss the water, whispering prayers for the spirits and the sun's rays. The host invites you to do as the locals do.",
+      "The ice-cold water wets your lips and you suddenly feel relaxed, as though you've never experienced such a peaceful moment ever since you set foot on Sami soil. You want to understand the science of the ritual by analyzing the water's properties, but the equipment falls into the water as you quietly try to take a sample. All the locals look up at you, and you know that you should leave at once.",
+      "After the ceremony concludes, you learn that in recent years the locals have been disturbed by huge shadows in their dreams. Can a rite like this really improve their situation? As soon as you make your question, you feel dizzy from the water you drank. The locals are quite critical of your attitude, but give you an item as a token of their care.",
+      "You have heard of this rite that calms the mind and grants courage against evil spirits, but you still don't know what exactly these evil spirits the Sami see really are. Confident in the research team's equipment and supplies, you decline their invitation."
+    ],
+    "OPTIONS": [
+      "[Try cautiously] #rLose #r1 #rAnti-Interference #rIndex , #gand #gincrease #gyour #gMax #gHP #gby #g9",
+      "[Gladly join in] #rLose #r6 #rHP , #gand #gobtain #ga #grandom #grelic",
+      "[Leave]",
+      "[Move ahead]"
+    ]
+  }
+}

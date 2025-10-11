@@ -1,0 +1,181 @@
+{
+  "samirg:ColdnessPower": {
+    "NAME": "Coldness",
+    "DESCRIPTIONS": [
+      "Take #b",
+      " less damage from Attacks. Halved after you play a card, and reset to #b",
+      " and apply #b",
+      " #yConstricted to you when decreased to 0 ."
+    ]
+  },
+  "samirg:SelfCollapsePower": {
+    "NAME": "Self-Destruction",
+    "DESCRIPTIONS": [
+      "When HP is lower than #b",
+      " , add a #y",
+      " into your hand, and gain #b",
+      " Block and 1 #yIntangible at once."
+    ]
+  },
+  "samirg:NonAndExistencePower": {
+    "NAME": "Mapping between Virtuality and Reality",
+    "DESCRIPTIONS": [
+      "Won't take any damage."
+    ]
+  },
+  "samirg:SpaceRefractionPower": {
+    "NAME": "Space Refraction",
+    "DESCRIPTIONS": [
+      "Randomly change the position in the range of #b3X3 , and summon a #ySeedbeds at the original place after acting."
+    ]
+  },
+  "samirg:SpaceStabilityPower": {
+    "NAME": "Dimensional Anchoring Pylon",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      "",
+      " #yActivate #ythe #yMatrix into your hand.",
+      " #yActivate #ythe #yMatrix+ into your hand."
+    ]
+  },
+  "samirg:MatrixPower": {
+    "NAME": "Dimensional Anchoring Matrix",
+    "DESCRIPTIONS": [
+      "After playing #b",
+      " cards, the enemies will regain the power of #yMapping #ybetween #yVirtuality #yand #yReality ."
+    ]
+  },
+  "samirg:DimensionCollapsePower": {
+    "NAME": "Dimensional Collapse",
+    "DESCRIPTIONS": [
+      "You can't play #yActivate #ythe #yMatrix . Lose effect after playing #b",
+      " cards.",
+      "You are still in Dimensional Collapse, that you can't activate the Matrix."
+    ]
+  },
+  "samirg:RootagePower": {
+    "NAME": "Rooting",
+    "DESCRIPTIONS": [
+      "Take #b100% more damage from #ynon-Attack . NL When take damage, increase the damage can deal by 1 this turn (have increase by #b",
+      " )."
+    ]
+  },
+  "samirg:EndingPower": {
+    "NAME": "Extinguish",
+    "DESCRIPTIONS": [
+      "The damage you can deal and the Block you can gain from the cards is decreased by #b50% ."
+    ]
+  },
+  "samirg:BowToBowPower": {
+    "NAME": "Through Violence",
+    "DESCRIPTIONS": [
+      "#y",
+      " At the start of turn, if have Bolck remain, deal that many damage to you."
+    ]
+  },
+  "samirg:CountryPower": {
+    "NAME": "Dominion",
+    "DESCRIPTIONS": [
+      "Whenever lose #b25% of the Max HP, get an extra action. NL Now: #b",
+      "Whenever lose #b20% of the Max HP, get an extra action. NL Now: #b"
+    ]
+  },
+  "samirg:ScarePower": {
+    "NAME": "Fear",
+    "DESCRIPTIONS": [
+      "The next card you draw will cost #b",
+      " more energy."
+    ]
+  },
+  "samirg:KhanPower": {
+    "NAME": "Omens of Nightmare",
+    "DESCRIPTIONS": [
+      "Whenever you play an #rAttack , take #b5% less damage from Attack , deal #b5% more damage. Halved at the end of the turn. NL Now: #b",
+      "%",
+      "Whenever you play an #rAttack , take #b5% less damage from Attack , deal #b5% more damage. Halved at the end of the turn. NL Now: #b. When reach #b20 you will be unable to play #rAttack . NL Now: #b"
+    ]
+  },
+  "samirg:LionPower": {
+    "NAME": "Records of Ages",
+    "DESCRIPTIONS": [
+      "Whenever you play a #rSkill , take #b5% less damage from non-Attack , deal #b5% more damage. Halved at the end of the turn. NL Now: #b",
+      "%",
+      "Whenever you play a #rSkill , take #b5% less damage from non-Attack , deal #b5% more damage. Halved at the end of the turn. NL Now: #b. When reach #b20 you will be unable to play #rSkill . NL Now: #b"
+    ]
+  },
+  "samirg:KhanCardPower": {
+    "NAME": "Nightmare-Attack Forbidden",
+    "DESCRIPTIONS": [
+      "You can't play #rAttack .",
+      "Nightmare……Fearness…… NL ~I~ ~can't~ ~play~ ~Attack!~"
+    ]
+  },
+  "samirg:LionCardPower": {
+    "NAME": "Ages-Skill Forbidden",
+    "DESCRIPTIONS": [
+      "You can't play #gSkill .",
+      "Ages……Dignity…… NL ~I~ ~can't~ ~play~ ~Attack!~ "
+    ]
+  },
+  "samirg:VictoryPower": {
+    "NAME": "Duel",
+    "DESCRIPTIONS": [
+      "When #yLugalszargus is defeated, increase the Max HP by #b50% , gain #gRecords #gof #gAges .",
+      "When #yKharanduu #yKhagan is defeated, increase the Max HP by #b50% , gain #rOmens #rof #rNightmare .",
+      "When #yLugalszargus is defeated, increase the Max HP by #b80% , gain #gRecords #gof #gAges . NL And summon #rKhaganshadow .",
+      "When #yKharanduu #yKhagan is defeated, increase the Max HP by #b80% , gain #rOmens #rof #rNightmare . NL And summon #gRoyal #gCompanion ."
+    ]
+  },
+  "samirg:UndyingPower": {
+    "NAME": "Endless Nightmare",
+    "DESCRIPTIONS": [
+      "When die, apply #rKharanduu #gKhagan 2 Strength , and summon a #yKhaganshadow ."
+    ]
+  },
+  "samirg:HondPower": {
+    "NAME": "Glory",
+    "DESCRIPTIONS": [
+      "When lose HP, heal #gLugalszargus that many."
+    ]
+  },
+  "samirg:ProjectPower": {
+    "NAME": "Mirage",
+    "DESCRIPTIONS": [
+      "When #yattacked for the first time, summon a #yHolographic #yMirage ."
+    ]
+  },
+  "samirg:AbsorbFirePower":{
+    "NAME": "Draw Fire",
+    "DESCRIPTIONS": [
+      "Take #b50% of the damage from other enemies."
+    ]
+  },
+  "samirg:OneLivePower": {
+    "NAME": "Eradicate",
+    "DESCRIPTIONS": [
+      "When #yattacked, gain #b",
+      " Bolck at once and end your turn."
+    ]
+  },
+  "samirg:TwistedPower": {
+    "NAME": "Twisted magic",
+    "DESCRIPTIONS": [
+      "Whenever act, add #bFreezing to a card in your draw pile,hand and discard pile (can stack at most 3 for a card). NL #bFreezing :Lose 1 energy when played."
+    ]
+  },
+
+  "samirg:BurstPower": {
+    "NAME": "Outburst",
+    "DESCRIPTIONS": [
+      "For each 1% HP this enemy have lose, increase the damage deal from #yAttack by 1%(At most #b50% ) NL Have increase #b",
+      "% for now ."
+    ]
+  },
+  "samirg:ColdProtectionPower": {
+    "NAME": "Cold Protection",
+    "DESCRIPTIONS": [
+      "After HP or block loss, gain Block equal to its #b",
+      "% amount."
+    ]
+  }
+}

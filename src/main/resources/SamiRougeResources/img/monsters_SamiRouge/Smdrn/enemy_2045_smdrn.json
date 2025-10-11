@@ -1,0 +1,578 @@
+{
+"skeleton": { "hash": "+ShZu9A+FU3LvN5VjFJilEoqVQw", "spine": "3.8.75" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Bone", "parent": "root", "scaleX": -1 },
+	{ "name": "Front", "parent": "Bone", "y": 300 },
+	{ "name": "Body", "parent": "Front", "y": -200 },
+	{ "name": "Muzzle", "parent": "Front", "y": -200 }
+],
+"slots": [
+	{ "name": "body", "bone": "Body", "attachment": "body" },
+	{ "name": "L_Light", "bone": "Body", "attachment": "L_Light" },
+	{ "name": "R_Light", "bone": "Body", "attachment": "R_Light" }
+],
+"events": {
+	"OnAttack": {}
+},
+"animations": {
+	"Attack": {
+		"slots": {
+			"body": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "body", "time": 0.0 }
+				]
+			},
+			"L_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "L_Light", "time": 0.0 }
+				]
+			},
+			"R_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "R_Light", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Bone": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Front": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Muzzle": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0 }
+		],
+		"events": [
+			{ "name": "OnAttack", "time": 0.0 }
+		]
+	},
+	"Default": {
+		"slots": {
+			"body": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "body", "time": 0.0 }
+				]
+			},
+			"L_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "L_Light", "time": 0.0 }
+				]
+			},
+			"R_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "R_Light", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Bone": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Front": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Muzzle": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0 }
+		]
+	},
+	"Die": {
+		"slots": {
+			"body": {
+				"color": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{ "time": 0.5, "color": "00000000" }
+				],
+				"attachment": [
+					{ "name": "body", "time": 0.0 }
+				]
+			},
+			"L_Light": {
+				"color": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{ "time": 0.5, "color": "00000000" }
+				],
+				"attachment": [
+					{ "name": "L_Light", "time": 0.0 }
+				]
+			},
+			"R_Light": {
+				"color": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{ "time": 0.5, "color": "00000000" }
+				],
+				"attachment": [
+					{ "name": "R_Light", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.1667,
+						"y": 0.807,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"x": 1.0
+					},
+					{ "time": 0.5, "x": 1.38, "y": 1.38 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Bone": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Front": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Muzzle": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0 }
+		]
+	},
+	"Idle": {
+		"slots": {
+			"body": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "body", "time": 0.0 }
+				]
+			},
+			"L_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "L_Light", "time": 0.0 }
+				]
+			},
+			"R_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "R_Light", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Bone": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Front": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Muzzle": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0 }
+		]
+	},
+	"Move": {
+		"slots": {
+			"body": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "body", "time": 0.0 }
+				]
+			},
+			"L_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "L_Light", "time": 0.0 }
+				]
+			},
+			"R_Light": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "R_Light", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Bone": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Front": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"Muzzle": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0 }
+		]
+	}
+},
+"skins": {
+	"default": {
+		"L_Light": {
+			"L_Light": { "x": -151.44, "y": 1.92, "width": 21, "height": 16 }
+		},
+		"R_Light": {
+			"R_Light": { "x": 135.56, "y": 4.92, "width": 20, "height": 17 }
+		},
+		"body": {
+			"body": { "x": -5.94, "y": -0.08, "width": 303, "height": 126 }
+		}
+	}
+}
+}

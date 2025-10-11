@@ -1,0 +1,336 @@
+{
+  "samirg:WarnWood": {
+    "NAME": "Warning Fence",
+    "FLAVOR": "The territory has no borders, but the roaming mind needs to know where fear is lurking.",
+    "DESCRIPTIONS": [
+      "When obtained, lose 1 #ysamirg:Singular-Matrix ."
+    ]
+  },
+  "samirg:StoneRelic": {
+    "NAME": "Roundstone Altar",
+    "FLAVOR": "Offer a sacrifice, and receive a reward. It is so convenient that the people never think about what they are directing their sacrifices to.",
+    "DESCRIPTIONS": [
+      "When draw a card, there is #b",
+      "% to increase the damage and Block you can deal or gain from it by #b1 . At the end of combat, increase the percentage by #b3% permanently ."
+    ]
+  },
+  "samirg:MissHome": {
+    "NAME": "Wandering Caster's Nostalgia",
+    "FLAVOR": "The melody performed by the blade cutting through the air is strangely harmonious, but does not follow the equal temperament of music at all.",
+    "DESCRIPTIONS": [
+      "When enter the #ySecluded #yPassage , #yUpgrade 1 random card."
+    ]
+  },
+  "samirg:IcyBody": {
+    "NAME": "Frozen Husk",
+    "FLAVOR": " As their life flows toward the earth, their originally frozen bodies become lighter and lighter.",
+    "DESCRIPTIONS": [
+      "When you lose HP, your next Attack deal additional #bthat #bmany damage."
+    ]
+  },
+  "samirg:RoadVine": {
+    "NAME": "Guiding Vinedoll",
+    "FLAVOR": "The shamans often make these little puppets out of vines to navigate the forest.",
+    "DESCRIPTIONS": [
+      "When leave the #ySecluded #yPassage you can get more rewards."
+    ]
+  },
+  "samirg:CloudMover": {
+    "NAME": "Cloud-Moving Totem",
+    "FLAVOR": " It is said that a sincere call will stir its wings, raising a storm and making the earth tremble.",
+    "DESCRIPTIONS": [
+      "At the start of combat, give #b1 #yFlight to all enemies. The damage you deal to the enemy that have #yFlight will increase by #b50% (which will also ignore the original effect of #yFlight)."
+    ]
+  },
+  "samirg:Friston": {
+    "NAME": "Friston.P",
+    "FLAVOR": "Friston would certainly not miss out on an opportunity to explore the secrets of another predecessor civilization.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, there is #b",
+      "% you can gain [E] . At the end of combat, increase the percentage permanently by #b3% ."
+    ]
+  },
+  "samirg:NorthWind": {
+    "NAME": "Northwind Construct",
+    "FLAVOR": "Though she often fails, she is still committed to helping those who would challenge their tragic fates.",
+    "DESCRIPTIONS": [
+      "Whenever you are attacked by the enemy with #yArtifact , it lose #b2 #yStrength ."
+    ]
+  },
+  "samirg:ExploreBag": {
+    "NAME": "Expeditioner's Field Pack",
+    "FLAVOR": "They always stuff their backpacks with survival supplies, then press forward with the determination and will to challenge the boundaries of the known.",
+    "DESCRIPTIONS": [
+      "When you gain debuff, draw #b1 card."
+    ]
+  },
+  "samirg:MidMachine": {
+    "NAME": "Paradigm Apparatus",
+    "FLAVOR": "But ultimately, they caved to international pressure and shared some of their technology—after all, this was all to find the source of the demons.",
+    "DESCRIPTIONS": [
+      "For each #ysamirg:Singular-Matrix you have, heal #b1 HP at the end of combat."
+    ]
+  },
+
+  "samirg:UrsasBlade": {
+    "NAME": "Broken Ursus Blade",
+    "FLAVOR": "It was not for a lack of determination; his willpower is beyond question. It was only that, at that moment of self-determination, his body instinctively committed an irreversible mistake.",
+    "DESCRIPTIONS": [
+      "For each #ysamirg:Singular-Matrix you have , increase the coins you can obtian from combat by #b10% ."
+    ]
+  },
+  "samirg:RitualBell": {
+    "NAME": "Ceremony Bell",
+    "FLAVOR": "Close your eyes. Look inward for all that you crave.",
+    "DESCRIPTIONS": [
+      "When enter the #ySecluded #yPassage , gian #b5 Max HP."
+    ]
+  },
+  "samirg:LiveWood": {
+    "NAME": "Living Woodplate",
+    "FLAVOR": "The shamans know how trees will cling to survival, so they invite the trees to become armor for a warrior possessing a similar will.",
+    "DESCRIPTIONS": [
+      "At the start of combat, gain Block equals to the #b20% of your Max HP , if you are in #ySecluded #yPassage gain #40% of it instead."
+    ]
+  },
+  "samirg:RockHorn": {
+    "NAME": "Rock Horn",
+    "FLAVOR": "If you want to gather up manpower in Sami, blowing a trumpet is definitely the best way to do it.",
+    "DESCRIPTIONS": [
+      "For each #b10 cards in your deack, gain 1 #yStrength at the start of combat."
+    ]
+  },
+  "samirg:ImmortalTorch": {
+    "NAME": "Inextinguishable Torch",
+    "FLAVOR": "Flames represent radiance and warmth. Gathering round a fire turns despair into hope.",
+    "DESCRIPTIONS": [
+      "For each #b10 cards in your deck, gain 1 #yDexterity at the strat of combat."
+    ]
+  },
+  "samirg:ImprovePackage": {
+    "NAME": "Polar Retrofit Package",
+    "FLAVOR": "It can modify a variety of devices, adapting them for polar regions and increasing their effectiveness in cold environments.",
+    "DESCRIPTIONS": [
+      "At the end of the first turn of every combat, you can #yRetain at most #b3 cards in your hand."
+    ]
+  },
+  "samirg:ShellShield": {
+    "NAME": "Finshell Shield",
+    "FLAVOR": "The stacks of distant trauma cannot surpass the layers of protection built by the body.",
+    "DESCRIPTIONS": [
+      "At the start fo each combat, gain 3 #yMalleable ."
+    ]
+  },
+  "samirg:BlackHoleProtocol": {
+    "NAME": "Black Hole Protocol",
+    "FLAVOR": "The nations of Terra have invested a great deal of resources into the megastructure in the far north, and the NGO Rhodes Island has become the actual managing party in order to prevent the results from being concealed or tampered with.",
+    "DESCRIPTIONS": [
+      "If your energy is not less than the limit, the damage you can deal from the cards will increase by #b3 , deal extra #b1 damage for each energy more than the limit."
+    ]
+  },
+
+
+  "samirg:HunterSee": {
+    "NAME": "Hunter's Insight",
+    "FLAVOR": "\"Let me draw the bowstring, let me defeat it, let me never fear.\"",
+    "DESCRIPTIONS": [
+      "Only take effect in #ySecluded #yPassage .",
+      " #ytake effect all along",
+      " NL Mark the first Attack/Skill you draw in every turn with #ysamirg:Hunting ."
+    ]
+  },
+  "samirg:GoldenCup": {
+    "NAME": "Golden Chalice",
+    "FLAVOR": "Saints, knights, and pietists. All of them are madmen. Dear God, even the chalice itself is made of pure gold!",
+    "DESCRIPTIONS": [
+      "For every #b100 coins you have, when you play #yAttack deal extra #b1 damage for each attack."
+    ]
+  },
+  "samirg:ToBeAHunter": {
+    "NAME": "Hunt, Eternally",
+    "FLAVOR": " The Sakarz girl used to swear to the nature that she will fight against the Demons, until eternity.",
+    "DESCRIPTIONS": [
+      "At the end of your turn, #bTyphon will deal 2 damage for 5 times to the enemy who has the most HP . The following tips will increase the damage #bTyphon can deal: NL ①For each #ymon3tr:Singular-Matrix you have ,increase by #b1. NL ②For each #yWeak / #yVulnerable the target have, increase by #b1 (10 at most). NL ③If the traget is Boss, increase by #b2."
+    ]
+  },
+
+
+  "samirg:HandOfBurst": {
+    "NAME": "Hand of Outburst",
+    "FLAVOR": "Smash open every single crack, or perhaps make the very first.",
+    "DESCRIPTIONS": [
+      "At the start of every turn apply #yOutburst :For each 1% HP this enemy have lose, increase the damage deal from #yAttack by 1%(At most #b50% )."
+    ]
+  },
+  "samirg:HandOfOpportunity": {
+    "NAME": "Hand of Adaptability",
+    "FLAVOR": "What we lack now is not battlefield intelligence, but a captain who is able to finish reading said intelligence in time.",
+    "DESCRIPTIONS": [
+      "The #yPower you draw will cost 1 less energy at the first turn of combats. NL When you play a #yPower draw 1 card."
+    ]
+  },
+  "samirg:HandOfDogfight": {
+    "NAME": "Hand of Fisticuffs",
+    "FLAVOR": "What she means by standing over there, is that you cannot cross.",
+    "DESCRIPTIONS": [
+      "Whenever you play an #yAttack , give #b2 #yConstricted to all enemies."
+    ]
+  },
+  "samirg:HandOfFlowing": {
+    "NAME": "Hand of Flowing Water",
+    "FLAVOR": "The ocean's flow never ceases, because it is always surging.",
+    "DESCRIPTIONS": [
+      "For each turn you have undergone in 1 combat, draw extra #b1 card at the start of your turn(At most #b3 cards)."
+    ]
+  },
+  "samirg:HandOfHardness": {
+    "NAME": "Hand of Unyielding",
+    "FLAVOR": "Nice to have, even nicer when in danger..",
+    "DESCRIPTIONS": [
+      "For every #b3 turns, gain #b5 #yMetallicize ."
+    ]
+  },
+  "samirg:HandOfExplosion": {
+    "NAME": "Hand of Diffusion",
+    "FLAVOR": "The more enemies you strike, the more power you take hold of.",
+    "DESCRIPTIONS": [
+      "When you #attack every enemy for the first time, gain [E] [E] ."
+    ]
+  },
+  "samirg:HandOfRapidness": {
+    "NAME": "Hand of Superspeed",
+    "FLAVOR": "You swing your hand, leaving not even an afterimage.",
+    "DESCRIPTIONS": [
+      "The last #yAttack / #ySkill will be played twice. NL #rOnly take effect once for a turn ."
+    ]
+  },
+  "samirg:HandOfClean": {
+    "NAME": "Hand of Purification",
+    "FLAVOR": "Where it is, dust is not.",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal damage equals to 2 times of the cards you have #yExhausted to all enemies."
+    ]
+  },
+
+  "samirg:EveryNight": {
+    "NAME": "\"Peek into the Eternal Night\"",
+    "FLAVOR": "The moment she turns around to head north, mountains in black lie before her eyes, just like the omen she saw many years ago.",
+    "DESCRIPTIONS": [
+      "At the start of your second turn, choose 1 of #b5 cards from draw pile and discard pile to return it to your hand, make it cost #b0 ."
+    ]
+  },
+  "samirg:EchoWood": {
+    "NAME": "\"Dead Tree's Echo\"",
+    "FLAVOR": "Shaman after shaman have received this beastbone hammer, some leaving a longer echo than the others.",
+    "DESCRIPTIONS": [
+      "In every combat, the first card of every type you play will be played twice."
+    ]
+  },
+  "samirg:IceGrindingStone": {
+    "NAME": "Frozen Whetstone",
+    "FLAVOR": "The stone's surface is smooth as ice. The maker asked the mountain cliffs for permission to replicate their overpowering strength in their blade.",
+    "DESCRIPTIONS": [
+      "At the start of combat, shuffle a random card with #yUpgraded and #yEthereal into your draw pile, increase its value to 2 times, and it will cost 1 more [E] ."
+    ]
+  },
+  "samirg:FarScry": {
+    "NAME": "Clairvoyant's Reveal",
+    "FLAVOR": "There is no direction you can head to avoid misfortune.",
+    "DESCRIPTIONS": [
+      "When you draw a card, increase the damage you can deal from it by #b2 , every 3 turn to change \"increase\" into \"decrease\" instead."
+    ]
+  },
+
+  "samirg:HatOfTreeScar": {
+    "NAME": "Treescar Helm",
+    "FLAVOR": "Some discard it to abandon their duty, some discard it only to strengthen their resolve to give up their lives.",
+    "DESCRIPTIONS": [
+      "Whenever you play a card cost no less energy than #b3, gain [E] . NL Unlock new choice in #yBosky #yPassage of Act Ⅲ(You can only choose this special choice for once)."
+    ]
+  },
+  "samirg:RouteMap": {
+    "NAME": "Bosky Passage",
+    "FLAVOR": "An intricate network is woven into a map that no one understands. It shows what seems to be a path that extends in all directions, but what it actually displays is only the result..",
+    "DESCRIPTIONS": [
+      "There will be extra enemy in combat. NL When you defeat totally #b10 types of enemies, obtain #ysamirg:Boundless-Gift ."
+    ]
+  },
+  "samirg:LimitlessGift": {
+    "NAME": "Boundless Gift",
+    "FLAVOR": "Takes root in regions unperceivable, absorbs nutrients in places unimaginable. The flowers bloom across the vastness, becoming the very first signal beacon outside the border.",
+    "DESCRIPTIONS": [
+      "When an enemy dies, all the enemies lose #b1 #yStrength . NL Unlock new choice in #yBosky #yPassage of Act Ⅲ(You can only choose this special choice for once)."
+    ]
+  },
+  "samirg:DimensionalFluidity": {
+    "NAME": "Dimensional Fluid",
+    "FLAVOR": "A raw material developed by integrating technology from multiple nations and results from deep-dives into Collapsal research.",
+    "DESCRIPTIONS": [
+      "For each #ysamirg:Singular-Matrix you have , gain #b2 #yMetallicize at the start of combat . NL Special #yBosky #yPassage will appear after the #yAct #yⅣ ."
+    ]
+  },
+  "samirg:CollapseSeed": {
+    "NAME": "Collapsal Seed",
+    "FLAVOR": "Traces of Collapse remain here, refusing to be removed.",
+    "DESCRIPTIONS": [
+      "At the start of combat, lose 1 #yStrength and 1 #yDexterity ."
+    ]
+  },
+  "samirg:SpaceFragment": {
+    "NAME": "Fragment of Space",
+    "FLAVOR": "The space here has been indiscriminately torn to shreds, leaving only a tiny piece.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add a #yVoid to your hand."
+    ]
+  },
+  "samirg:DeepBurn": {
+    "NAME": "Profound Scorchmarks",
+    "FLAVOR": "The boundless energy burned away their body and soul, and they will never recover.",
+    "DESCRIPTIONS": [
+      "At the start of combat, shuffle 3 #yBurn+ to your discard pile."
+    ]
+  },
+
+  "samirg:TerraMap": {
+    "NAME": "Topographical Map",
+    "FLAVOR": "A hand-drawn map that exudes a sense of antiquity. The labels and corresponding terrain have been enlarged, and there seems to be something off about its scale.",
+    "DESCRIPTIONS": [
+      "At the start of the combat, mark 3 random cards in your pile separately with #ysamirg:Arcticalpine , #ysamirg:Permafrost and #ysamirg:Polar ."
+    ]
+  },
+  "samirg:ActionPlan": {
+    "NAME": "Regional Action Plan",
+    "FLAVOR": "Rhodes Island has established dedicated offices in every important hub area. The messengers are doing what they can to weave a fragile web across this land.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, mark a random card in your hand with #ysamirg:Arcticalpine , #ysamirg:Permafrost or #ysamirg:Polar randomly."
+    ]
+  },
+  "samirg:CombatPlan": {
+    "NAME": "Comprehensive Operation File",
+    "FLAVOR": "A vessel sailing upon the land, like treading upon thin ice. Remember to always expand your worldview.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, mark a random card in your hand and a card in your draw pile with #ysamirg:Arcticalpine , #ysamirg:Permafrost or #ysamirg:Polar randomly."
+    ]
+  },
+  "samirg:PeopleLetter": {
+    "NAME": "Secret HR Letter",
+    "FLAVOR": "\"■■■ gave this to you? Guess there's no problem then.\"",
+    "DESCRIPTIONS": [
+      "At the start of your turn, mark a card in your hand, a card in draw pile and a card in discard pile with #ysamirg:Arcticalpine , #ysamirg:Permafrost or #ysamirg:Polar randomly."
+    ]
+  },
+  "samirg:OperationCall": {
+    "NAME": "Rhodes Island Tactical Transceiver",
+    "FLAVOR": "Hang in there, help's on the way.",
+    "DESCRIPTIONS": [
+      "Future card rewards have #b1 additional card to choose from. The card of your card rewards will be marked with #ysamirg:Arcticalpine , #ysamirg:Permafrost or #ysamirg:Polar randomly."
+    ]
+  },
+  "samirg:ThornRing": {
+    "NAME": "Ring of Thorns",
+    "FLAVOR": "You were able to steady yourself while in a distorted fear. There is blood left on the thorns, and you don't know if it was you or the Snowpriest who was pricked by them. They will use whatever means they have, without batting an eye.",
+    "DESCRIPTIONS": [
+      "When you lose energy except for playing cards, gain [E] ."
+    ]
+  }
+}

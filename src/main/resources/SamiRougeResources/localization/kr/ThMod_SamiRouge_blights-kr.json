@@ -1,0 +1,165 @@
+{
+  "samirg:AntiInterference": {
+    "NAME": "간섭 방지 지수",
+    "DESCRIPTION": [
+      "현재 간섭 방지 지수를 #b",
+      " 보유 중입니다. NL #y숨겨진 #y비경에 진입하거나 수평 이동할 때마다 1 을 소모합니다. NL NL #b획득 #b방법: 전투 후 일정 확률로 드롭되며, 상점에서 #y50 골드로 구매할 수 있습니다."
+    ]
+  },
+  "samirg:IrreversibleMatrix": {
+    "NAME": "불가역 매트릭스",
+    "DESCRIPTION": [
+      " #y전역 #y효과 NL 모든 적의 최대 체력이 #b",
+      "% 증가하고, 주는 피해가 #b",
+      "% 증가합니다. NL 전투에 추가 적이 등장합니다."
+    ]
+  },
+
+  "samirg:Dequantization01": {
+    "NAME": "패러다임:수적 붕괴",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 비전투 노드에서 골드 혹은 체력을 잃었을 때, 추가로 #b25% 더 잃습니다(이로 인해 사망하진 않음). NL #y모든 #y적의 #y힘이 #y2 #y감소합니다."
+    ]
+  },
+  "samirg:Dequantization02": {
+    "NAME": "패러다임:수적 붕괴 심화",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 비전투 노드에서 골드 혹은 체력을 잃었을 때, 추가로 #b50% 더 잃습니다(이로 인해 사망하진 않음). NL #r패러다임 심화됨."
+    ]
+  },
+
+  "samirg:SubstantialCollapse01": {
+    "NAME": "패러다임:실질적 붕괴",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL #y공격 카드가 사용된 후, 그 카드의 피해량이 #b1 감소합니다(최대 4 감소)."
+    ]
+  },
+  "samirg:SubstantialCollapse02": {
+    "NAME": "패러다임:확산적 붕괴",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL #y공격 카드가 사용된 후, 그 카드의 피해량이 #b2 감소합니다(최대 4 감소). NL #r패러다임 심화됨."
+    ]
+  },
+
+  "samirg:NonlinearMovement01": {
+    "NAME": "패러다임:비선형 이동",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 모든 적의 체력이 추가로 #b20% 증가하고, #y비행을 #b1 얻습니다. NL #y당신의 #y민첩이 #y2 #y증가합니다."
+    ]
+
+  },
+  "samirg:NonlinearMovement02": {
+    "NAME": "패러다임:비선형 행동",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 모든 적의 체력이 추가로 #b30% 증가하고, #y비행을 #b3 얻습니다. NL #r패러다임 심화됨."
+    ]
+
+  },
+
+  "samirg:EmotionalEntity01": {
+    "NAME": "패러다임:감정의 실체화",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 모든 #y유닛이 다음 효과 중 무작위로 #b1 개를 얻습니다: NL 1. #y인공물 #y1 NL 2. #y재생 #y2 NL 3. #y금속화 #y4 NL 4. #y판금 #y갑옷 #y8 "
+    ]
+
+  },
+  "samirg:EmotionalEntity02": {
+    "NAME": "패러다임:공포의 실체화",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 모든 #r적이 다음 효과 중 무작위로 #b1 개를 얻습니다: NL 1. #y인공물 #y1 NL 2. #y재생 #y2 NL 3. #y금속화 #y4 NL 4. #y판금 #y갑옷 #y8 NL #r패러다임 심화됨"
+    ]
+
+  },
+
+  "samirg:PansocialParadox01": {
+    "NAME": "패러다임:범사회적 역설",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 상점 상품의 가격이 #b25% 상승합니다."
+    ]
+
+  },
+  "samirg:PansocialParadox02": {
+    "NAME": "패러다임:범문명적 역설",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 상점 상품의 가격이 #b50% 상승하며, #y일반 유물·물약·카드 는 추가로 #b50% 더 비싸집니다. NL #r패러다임 심화됨"
+    ]
+
+  },
+
+  "samirg:AbnormalAirpressure01": {
+    "NAME": "패러다임:기압 이상",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 전투 시작 시, #y공허 #b1 장을 뽑을 카드 더미에 섞어 넣습니다. NL #y다음 #y턴에 #y추가로 #y카드 #y2 #y장을 #y뽑습니다."
+    ]
+
+  },
+  "samirg:AbnormalAirpressure02": {
+    "NAME": "패러다임:기압 무질서",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 전투 시작 시, #y공허 #b3 장을 뽑을 카드 더미에 섞어 넣습니다. NL #r패러다임 심화됨"
+    ]
+
+  },
+
+  "samirg:TriggeringInjury01": {
+    "NAME": "패러다임:촉발적 손상",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 전투 시작 시, #y손상 을 #b1 #y얻습니다. NL #y에너지를 #y1 #y얻습니다."
+    ]
+
+  },
+  "samirg:TriggeringInjury02": {
+    "NAME": "패러다임:촉발적 위태",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 전투 시작 시, #y약화 #y손상 #y취약을 1 씩 얻습니다. NL #r패러다임 심화됨"
+    ]
+
+  },
+
+  "samirg:ConvergentConsumption01": {
+    "NAME": "패러다임:일치성 소모",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 매 전투 후, 최대 체력이 #b1 감소합니다(20 미만으로 내려가지 않음). #y대신 #y체력을 #y4 #y회복합니다."
+    ]
+
+  },
+  "samirg:ConvergentConsumption02": {
+    "NAME": "패러다임:일치성 손실",
+    "DESCRIPTION": [
+      " #y숨겨진 #y비경에서만 효과 발동.",
+      " #y전역 #y효과",
+      " NL 매 전투 후, 최대 체력이 #b2 감소합니다(20 미만으로 내려가지 않음). NL #r패러다임 심화됨"
+    ]
+
+  }
+}

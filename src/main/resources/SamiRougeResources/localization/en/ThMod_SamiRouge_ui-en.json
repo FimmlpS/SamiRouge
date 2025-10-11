@@ -1,0 +1,114 @@
+{
+  "samirg:MonsterNames": {
+    "TEXT": [
+      "Samivilinn",
+      "\"Eikthyrnir,\" the Scar of the Shattered",
+      "Shattered Champions",
+      "Crazelyseon, the Ascendant of Cosmoi",
+      "ALT Time Eater Twins",
+      "ALT Darkling Twins",
+      "ALT Combination of Elites in Act I",
+      "ALT Combination of Elites in Act II",
+      "ALT Combination of Elites in Act III",
+      "ALT Jaw and Maw",
+      "ALT Gremlin Leader",
+      "ALT Nemesis",
+      "ALT Shelled Parasite & Snake Plant",
+      "ALT Four Gremlin Wizard",
+      "Avoid Unsafe Roads-\"Gravestone\"",
+      "Nature's Wrath-Weaving Vinecreeps",
+      "Blade Signifier-\"Demon's Blade\"",
+      "Enter Eternity",
+      "Illusions In The Sand",
+      "ALT Chosen Twins",
+      "ALT Nameless Hero",
+      "ALT Weird Slime",
+      "Bandits & Taskmaster",
+      "New Tribe-Fallen Snowpriest"
+    ],
+    "EXTRA_TEXT": [
+      "一层普通-奴隶主",
+      "一层普通-熊",
+      "一层普通-两只蛇剑",
+      "二层普通-木裂战士",
+      "二层普通-萨米战士和术士",
+      "二层普通-强化蚩虫",
+      "三层普通-鸟邪被邪鸟"
+    ]
+  },
+  "samirg:TreeHole": {
+    "TEXT": [
+      "Act ?",
+      "Secluded Passage",
+      "[Sami] Enter the Secluded Passage",
+      "Act Δ",
+      "Dust of Eternity"
+    ]
+  },
+  "samirg:TheSami": {
+    "TEXT": [
+      "Secluded Passage",
+      " ~%ERRO%&*(#~ HP anomaly Detected, trying to activate the repair system",
+      "Dust of Eternity"
+    ]
+  },
+  "samirg:Config": {
+    "TEXT": [
+      "MOD Setting",
+      "Obtain an extra Paradigm while entering the Secluded Passage",
+      "Let the Paradigm take effect all along your adventure",
+      "Setting the HP buff [Singular-Matrix] give to the enemies:",
+      "Setting the damage buff [Singular-Matrix] give to the enemies:",
+      "%",
+      "Setting the drop rate of [Anti-Interference Index]:",
+      "Setting the appear rate of horizontal way:"
+    ]
+  },
+  "samirg:Talk": {
+    "TEXT": [
+      "Records, Ages NL will be ended in my hand!",
+      "Nightmare, destruction NL will be stopped from now on!"
+    ]
+  },
+  "samirg:HuntModifier": {
+    "TEXT": [
+      "samirg:Hunting"
+    ]
+  },
+  "samirg:ForeverModifier": {
+    "TEXT": [
+      "samirg:Eternal"
+    ]
+  },
+  "samirg:ExtremelyColdModifier": {
+    "TEXT": [
+      "samirg:Freezing"
+    ]
+  },
+  "samirg:Operate": {
+    "TEXT": [
+      "Mark as Etrnal",
+      "added to your hand, it cost 0 this turn"
+    ]
+  },
+  "samirg:AntiInterference": {
+    "TEXT": [
+      "Equipment Maintaining Device",
+      "Obtain 1 Anti-Interference Index . NL Anti-Interference Index can be used to trigger the #yBosky #yPassage to enter the secret floor."
+    ]
+  },
+  "samirg:MapPatch": {
+    "TEXT": [
+      "Move Horizontally",
+      "Consume 1 Anti-Interference Index to move horizontally"
+    ]
+  },
+
+  "samirg:CardModifiers": {
+    "TEXT": [
+      "samirg:高寒化",
+      "samirg:冻土化",
+      "samirg:极地化"
+    ]
+  }
+}

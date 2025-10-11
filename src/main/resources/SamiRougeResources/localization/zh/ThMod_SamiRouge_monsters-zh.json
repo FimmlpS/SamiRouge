@@ -1,0 +1,175 @@
+{
+  "samirg:WillOfSami": {
+    "NAME": "萨米的意志",
+    "MOVES": [],
+    "DIALOG": [
+      "你将面临来自群山的考验……",
+      "唯有意志坚定者，仍可继续！",
+      "萨米的女儿……继续向前走吧……"
+    ]
+  },
+  "samirg:WoodCrack": {
+    "NAME": "“木裂”埃克提尔尼尔",
+    "MOVES": [],
+    "DIALOG": [
+      "……",
+      "…………",
+      "………………",
+      "……………………",
+      "你是……不对，你是萨米的敌人。"
+    ]
+  },
+  "samirg:SamiWarSoldier": {
+    "NAME": "木裂战士",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "samirg:Cresson": {
+    "NAME": "无垠回荡克雷松",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "samirg:Nursery": {
+    "NAME": "苗圃",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "samirg:SixTimeEater": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "[萨米]时间吞噬者",
+    "DIALOG": [
+      "~啊……~ NL ~…居然有人来了…~",
+      "~愚蠢……~ NL @何等愚蠢！@",
+      "~一直……~ NL ~……都不…~ NL ~…喜欢你……~",
+      "~……另一个自我~ NL ~…时间混乱了…~"
+    ]
+  },
+  "samirg:ThreeGremlinLeader": {
+    "MOVES": [
+      "集合！"
+    ],
+    "NAME": "[萨米]地精首领",
+    "DIALOG": [
+      "永远别放弃！",
+      "我们还没完呢！",
+      "我们一起从这里离开！",
+      "@撤退@ NL @撤退啊！@",
+      "@这是什么地方！@"
+    ]
+  },
+  "samirg:CurseNemesis": {
+    "NAME": "[萨米]天罚",
+    "DIALOG": []
+  },
+  "samirg:Smgia": {
+    "NAME": "纠缠藤蔓",
+    "DIALOG": []
+  },
+  "samirg:Smgrd": {
+    "NAME": "“邪魔的利刃”",
+    "DIALOG": []
+  },
+  "samirg:Flking": {
+    "NAME": "“墓碑”",
+    "DIALOG": [
+      "~死亡~ NL ~轮到你了~"
+    ]
+  },
+  "samirg:Smkght": {
+    "NAME": "哈兰杜汗，大地之鞭",
+    "DIALOG": [
+      "财富、名誉、历史 NL ……",
+      " ~吾已至此，烈阳可灭，众梦余魇~ ",
+      "黄沙、碎土、焚风 NL 吾已找到最终的战场。",
+      "汝名为“万王之王”？ NL ~有趣的名号！！！~"
+    ]
+  },
+  "samirg:Smlion": {
+    "NAME": "路加萨尔古斯，历法之王",
+    "DIALOG": [
+      "若你仅满足于此…… NL 自不必没入黄沙",
+      "我在时间中找到你的来路 NL 血流成河，生灵涂炭。",
+      "…… NL 你所践踏的土地皆生烈焰，世人称赞你为“大地之鞭”",
+      "我未在历法中找到你的归宿 NL ~改由我断定了！~"
+    ]
+  },
+  "samirg:Smshdw": {
+    "NAME": "可汗片影"
+  },
+  "samirg:Smhond": {
+    "NAME": "王者友伴"
+  },
+  "samirg:Smdrn": {
+    "NAME": "坍缩构造体"
+  },
+  "samirg:Redace": {
+    "NAME": "“红标”渗透者"
+  },
+  "samirg:Redman": {
+    "NAME": "“红标”根除者"
+  },
+  "samirg:Hologc": {
+    "NAME": "全息幻影"
+  },
+  "samirg:NamelessHero": {
+    "NAME": "无名英雄",
+    "DIALOG": [
+      "我的名字？…… NL ~你不需要知道，也不会知道了。~"
+    ],
+    "MOVES": [
+      "无名者的刮伤",
+      "无名者的丢网"
+    ]
+  },
+  "samirg:SmallSlimeBoss": {
+    "MOVES": [
+      "稍微猛撞",
+      "稍微准备",
+      "稍微分裂",
+      "稍微黏液喷射"
+    ],
+    "NAME": "史莱姆小老大",
+    "DIALOG": [
+      "~史莱姆……~ NL #r~撞~ #r~击~ #r~！！~",
+      "打断！"
+    ]
+  },
+  "samirg:BossAcidSlime": {
+    "MOVES": [
+      "腐蚀喷吐",
+      "分裂",
+      "舔舔"
+    ],
+    "NAME": "酸液史莱姆（真老大）",
+    "DIALOG": [
+      "打断！"
+    ]
+  },
+  "samirg:ThreeBandits": {
+    "NAME": "蒙面强盗团",
+    "DIALOG": [
+      "@你们这群奴隶贩子，想尝尝我们三兄弟的厉害吗？！@",
+      "等等，你是从哪来的？",
+      "尖尖，熊 NL NL @动手！@"
+    ]
+  },
+  "samirg:ThreeSlavers": {
+    "NAME": "奴隶主们",
+    "DIALOG": [
+      "~哼，我看是你们找死~",
+      "……又来了一只臭鱼烂虾",
+      "@弟兄们，先把这个外来者杀了！@"
+    ]
+  },
+  "samirg:Smsha": {
+    "NAME": "陷落雪祀"
+  },
+  "samirg:Smsbr": {
+    "NAME": "染污躯壳"
+  },
+  "samirg:Smwiz": {
+    "NAME": "歪曲施法者"
+  }
+}
