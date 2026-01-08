@@ -170,5 +170,19 @@
       "체력이 1% 감소할 때마다, #y공격 피해를 1% 더 받습니다(최대 #b50% ). NL 현재 증가량: #b",
       "%."
     ]
+  },
+  "samirg:ColdProtectionPower": {
+    "NAME": "Cold Protection",
+    "DESCRIPTIONS": [
+      "After HP or block loss, gain Block equal to its #b",
+      "% amount."
+    ]
+  },
+  "samirg:ShieldPower": {
+    "NAME": "Shield",
+    "DESCRIPTIONS": [
+      "He will take #b",
+      " unBlocked damage for you."
+    ]
   }
 }

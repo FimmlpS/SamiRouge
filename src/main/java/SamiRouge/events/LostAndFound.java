@@ -1,7 +1,11 @@
 package SamiRouge.events;
 
 import SamiRouge.blights.AntiInterference;
+import SamiRouge.cards.ciphertext.AbstractCipherTextCard;
+import SamiRouge.cards.ciphertext.reason.C32;
 import SamiRouge.cards.special.RelicPreviewCard_SamiRouge;
+import SamiRouge.helper.DeclareHelper;
+import SamiRouge.relics.WarnWood;
 import SamiRouge.samiMod.SamiRougeHelper;
 import com.megacrit.cardcrawl.blights.AbstractBlight;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -29,6 +33,8 @@ public class LostAndFound extends AbstractImageEvent {
     Phase currentPhase;
     Random duplicatedRng;
 
+    private int tradeTimes = 0;
+
     boolean trading;
     boolean obtainRelic;
     ArrayList<AbstractRelic> relicsToObtain = new ArrayList<>();
@@ -37,23 +43,52 @@ public class LostAndFound extends AbstractImageEvent {
     public LostAndFound(Random duplicatedRng) {
         super(NAME, DESCRIPTIONS[0], "SamiRougeResources/img/events/LostAndFound.png");
         initializeOptions();
-        currentPhase = Phase.TRADE;
     }
 
     private void initializeOptions(){
         trading = false;
         AbstractDungeon.gridSelectScreen.selectedCards.clear();
         imageEventText.clearAllDialogs();
-        imageEventText.updateBodyText(DESCRIPTIONS[0]);
-        if(canTradeRelic())
-            imageEventText.setDialogOption(OPTIONS[0]);
-        else
-            imageEventText.setDialogOption(OPTIONS[6],true);
-        if(canTradeCard())
-            imageEventText.setDialogOption(OPTIONS[1]);
-        else
-            imageEventText.setDialogOption(OPTIONS[7],true);
-        imageEventText.setDialogOption(OPTIONS[4]);
+        if(tradeTimes==0){
+            imageEventText.updateBodyText(DESCRIPTIONS[0]);
+            boolean hasCome = false;
+            AbstractBlight anti = AbstractDungeon.player.getBlight(AntiInterference.ID);
+            if(anti!=null){
+                if(anti.counter>0)
+                    hasCome = true;
+            }
+            if(hasCome){
+                imageEventText.setDialogOption(OPTIONS[12]);
+            }
+            else {
+                imageEventText.setDialogOption(OPTIONS[8],true);
+            }
+            imageEventText.setDialogOption(OPTIONS[9]);
+            boolean hasCipher = false;
+            for(AbstractCipherTextCard c: DeclareHelper.buffed){
+                if(c instanceof C32){
+                    hasCipher = true;
+                    break;
+                }
+            }
+            if(hasCipher){
+                imageEventText.setDialogOption(OPTIONS[11]);
+            }
+            currentPhase = Phase.LEAVE;
+        }
+        else {
+            imageEventText.updateBodyText(DESCRIPTIONS[0]);
+            if(canTradeRelic())
+                imageEventText.setDialogOption(OPTIONS[0]);
+            else
+                imageEventText.setDialogOption(OPTIONS[6],true);
+            if(canTradeCard())
+                imageEventText.setDialogOption(OPTIONS[1]);
+            else
+                imageEventText.setDialogOption(OPTIONS[7],true);
+            imageEventText.setDialogOption(OPTIONS[4]);
+            currentPhase = Phase.TRADE;
+        }
     }
 
     @Override
@@ -128,16 +163,27 @@ public class LostAndFound extends AbstractImageEvent {
                 boolean hasCome = false;
                 AbstractBlight anti = AbstractDungeon.player.getBlight(AntiInterference.ID);
                 if(anti!=null){
-                    if(anti.counter>0)
+                    int needCome = tradeTimes>=2?2:1;
+                    if(anti.counter>=needCome)
                         hasCome = true;
                 }
                 if(hasCome){
-                    imageEventText.setDialogOption(OPTIONS[3]);
+                    imageEventText.setDialogOption(OPTIONS[tradeTimes>=2?13:3]);
                 }
                 else {
-                    imageEventText.setDialogOption(OPTIONS[8],true);
+                    imageEventText.setDialogOption(OPTIONS[tradeTimes>=2?14:8],true);
                 }
                 imageEventText.setDialogOption(OPTIONS[9]);
+                boolean hasCipher = false;
+                for(AbstractCipherTextCard c: DeclareHelper.buffed){
+                    if(c instanceof C32){
+                        hasCipher = true;
+                        break;
+                    }
+                }
+                if(hasCipher){
+                    imageEventText.setDialogOption(OPTIONS[11]);
+                }
                 currentPhase = Phase.LEAVE;
                 break;
             case LEAVE:
@@ -146,15 +192,29 @@ public class LostAndFound extends AbstractImageEvent {
                     if(blight!=null){
                         if(blight.counter>0)
                             ((AntiInterference)blight).useOne();
+                        if(tradeTimes>=2){
+                            if(blight.counter>0)
+                                ((AntiInterference)blight).useOne();
+                        }
                     }
+                    tradeTimes++;
                     initializeOptions();
-                    currentPhase = Phase.TRADE;
                 }
                 else if(i==1){
                     imageEventText.clearAllDialogs();
                     imageEventText.updateBodyText(DESCRIPTIONS[3]);
                     imageEventText.setDialogOption(OPTIONS[5]);
                     currentPhase = Phase.END;
+                }
+                else if(i==2){
+                    for(AbstractCipherTextCard c: DeclareHelper.buffed){
+                        if(c instanceof C32){
+                            DeclareHelper.otherTrigger(c);
+                            break;
+                        }
+                    }
+                    tradeTimes++;
+                    initializeOptions();
                 }
                 break;
             case END:
@@ -204,7 +264,7 @@ public class LostAndFound extends AbstractImageEvent {
 
     private boolean canTradeRelic(){
         for(AbstractRelic r : AbstractDungeon.player.relics){
-            if(r.tier == AbstractRelic.RelicTier.COMMON || r.tier == AbstractRelic.RelicTier.UNCOMMON || r.tier == AbstractRelic.RelicTier.RARE || r.tier == AbstractRelic.RelicTier.BOSS){
+            if(r.tier == AbstractRelic.RelicTier.COMMON || r.tier == AbstractRelic.RelicTier.UNCOMMON || r.tier == AbstractRelic.RelicTier.RARE){
                 return true;
             }
         }
@@ -223,7 +283,7 @@ public class LostAndFound extends AbstractImageEvent {
     private ArrayList<AbstractRelic> getRelicsToTrade(){
         ArrayList<AbstractRelic> relics = new ArrayList<>();
         for(AbstractRelic r : AbstractDungeon.player.relics){
-            if(r.tier == AbstractRelic.RelicTier.COMMON || r.tier == AbstractRelic.RelicTier.UNCOMMON || r.tier == AbstractRelic.RelicTier.RARE || r.tier == AbstractRelic.RelicTier.BOSS){
+            if(r.tier == AbstractRelic.RelicTier.COMMON || r.tier == AbstractRelic.RelicTier.UNCOMMON || r.tier == AbstractRelic.RelicTier.RARE){
                 relics.add(r);
             }
         }

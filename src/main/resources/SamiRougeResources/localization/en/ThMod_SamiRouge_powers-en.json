@@ -177,5 +177,12 @@
       "After HP or block loss, gain Block equal to its #b",
       "% amount."
     ]
+  },
+  "samirg:ShieldPower": {
+    "NAME": "Shield",
+    "DESCRIPTIONS": [
+      "He will take #b",
+      " unBlocked damage for you."
+    ]
   }
 }

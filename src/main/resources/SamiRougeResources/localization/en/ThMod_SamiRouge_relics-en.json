@@ -54,7 +54,7 @@
     "NAME": "Northwind Construct",
     "FLAVOR": "Though she often fails, she is still committed to helping those who would challenge their tragic fates.",
     "DESCRIPTIONS": [
-      "Whenever you are attacked by the enemy with #yArtifact , it lose #b2 #yStrength ."
+      "Whenever you are attacked by the enemy with #yArtifact or #yStrength, it lose #b1 #yStrength ."
     ]
   },
   "samirg:ExploreBag": {
@@ -143,7 +143,7 @@
     "NAME": "Golden Chalice",
     "FLAVOR": "Saints, knights, and pietists. All of them are madmen. Dear God, even the chalice itself is made of pure gold!",
     "DESCRIPTIONS": [
-      "For every #b100 coins you have, when you play #yAttack deal extra #b1 damage for each attack."
+      "For every #b150 coins you have, you deal extra #b1 damage for each damage."
     ]
   },
   "samirg:ToBeAHunter": {
@@ -166,7 +166,7 @@
     "NAME": "Hand of Adaptability",
     "FLAVOR": "What we lack now is not battlefield intelligence, but a captain who is able to finish reading said intelligence in time.",
     "DESCRIPTIONS": [
-      "The #yPower you draw will cost 1 less energy at the first turn of combats. NL When you play a #yPower draw 1 card."
+      "The #yPower you draw will cost 1 less energy if it costs at least 2 energy. NL When you play a #yPower draw 1 card."
     ]
   },
   "samirg:HandOfDogfight": {
@@ -180,21 +180,21 @@
     "NAME": "Hand of Flowing Water",
     "FLAVOR": "The ocean's flow never ceases, because it is always surging.",
     "DESCRIPTIONS": [
-      "For each turn you have undergone in 1 combat, draw extra #b1 card at the start of your turn(At most #b3 cards)."
+      "For each turn you have undergone in 1 combat, draw extra #b1 card at the start of your turn(At most #b2 cards)."
     ]
   },
   "samirg:HandOfHardness": {
     "NAME": "Hand of Unyielding",
     "FLAVOR": "Nice to have, even nicer when in danger..",
     "DESCRIPTIONS": [
-      "For every #b3 turns, gain #b5 #yMetallicize ."
+      "For every #b3 turns, gain #b4 #yMetallicize ."
     ]
   },
   "samirg:HandOfExplosion": {
     "NAME": "Hand of Diffusion",
     "FLAVOR": "The more enemies you strike, the more power you take hold of.",
     "DESCRIPTIONS": [
-      "When you #attack every enemy for the first time, gain [E] [E] ."
+      "When you #attack every enemy for the first time, gain [E] ."
     ]
   },
   "samirg:HandOfRapidness": {
@@ -223,7 +223,7 @@
     "NAME": "\"Dead Tree's Echo\"",
     "FLAVOR": "Shaman after shaman have received this beastbone hammer, some leaving a longer echo than the others.",
     "DESCRIPTIONS": [
-      "In every combat, the first card of every type you play will be played twice."
+      "In every combat, the first card of every type you play will be #yExhausted and played twice."
     ]
   },
   "samirg:IceGrindingStone": {

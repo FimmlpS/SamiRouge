@@ -229,7 +229,7 @@ public class ThreeBandits extends AbstractSamiMonster {
 
             ExtraSpine leader = extraSpines.get(1);
             leader.state.setAnimation(0,"Hit",false);
-            pointy.state.setTimeScale(0.8F);
+            leader.state.setTimeScale(0.8F);
             leader.state.addAnimation(0,"Idle",true,0F);
 
             ExtraSpine bear = extraSpines.get(2);

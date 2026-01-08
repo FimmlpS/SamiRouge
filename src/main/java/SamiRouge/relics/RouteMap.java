@@ -48,6 +48,9 @@ public class RouteMap extends CustomRelic implements CustomSavable<ArrayList<Str
 
     @Override
     public void atBattleStart() {
+        //2025/12/18更新：幕数>=4时不再生成
+        if(AbstractDungeon.actNum>=4)
+            return;
         this.flash();
         addToBot(new SummonSmdrnAction((float) Settings.WIDTH * 0.5F + -100F * Settings.xScale,AbstractDungeon.floorY + 380F * Settings.yScale));
     }

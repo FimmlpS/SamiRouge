@@ -25,7 +25,7 @@ public class SingleSnowEffect extends AbstractGameEffect {
     float startA;
 
     public SingleSnowEffect(float x,float dX){
-        this.duration = MathUtils.random(1.6F,2.1F);
+        this.duration = MathUtils.random(1.6F,3.2F);
         if(AbstractDungeon.actNum==2)
             this.duration -= 0.2F;
         else if(AbstractDungeon.actNum>=3){

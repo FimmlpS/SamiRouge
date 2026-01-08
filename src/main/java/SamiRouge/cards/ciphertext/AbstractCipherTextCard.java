@@ -63,6 +63,14 @@ public abstract class AbstractCipherTextCard extends CustomCard{
         }
     }
 
+    public void addRelicToSave(AbstractRelic.RelicTier tier){
+        AbstractRelic relic = AbstractDungeon.returnRandomRelic(tier);
+        RewardItem item = new RewardItem(relic);
+        AbstractDungeon.getCurrRoom().rewards.add(item);
+    }
+
+    public void triggerAfterDeclareAtOnce(){}
+
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
 

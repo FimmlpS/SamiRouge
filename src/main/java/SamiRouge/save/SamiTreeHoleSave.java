@@ -20,6 +20,7 @@ public class SamiTreeHoleSave extends TreeHoleSave {
     public boolean toTalkWithMountains;
     public boolean winterFall;
     public boolean longIntoAnAbyss;
+    public boolean withHerTalk;
 
     public boolean enterDoubleKing;
     public boolean enteredDoubleKing;
@@ -56,6 +57,7 @@ public class SamiTreeHoleSave extends TreeHoleSave {
         toTalkWithMountains = SamiTreeHolePatch.toTalkWithMountains;
         winterFall = SamiTreeHolePatch.winterFall;
         longIntoAnAbyss = SamiTreeHolePatch.longIntoAnAbyss;
+        winterFall = SamiTreeHolePatch.withHerTalk;
         enterDoubleKing = SamiTreeHolePatch.enterDoubleKing;
         enteredDoubleKing = SamiTreeHolePatch.enteredDoubleKing;
         getDimensionalFluidity = SamiTreeHolePatch.getDimensionalFluidity;
@@ -88,6 +90,7 @@ public class SamiTreeHoleSave extends TreeHoleSave {
         SamiTreeHolePatch.winterFall = winterFall;
         SamiTreeHolePatch.whatBeginsFollowsWhatEnds = whatBeginsFollowsWhatEnds;
         SamiTreeHolePatch.longIntoAnAbyss = longIntoAnAbyss;
+        SamiTreeHolePatch.withHerTalk = withHerTalk;
         SamiTreeHolePatch.enterDoubleKing = enterDoubleKing;
         SamiTreeHolePatch.enteredDoubleKing = enteredDoubleKing;
         SamiTreeHolePatch.getDimensionalFluidity = getDimensionalFluidity;
@@ -140,5 +143,6 @@ public class SamiTreeHoleSave extends TreeHoleSave {
         SamiTreeHolePatch.winterFall = false;
         SamiTreeHolePatch.whatBeginsFollowsWhatEnds = false;
         SamiTreeHolePatch.longIntoAnAbyss = false;
+        SamiTreeHolePatch.withHerTalk = false;
     }
 }

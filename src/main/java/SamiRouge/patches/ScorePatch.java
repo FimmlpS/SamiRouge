@@ -1,5 +1,8 @@
 package SamiRouge.patches;
 
+import basemod.ReflectionHacks;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -20,6 +23,7 @@ public class ScorePatch {
     public static final ScoreBonusStrings ttwtmTH;
     public static final ScoreBonusStrings wfTH;
     public static final ScoreBonusStrings liaaTH;
+    public static final ScoreBonusStrings whtTH;
     public static final ScoreBonusStrings wbfweTH;
 
     @SpirePatch(clz = GameOverScreen.class,method = "checkScoreBonus")
@@ -36,6 +40,9 @@ public class ScorePatch {
             }
             if(SamiTreeHolePatch.longIntoAnAbyss){
                 points[0] += 300;
+            }
+            if(SamiTreeHolePatch.withHerTalk){
+                points[0] += 200;
             }
             if(SamiTreeHolePatch.whatBeginsFollowsWhatEnds){
                 points[0] += 500;
@@ -97,12 +104,44 @@ public class ScorePatch {
             if(SamiTreeHolePatch.longIntoAnAbyss){
                 ((ArrayList<GameOverStat>)stats.get(_inst)).add(new GameOverStat(liaaTH.NAME, liaaTH.DESCRIPTIONS[0],Integer.toString(300)));
             }
+            if(SamiTreeHolePatch.withHerTalk){
+                ((ArrayList<GameOverStat>)stats.get(_inst)).add(new GameOverStat(whtTH.NAME, whtTH.DESCRIPTIONS[0],Integer.toString(200)));
+            }
             if(SamiTreeHolePatch.whatBeginsFollowsWhatEnds){
                 ((ArrayList<GameOverStat>)stats.get(_inst)).add(new GameOverStat(wbfweTH.NAME, wbfweTH.DESCRIPTIONS[0],Integer.toString(500)));
             }
         } catch (Exception e) {
             throw new RuntimeException("Unable to set game over stats.", e);
         }
+    }
+
+    @SpirePatch(clz = GameOverStat.class,method = SpirePatch.CLASS)
+    public static class GameOverStatField {
+        public static SpireField<Color> preColor = new SpireField<>(() -> Color.WHITE);
+    }
+
+    @SpirePatch(clz = GameOverStat.class,method = "render")
+    public static class GameOverStatPatch {
+        @SpirePrefixPatch
+        public static void Prefix(GameOverStat _inst, SpriteBatch sb, float x, float y) {
+            if(_inst.label != null && nameContains(_inst.label)){
+                Color current = ReflectionHacks.getPrivate(_inst, GameOverStat.class, "color");
+                GameOverStatField.preColor.set(_inst,current);
+                Color golden = Color.GOLDENROD.cpy();
+                golden.a = current.a;
+                ReflectionHacks.setPrivate(_inst, GameOverStat.class, "color", golden);
+            }
+        }
+
+        @SpirePostfixPatch
+        public static void Postfix(GameOverStat _inst, SpriteBatch sb, float x, float y) {
+            Color pre = GameOverStatField.preColor.get(_inst);
+            ReflectionHacks.setPrivate(_inst, GameOverStat.class, "color",pre);
+        }
+    }
+
+    private static boolean nameContains(String label){
+        return label.equals(ttwtmTH.NAME) || label.equals(wfTH.NAME) || label.equals(liaaTH.NAME) || label.equals(whtTH.NAME) || label.equals(wbfweTH.NAME);
     }
 
 
@@ -113,6 +152,7 @@ public class ScorePatch {
         ttwtmTH = CardCrawlGame.languagePack.getScoreString("samirg:ToTalkWithMountains");
         wfTH = CardCrawlGame.languagePack.getScoreString("samirg:WinterFall");
         liaaTH = CardCrawlGame.languagePack.getScoreString("samirg:LongIntoAnAbyss");
+        whtTH = CardCrawlGame.languagePack.getScoreString("samirg:WithHerTalk");
         wbfweTH = CardCrawlGame.languagePack.getScoreString("samirg:WhatBeginsFollowsWhatEnds");
     }
 }

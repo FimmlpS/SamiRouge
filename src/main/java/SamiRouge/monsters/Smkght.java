@@ -132,7 +132,8 @@ public class Smkght extends AbstractSamiMonster {
                     }
                 }
                 addToBot(new DamageOtherAction(AbstractDungeon.player,lion,damage.get(1), AbstractGameAction.AttackEffect.FIRE));
-                addToBot(new ApplyPowerAction(this,this,new StrengthPower(this,8),8));
+                int strength = (enableExtraIntent?20:2) + (enableExtraIntent?2:1) * SamiRougeHelper.getIrreversibleMatrixLevel();
+                addToBot(new ApplyPowerAction(this,this,new StrengthPower(this,strength),strength));
                 break;
             }
             case 3:{

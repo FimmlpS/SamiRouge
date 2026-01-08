@@ -4,6 +4,7 @@ import SamiRouge.actions.*;
 import SamiRouge.patches.SamiTreeHolePatch;
 import SamiRouge.powers.LionPower;
 import SamiRouge.powers.VictoryPower;
+import SamiRouge.samiMod.SamiRougeHelper;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.TalkAction;
 import com.megacrit.cardcrawl.actions.common.*;
@@ -121,7 +122,8 @@ public class Smlion extends AbstractSamiMonster {
                     }
                 }
                 addToBot(new DamageOtherAction(AbstractDungeon.player,kght,damage.get(2), AbstractGameAction.AttackEffect.FIRE));
-                addToBot(new ApplyPowerAction(this,this,new StrengthPower(this,2),2));
+                int strength = (enableExtraIntent?10:2) + (int) ((enableExtraIntent?1F:0.5F) * SamiRougeHelper.getIrreversibleMatrixLevel());
+                addToBot(new ApplyPowerAction(this,this,new StrengthPower(this,strength),strength));
                 break;
             }
             case 3:{

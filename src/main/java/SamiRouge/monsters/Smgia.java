@@ -37,14 +37,14 @@ public class Smgia extends AbstractMonster {
         }
 
         if(AbstractDungeon.ascensionLevel>=4){
-            baseDamage = 32;
-            doubleDamage = 15;
-            firstTurnDamage = 12;
-        }
-        else{
             baseDamage = 24;
             doubleDamage = 12;
-            firstTurnDamage = 8;
+            firstTurnDamage = 9;
+        }
+        else{
+            baseDamage = 20;
+            doubleDamage = 10;
+            firstTurnDamage = 7;
         }
 
         if(AbstractDungeon.actNum>=3){

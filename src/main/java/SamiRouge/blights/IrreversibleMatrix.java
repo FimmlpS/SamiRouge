@@ -36,7 +36,10 @@ public class IrreversibleMatrix extends AbstractSamiBlight {
 
     @Override
     public void atBattleStart() {
-        if(this.counter>=3){
+        if(this.counter>=6){
+            //2025/12/18更新：幕数>=时不再生成且仅限不低于6时召唤
+            if(AbstractDungeon.actNum>=4)
+                return;
             this.flash();
             int enemy = 0;
             if(!BaseMod.hasModID("spireTogether:")){
@@ -89,6 +92,9 @@ public class IrreversibleMatrix extends AbstractSamiBlight {
     @Override
     public void setCounter(int counter) {
         super.setCounter(counter);
+        if(this.counter<0){
+            this.counter = 0;
+        }
         updateDescription();
     }
 

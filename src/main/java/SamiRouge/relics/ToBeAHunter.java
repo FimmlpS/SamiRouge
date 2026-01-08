@@ -34,7 +34,7 @@ public class ToBeAHunter extends CustomRelic {
     }
 
     public void renderSpine(AbstractPlayer player, SpriteBatch sb){
-        if(AbstractDungeon.player.name == "Typhon")
+        if(AbstractDungeon.player.name==null || AbstractDungeon.player.name.equals("Typhon"))
             return;
         if(spine!=null&&spine.atlas!=null){
             spine.state.update(Gdx.graphics.getDeltaTime());

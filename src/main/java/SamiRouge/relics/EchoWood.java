@@ -42,7 +42,7 @@ public class EchoWood extends CustomRelic {
             if (useCardAction.target != null) {
                 m = (AbstractMonster) useCardAction.target;
             }
-
+            useCardAction.exhaustCard = true;
             AbstractCard tmp = targetCard.makeSameInstanceOf();
             AbstractDungeon.player.limbo.addToBottom(tmp);
             tmp.current_x = targetCard.current_x;

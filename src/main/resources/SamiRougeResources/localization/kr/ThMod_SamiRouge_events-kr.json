@@ -23,7 +23,9 @@
       "[폭풍 속 설원] #r사미의 #r의지와 맞섭니다. ",
       "[어둠 속 설원] #r\"목열\" #r에이크티르니르와 맞섭니다. ",
       "[?? ✋︎👍︎☜☞︎✋︎☜☹👎︎] #r끝없는 #r울림의 #r크레이즐리선과 맞섭니다. ",
-      "[숨겨진 비경 진입] #y간섭 #y방지 #y지수 1 소모 "
+      "[숨겨진 비경 진입] #y간섭 #y방지 #y지수 1 소모 ",
+      "[Locked] Maybe you need something to guide for you",
+      "[Memorized forest] With assistance of #yMuelsyse, face #rAmma #rTal"
     ]
   },
   "samirg:TreeHoleEnd": {
@@ -52,9 +54,13 @@
       "[나아간다]",
       "[잠김] 교환 가능한 유물이 없습니다.",
       "[잠김] 교환 가능한 카드가 없습니다.",
-      "[잠김] 간섭 방지 지수가 없습니다.",
+      "[잠김] 1 간섭 방지 지수가 없습니다.",
       "[떠난다]",
-      "교환할 물건을 선택하세요"
+      "교환할 물건을 선택하세요",
+      "[Oh?] You have #yDoubt , continue to exchange",
+      "[Exchange] Consume 1 #yAnti-Interference Index to exchange",
+      "[Lack Goods] Consume 2 #yAnti-Interference Index to exchange",
+      "[Locked] You need 2 Anti-Interference Index to consume"
     ]
   },
   "samirg:NoMountains": {
@@ -96,7 +102,7 @@
       "캠프에 남은 물자를 전부 챙긴 당신은 대원들과 함께 그곳을 떠났다. 당신은 이 사미 전사의 생사가 굉장히 신경 쓰이긴 했지만, 그의 결말이 암호판에 명확하게 새겨 있었기에 NL ~굳이~ ~위험을~ ~자초하려~ ~하지~ ~않았다.~ "
     ],
     "OPTIONS": [
-      "[캠프를 뒤져본다] #r패러다임을 #r1 #r획득하고, #y나무 #y상처의 #y투구를 #g획득합니다. ",
+      "[캠프를 뒤져본다] #r패러다임을 #r1 #r획득하고 . Obtain 1 group of #pSpecial #pFoldartals",
       "[물자를 가져간다] #g패러다임을 #g1 #g제거하고, #g체력을 #g5 #g회복합니다.",
       "[떠난다]"
     ]

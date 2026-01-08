@@ -31,7 +31,7 @@ public class HandOfFlowing extends CustomRelic {
             return;
         this.flash();
         this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-        this.addToBot(new DrawCardAction(AbstractDungeon.player, Math.min(GameActionManager.turn, 3)));
+        this.addToBot(new DrawCardAction(AbstractDungeon.player, Math.min(GameActionManager.turn, 2)));
     }
 
     @Override

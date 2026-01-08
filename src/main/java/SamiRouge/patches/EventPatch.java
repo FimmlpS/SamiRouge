@@ -1,8 +1,12 @@
 package SamiRouge.patches;
 
+import SamiRouge.cards.ciphertext.AbstractCipherTextCard;
+import SamiRouge.cards.ciphertext.reason.C34;
 import SamiRouge.dungeons.TheSami;
 import SamiRouge.events.*;
+import SamiRouge.helper.DeclareHelper;
 import SamiRouge.rooms.THEventRoom;
+import TreeHole.mod.TreeHoleHelper;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInsertPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
@@ -12,6 +16,7 @@ import com.megacrit.cardcrawl.helpers.EventHelper;
 import com.megacrit.cardcrawl.monsters.MonsterGroup;
 import com.megacrit.cardcrawl.random.Random;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.rooms.TreasureRoom;
 import com.megacrit.cardcrawl.ui.buttons.ProceedButton;
 
 import java.util.ArrayList;
@@ -36,6 +41,15 @@ public class EventPatch {
         @SpirePostfixPatch
         public static AbstractRoom Postfix(AbstractRoom _ret, AbstractDungeon _inst, EventHelper.RoomResult roomType){
             if(roomType== EventHelper.RoomResult.EVENT){
+                boolean isTreeHole = TreeHoleHelper.contains(AbstractDungeon.id);
+                if(!isTreeHole){
+                    for(AbstractCipherTextCard c: DeclareHelper.buffed){
+                        if (c instanceof C34){
+                            DeclareHelper.otherTrigger(c);
+                            return new TreasureRoom();
+                        }
+                    }
+                }
                 if(AbstractDungeon.id.equals(TheSami.ID)&&TheSami.isTHEventRoom())
                     return new THEventRoom();
             }

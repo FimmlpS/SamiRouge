@@ -16,28 +16,14 @@ public class HandOfOpportunity extends CustomRelic {
     private static final String IMG = "SamiRougeResources/img/relics/HandOfOpportunity.png";
     private static final String IMG_O = "SamiRougeResources/img/relics/HandOfOpportunity_O.png";
 
-    boolean firstTurn = true;
-
     public HandOfOpportunity(){
         super(ID, ImageMaster.loadImage(IMG),ImageMaster.loadImage(IMG_O),RelicTier.RARE,LandingSound.HEAVY);
         RelicPatch.TreeHoleRelicPatch.samirgRelic.set(this,true);
     }
 
     @Override
-    public void atBattleStartPreDraw() {
-        firstTurn = true;
-    }
-
-    @Override
-    public void onPlayerEndTurn() {
-        firstTurn = false;
-    }
-
-    @Override
     public void onCardDraw(AbstractCard drawnCard) {
-        if(!firstTurn)
-            return;
-        if(drawnCard.type== AbstractCard.CardType.POWER&&drawnCard.cost>0){
+        if(drawnCard.type== AbstractCard.CardType.POWER&&drawnCard.cost>1){
             drawnCard.flash();
             drawnCard.updateCost(-1);
         }

@@ -2,6 +2,7 @@ package SamiRouge.events;
 
 import SamiRouge.relics.RoadVine;
 import SamiRouge.samiMod.SamiRougeHelper;
+import TreeHole.mod.TreeHoleHelper;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -29,27 +30,31 @@ public class TreeHoleOutEvent extends AbstractImageEvent {
         super(NAME,DESCRIPTIONS[2],"SamiRougeResources/img/events/TreeHole.png");
         this.rng = rng;
         boolean more = false;
+        Random tmpRandom = new Random(Settings.seed+200,AbstractDungeon.floorNum);
+        int mim = 25;
+        if(TreeHoleHelper.getCurrentType()==2)
+            mim = 50;
+        else if(TreeHoleHelper.getCurrentType()==3)
+            mim = 100;
+        if(mim>tmpRandom.random(99))
+            more = true;
         AbstractRelic rv = AbstractDungeon.player.getRelic(RoadVine.ID);
-        if(rv!=null){
+        if(!more && rv!=null){
             more = true;
             rv.onTrigger();
         }
-        AbstractRelic.RelicTier tier = AbstractDungeon.returnRandomRelicTier();
         if(more){
-            if(tier== AbstractRelic.RelicTier.COMMON)
-                tier = AbstractRelic.RelicTier.UNCOMMON;
-            else if(tier== AbstractRelic.RelicTier.UNCOMMON)
-                tier = AbstractRelic.RelicTier.RARE;
+            AbstractRelic.RelicTier tier = AbstractDungeon.returnRandomRelicTier();
+            relic = SamiRougeHelper.returnTreeHoleRelic(tier);
+            imageEventText.setDialogOption(OPTIONS[6]+relic.name+OPTIONS[7],relic);
         }
-        relic = SamiRougeHelper.returnTreeHoleRelic(tier);
-        imageEventText.setDialogOption(OPTIONS[6]+relic.name+OPTIONS[7],relic);
+        else {
+            imageEventText.setDialogOption(OPTIONS[17],true);
+        }
         int countAmt = AbstractDungeon.actNum+1;
-        if(more){
-            countAmt+=2;
-        }
-        money = 25*countAmt;
+        money = (more?20:15)*countAmt;
         imageEventText.setDialogOption(OPTIONS[8]+money+OPTIONS[9]);
-        live = 4*countAmt;
+        live = (more?4:3)*countAmt;
         imageEventText.setDialogOption(OPTIONS[10]+live+OPTIONS[11]);
         selected = false;
     }
@@ -59,7 +64,8 @@ public class TreeHoleOutEvent extends AbstractImageEvent {
         if (!selected) {
             selected = true;
             if (i == 0) {
-                AbstractDungeon.getCurrRoom().spawnRelicAndObtain((float) (Settings.WIDTH / 2), (float) (Settings.HEIGHT / 2), relic);
+                if(relic!=null)
+                    AbstractDungeon.getCurrRoom().spawnRelicAndObtain((float) (Settings.WIDTH / 2), (float) (Settings.HEIGHT / 2), relic);
             } else if (i == 1) {
                 CardCrawlGame.sound.play("GOLD_GAIN");
                 AbstractDungeon.player.gainGold(money);

@@ -3,9 +3,9 @@ package SamiRouge.patches;
 import SamiRouge.cards.ciphertext.AbstractCipherTextCard;
 import SamiRouge.cards.ciphertext.CipherText;
 import SamiRouge.helper.DeclareHelper;
-import SamiRouge.relics.DimensionalFluidity;
 import SamiRouge.screens.DeclareScreen;
 import SamiRouge.ui.CipherTextPreview;
+import basemod.BaseMod;
 import basemod.ReflectionHacks;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -20,15 +20,16 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.*;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.random.Random;
 import com.megacrit.cardcrawl.rewards.RewardItem;
 import com.megacrit.cardcrawl.rooms.*;
-import com.megacrit.cardcrawl.screens.CardRewardScreen;
 import com.megacrit.cardcrawl.screens.CombatRewardScreen;
 import com.megacrit.cardcrawl.ui.panels.TopPanel;
 
 import java.util.ArrayList;
 
 public class DeclarePatch {
+    private static final float DROP_GL = 0.25F;
     private static DeclarePatch Instance;
     private static final Color DISABLED_BTN_COLOR = new Color(1.0F, 1.0F, 1.0F, 0.4F);
     private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString("samirg:Declare");
@@ -43,7 +44,11 @@ public class DeclarePatch {
     public DeclarePatch(){
         declareScreen = new DeclareScreen();
         buttonHb = new Hitbox(64F * Settings.scale, 64F * Settings.scale);
-        buttonHb.move(64F * Settings.scale, 0F* Settings.scale + (Settings.isMobile ? (float)Settings.HEIGHT - 280.0F * Settings.scale : (float)Settings.HEIGHT - 250.0F * Settings.scale));
+        float cX = 64F * Settings.scale;
+        if(BaseMod.hasModID("loadout:")){
+            cX += 64F * Settings.scale;
+        }
+        buttonHb.move(cX, 0F* Settings.scale + (Settings.isMobile ? (float)Settings.HEIGHT - 280.0F * Settings.scale : (float)Settings.HEIGHT - 250.0F * Settings.scale));
     }
 
     public DeclareScreen declareScreen;
@@ -276,8 +281,13 @@ public class DeclarePatch {
             if ((AbstractDungeon.getCurrRoom().event == null || AbstractDungeon.getCurrRoom().event != null && !AbstractDungeon.getCurrRoom().event.noCardsInRewards) && !(AbstractDungeon.getCurrRoom() instanceof TreasureRoom) && !(AbstractDungeon.getCurrRoom() instanceof RestRoom)){
                 int group = 1;
                 int size = 2;
+                Random random = new Random(Settings.seed + (long)AbstractDungeon.floorNum,AbstractDungeon.actNum);
+                if(random.random(0F,1F)>=DROP_GL){
+                    group = 0;
+                }
                 if(AbstractDungeon.getCurrRoom() instanceof MonsterRoomElite){
                     size = 3;
+                    group = 1;
                 }
                 else if(AbstractDungeon.getCurrRoom() instanceof MonsterRoomBoss){
                     size = 3;
@@ -286,7 +296,7 @@ public class DeclarePatch {
                 for(int i=0;i<group;i++){
                     RewardItem item = new RewardItem();
                     item.text = uiStrings.EXTRA_TEXT[0];
-                    item.cards = new ArrayList<>(DeclareHelper.getRandomCipher(size));
+                    item.cards = new ArrayList<>(DeclareHelper.getRandomCipher(size,random,null));
                     _inst.rewards.add(item);
                 }
                 _inst.positionRewards();

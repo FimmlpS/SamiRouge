@@ -32,7 +32,6 @@
     "NAME": "Eternal Hunt Team",
     "DESCRIPTION": ""
   },
-
   "RelicPreviewCard_SamiRouge": {
     "NAME": "Relic Name",
     "DESCRIPTION": "Relic description",
@@ -41,15 +40,398 @@
       "The Flavor of this relic"
     ]
   },
-
-  "ColdProtection_SamiRouge": {
-    "NAME": "Cold Protection",
-    "DESCRIPTION": "After HP or block loss, gain Block equal to its 25% amount.",
-    "UPGRADE_DESCRIPTION": "Innate. NL After HP or block loss, gain Block equal to its 25% amount."
-  },
   "PastWeaveFuture_SamiRouge": {
     "NAME": "Past Weave With Future",
     "DESCRIPTION": " Exhaust  . NL Mark 1 card in your hand as samirg:Eternal .",
     "UPGRADE_DESCRIPTION": " Retain , Exhaust  . NL Mark 1 card in your hand as samirg:Eternal ."
+  },
+  "samirg:C01": {
+    "NAME": " Outcast ",
+    "DESCRIPTION": "*Layout NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "Realm-weight the guilt, ruined of pardon; never now to meet again."
+    ]
+  },
+  "samirg:C02": {
+    "NAME": " Hunter",
+    "DESCRIPTION": "*Layout NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "Bow traps shadow, shrieking in wind; knows the hunt no end."
+    ]
+  },
+  "samirg:C03": {
+    "NAME": "Warrior ",
+    "DESCRIPTION": "*Layout NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "Firm beeth rock, rising in ranges; horned the helmet in hoar."
+    ]
+  },
+  "samirg:C04": {
+    "NAME": "Shaman",
+    "DESCRIPTION": "*Layout NL X=1 NL If the stage you are in is not less than 3, NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "Speak in sage tongues, secret the cipher; call to banish the bale."
+    ]
+  },
+  "samirg:C05": {
+    "NAME": "Snowpriest",
+    "DESCRIPTION": "*Layout NL X=2 NL If you are in Secluded Passage, NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "Espy the realm, every life seen; seek your sojourn path."
+    ]
+  },
+  "samirg:C06": {
+    "NAME": "Hero",
+    "DESCRIPTION": "*Layout NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "Sprawl do thorns, throttling bones; death is a dale of return."
+    ]
+  },
+  "samirg:C07": {
+    "NAME": "Canopy",
+    "DESCRIPTION": "*Layout NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "Lush grow the limbs, leaves all about; here do hundred-beasts dwell."
+    ]
+  },
+  "samirg:C08": {
+    "NAME": "Water",
+    "DESCRIPTION": "*Layout NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "Cleansed in slush, skin and hair; placid lies the lake."
+    ]
+  },
+  "samirg:C09": {
+    "NAME": "Eye",
+    "DESCRIPTION": "*Layout NL X=1 NL If you don't have any other Layout taking effect now, NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "Seen and known, sought and bid; there to gloaming gone."
+    ]
+  },
+  "samirg:C10": {
+    "NAME": "Arch",
+    "DESCRIPTION": "*Layout NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "Hornbeast tracks, training of bells; vague 'til passing's place."
+    ]
+  },
+  "samirg:C11": {
+    "NAME": " Light",
+    "DESCRIPTION": "*Layout NL X=2 NL If you use this Foldartals out of the battle, NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "Stands the torch, certain as daylight; challenges chilblain eve."
+    ]
+  },
+  "samirg:C12": {
+    "NAME": "Earth",
+    "DESCRIPTION": "*Layout NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "Rise every being, return eft to roots; hewn is All from here."
+    ]
+  },
+  "samirg:C13": {
+    "NAME": "Originium",
+    "DESCRIPTION": "*Layout NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "All mud and flesh, failing welcome; all image in all midst."
+    ]
+  },
+  "samirg:C14": {
+    "NAME": "Tree",
+    "DESCRIPTION": "*Layout NL X=1",
+    "EXTENDED_DESCRIPTION": [
+      "Sail there high, star apparent; see the frost unfold below."
+    ]
+  },
+  "samirg:C15": {
+    "NAME": "Stone",
+    "DESCRIPTION": "*Layout NL X=2",
+    "EXTENDED_DESCRIPTION": [
+      "Barren of life, bare of a shift; silent sits antiquity."
+    ]
+  },
+  "samirg:C16": {
+    "NAME": "Shrub",
+    "DESCRIPTION": "*Layout . NL For each node succeeds to the current node, X+1",
+    "EXTENDED_DESCRIPTION": [
+      "Prone do you slink, prowler and beast; there you hear the horn."
+    ]
+  },
+  "samirg:C17": {
+    "NAME": "Beast",
+    "DESCRIPTION": "*Layout NL X=2 NL If trigger the Concord , NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "Gnaw upon soil, steal fruits of rime; move as may you wish."
+    ]
+  },
+  "samirg:C18": {
+    "NAME": "Human",
+    "DESCRIPTION": "*Layout NL X=3",
+    "EXTENDED_DESCRIPTION": [
+      "Animate wisdom, willed to the young; down the ages tie the days."
+    ]
+  },
+  "samirg:C19": {
+    "NAME": "Advent",
+    "DESCRIPTION": "*Layout NL X=1 NL Trigger the Concord",
+    "EXTENDED_DESCRIPTION": [
+      "Cross mount and stream, snows thus traversed; fate's choice fixed in stone."
+    ]
+  },
+  "samirg:C20": {
+    "NAME": "Departure",
+    "DESCRIPTION": "*Layout NL X=2 NL Trigger the Concord",
+    "EXTENDED_DESCRIPTION": [
+      "Far lies the sound, sight flung in distance; unknowns yet unknown."
+    ]
+  },
+  "samirg:C21": {
+    "NAME": "Scar",
+    "DESCRIPTION": "*Layout NL Can only be paired with *Void .",
+    "EXTENDED_DESCRIPTION": [
+      "Cataclysm courses land, souls of travelers stirred thick"
+    ]
+  },
+  "samirg:C22": {
+    "NAME": "Sing",
+    "DESCRIPTION": "*Sources . NL At the start of next X combat, gain 3 Strength . NL *When *declared *in *the *combat: take effect at once.",
+    "EXTENDED_DESCRIPTION": [
+      "Incants string-song, echoing round; in forest all feathers alight.",
+      "Gain 1 additional #yRitual .",
+      "At the start of next #b",
+      " combats, gain 3 #yStrength .",
+      " combats, gain 3 #yStrength and 1 #yRitual ."
+    ]
+  },
+  "samirg:C23": {
+    "NAME": "Silence",
+    "DESCRIPTION": "*Sources . NL At the start of next X combat, increase your Max HP by 50% until the end of the combat. NL *When *declared *in *the *combat: take effect at once.",
+    "EXTENDED_DESCRIPTION": [
+      "Heed the trees' way, hearken no answer; still are mountains stood.",
+      "Additionally summon a #yShieldguard .",
+      "At the start of next #b",
+      " combats, increase your Max HP by 50% until the end of the combat.",
+      " combats, increase your Max HP by 50% until the end of the combat, and summon a #yShieldguard ."
+    ]
+  },
+  "samirg:C24": {
+    "NAME": "Recite",
+    "DESCRIPTION": "*Sources . NL At the end of next X combat, heal 6 HP. As for the Bosses and Elites, heal 12 HP instead.",
+    "EXTENDED_DESCRIPTION": [
+      "Speak the old kennings, pray to your kin; weave the mind of word.",
+      "Additioanally gain 3 Max HP. As for the Bosses and Elites, gain 6 instead.",
+      "At the end of next #b",
+      " combats, heal 6 HP. As for the Bosses and Elites, heal 12 HP instead.",
+      " combats, heal 6 HP and gain 3 Max HP. As for the Bosses and Elites, heal 12 HP and gain 6 Max HP instead."
+    ]
+  },
+  "samirg:C25": {
+    "NAME": "Debate",
+    "DESCRIPTION": "*Sources . NL At the start of next X combat, draw 2 cards and gain [E] [E] . NL *When *declared *in *the *combat: take effect at once.",
+    "EXTENDED_DESCRIPTION": [
+      "Cease does your singing, self do I show; thought meets truth intact.",
+      "Obtain #yMedical #yKit until the end of combat.",
+      "At the start of next #b",
+      " combats, draw 2 cards and gain [E] [E] .",
+      " combats, draw 2 cards and gain [E] [E] . Obtain #yMedical #yKit until the end of combat."
+    ]
+  },
+  "samirg:C26": {
+    "NAME": "Console",
+    "DESCRIPTION": "*Sources . NL At the end of next X combat, drop an additional card reward.",
+    "EXTENDED_DESCRIPTION": [
+      "Drum-beat and leaf-fire, long-lost souls hail!; whispers wean from grief.",
+      "Drop 2 additional card rewards instead.",
+      "At the end of next #b",
+      " combats, drop an additional card reward.",
+      " combats, drop 2 additional card rewards."
+    ]
+  },
+  "samirg:C27": {
+    "NAME": "Confess",
+    "DESCRIPTION": "*Sources . NL At the end of next X combat, heal 4 HP. As for the Elites or Bosses, drop an additional relic.",
+    "EXTENDED_DESCRIPTION": [
+      "Lone with the Tree, talk of remorse; fellow pleads fellow forgive.",
+      "Drop 2 additional relics instead.",
+      "At the end of next #b",
+      " combats, heal 4 HP. As for the Elites or Bosses, drop an additional relic.",
+      " combats, heal 4 HP. As for the Elites or Bosses, drop 2 additional relics."
+    ]
+  },
+  "samirg:C28": {
+    "NAME": "Cry",
+    "DESCRIPTION": "*Sources . NL Heal 6 HP for X times at once.",
+    "EXTENDED_DESCRIPTION": [
+      "Cry mournful lay, cold heavens shake; from lone trunk does forest bloom.",
+      "Gain 6 Max HP additionally.",
+      "",
+      "",
+      ""
+    ]
+  },
+  "samirg:C29": {
+    "NAME": "Delight",
+    "DESCRIPTION": "*Sources . NL At the end of next X combat, gain 80 Gold.",
+    "EXTENDED_DESCRIPTION": [
+      "Rainbow floats moonshade, rests in its jar; here now wish as you will.",
+      "Gain additional 40 Gold .",
+      "At the end of next #b",
+      " combats, gain 80 Gold.",
+      " combats, gain 120 Gold."
+    ]
+  },
+  "samirg:C30": {
+    "NAME": "Surprise",
+    "DESCRIPTION": "*Sources . NL Until the end of next X combats, gain 50% discount on all prodcuts.",
+    "EXTENDED_DESCRIPTION": [
+      "Amid custom strange, bestowed is a gift; waver well then unite.",
+      "Gain 75% discount on rare product instead.",
+      "At the end of next #b",
+      " combats, gain 50% discount on all prodcuts.",
+      " combats, gain 50% discount on all prodcuts. As fo rare products gain 75% discount on them instead."
+    ]
+  },
+  "samirg:C31": {
+    "NAME": "Rage",
+    "DESCRIPTION": "*Sources . NL At the end of next X combat, drop 1 common relic.",
+    "EXTENDED_DESCRIPTION": [
+      "Ice and rock's havoc, hammer cast down; feather cannot dare crow.",
+      "Drop a uncommon relic instead.",
+      "At the end of next #b",
+      " combats , drop 1 common relic.",
+      " combats , drop 1 uncommon relic."
+    ]
+  },
+  "samirg:C32": {
+    "NAME": "Doubt",
+    "DESCRIPTION": "*Sources . NL For the next X times you exchange in *Lost *and *Found , you will have an additional chance for free exchange.",
+    "EXTENDED_DESCRIPTION": [
+      "Straight path warped, where do you lead?; not a tree does know.",
+      "Remove 1 random Paradigm after you exchange.",
+      "For the next #b",
+      " times you exchange in #yLost #yand #yFound , you will have an additional chance for free exchange.",
+      " times you exchange in #yLost #yand #yFound , you will have an additional chance for free exchange and remove 1 random Paradigm."
+    ]
+  },
+  "samirg:C33": {
+    "NAME": "Anticipate",
+    "DESCRIPTION": "*Sources . NL At the start of next X turns, double your Energy and draw cards until your hand is full.",
+    "EXTENDED_DESCRIPTION": [
+      "Mind awander, where in life's dream; glimpsed in blizzard bare.",
+      "Gain temp Dexterity equals to your #yAnti-Interference #yIndex and gain temp Strength equals to your #ySingular #yMatrix .",
+      "At the start of next #b",
+      " turns, double your Energy and draw cards until your hand is full.",
+      " turns, double your Energy and draw cards until your hand is full. Gain temp Dexterity equals to your #yAnti-Interference #yIndex and gain temp Strength equals to your #ySingular #yMatrix ."
+    ]
+  },
+  "samirg:C34": {
+    "NAME": "Love",
+    "DESCRIPTION": "*Sources . NL The next X ? room is Treasure room. Won't take effect in Secluded Passage.",
+    "EXTENDED_DESCRIPTION": [
+      "Boundless the tundra, be by my body; fire be my heart aflame",
+      "Obtain 1 common relic at once.",
+      "The next #b",
+      " ? room is Treasure room. Won't take effect in Secluded Passage.",
+      " ? room is Treasure room. Won't take effect in Secluded Passage."
+    ]
+  },
+  "samirg:C35": {
+    "NAME": "Satisfy",
+    "DESCRIPTION": "*Sources . NL Gain 65 Gold X times.",
+    "EXTENDED_DESCRIPTION": [
+      "Stores flush with hunger-guard, slaked is your thirst; naught more need ask..",
+      "Gain 80 Gold X times instead.",
+      "",
+      "",
+      ""
+    ]
+  },
+  "samirg:C36": {
+    "NAME": "Patrol",
+    "DESCRIPTION": "*Sources . NL Remove X random X *Paradigm .",
+    "EXTENDED_DESCRIPTION": [
+      "Trees scaled at day, twilight in lookout; kept is earth by fire of kin.",
+      "While remove 1 #ySingular #yMatrix .",
+      "",
+      "",
+      ""
+    ]
+  },
+  "samirg:C37": {
+    "NAME": "Nest",
+    "DESCRIPTION": "*Sources . NL At the start of your next X combats, gian 15 Block . NL *When *declared *in *the *combat: take effect at once.",
+    "EXTENDED_DESCRIPTION": [
+      "Gather wild timber, tell of shade-shelter; no chill 'neath eaves blows.",
+      "Obtain #yToolbox at the end of the combat.",
+      "At the start of your next #b",
+      " combats, gian 15 Block.",
+      " combats, gian 15 Block. Obtain #yToolbox at the end of the combat."
+    ]
+  },
+  "samirg:C38": {
+    "NAME": "Hunt",
+    "DESCRIPTION": "*Sources . NL The next X enemy rooms you enter will be changed into Elites rooms *AFTER *SL.",
+    "EXTENDED_DESCRIPTION": [
+      "Tusk and claw, time bode well; learn to dare on danger's path.",
+      "At the start of these combats, obtain #ySling #yof #yCourage until the end of the combats.",
+      "The next #b",
+      " enemy rooms you enter will be changed into Elites rooms after SL.",
+      " enemy rooms you enter will be changed into Elites rooms after SL. At the start of these combats, obtain #ySling #yof #yCourage until the end of the combats."
+    ]
+  },
+  "samirg:C39": {
+    "NAME": "Plunder",
+    "DESCRIPTION": "*Sources . NL The next X times you move horizontally, gain 50 Gold and heal 4 HP .",
+    "EXTENDED_DESCRIPTION": [
+      "Wrest and plunder, righteous not; preordained are dues to pay.",
+      "Gain additional 1 #yAnti-Interference #yIndex .",
+      "The next #b",
+      " times you move horizontally, gain 50 Gold and heal 4 HP .",
+      " times you move horizontally, gain 50 Gold and heal 4 HP , and gain additional 1 #yAnti-Interference #yIndex ."
+    ]
+  },
+  "samirg:C40": {
+    "NAME": "Reproduce",
+    "DESCRIPTION": "*Sources . NL The next X times you move horizontally, Upgrade 1 random card.",
+    "EXTENDED_DESCRIPTION": [
+      "Flora and fauna, flourish and fall; last ye everlong.",
+      "This card will played twice when it is played for the first time in every combat.",
+      "The next #b",
+      " times you move horizontally, Upgrade 1 random card.",
+      " times you move horizontally, Upgrade 1 random card, and this card will played twice when it is played for the first time in every combat."
+    ]
+  },
+  "samirg:C41": {
+    "NAME": "Migrate",
+    "DESCRIPTION": "*Sources . NL Change random X node succeeds to the current node into *Bosky *Passage .",
+    "EXTENDED_DESCRIPTION": [
+      "Out of snow's forest, far from tribe's tree; yearn you harder yet.",
+      "Obtain X #yAnti-Interference #yIndex at once .",
+      "",
+      "",
+      ""
+    ]
+  },
+  "samirg:C42": {
+    "NAME": "Respite",
+    "DESCRIPTION": "*Sources . NL You can have X additional chance to act when you enter the Campfire.",
+    "EXTENDED_DESCRIPTION": [
+      "Blind and low, lost in dreams; respite from this realm.",
+      "When you are excuting your additional act in Campfire, you can #yRemove #ycard or #yDig #yfor #yrelics .",
+      "You can act additional #b",
+      " times.",
+      " times, and you can #yRemove #ycard or #yDig #yfor #yrelics ."
+    ]
+  },
+  "samirg:C43": {
+    "NAME": "Void",
+    "DESCRIPTION": "*Sources . NL Can only be paired with *Scar .",
+    "EXTENDED_DESCRIPTION": [
+      "Realmbound deeds disappear, minds return unto the void",
+      "Obtain #yTreescar #yHelm .",
+      "",
+      "",
+      ""
+    ]
   }
 }

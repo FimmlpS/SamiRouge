@@ -225,6 +225,14 @@ public class SamiRougeHelper {
         }
     }
 
+    public static int getIrreversibleMatrixLevel(){
+        AbstractBlight matrix = AbstractDungeon.player.getBlight(IrreversibleMatrix.ID);
+        if(matrix!=null){
+            return matrix.counter;
+        }
+        return 0;
+    }
+
 
     public static AbstractBlight getBlightByID(String id){
         switch (id){

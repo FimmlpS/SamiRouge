@@ -253,8 +253,9 @@ public class DeclareEffect extends AbstractGameEffect {
             FontHelper.renderSmartText(sb,FontHelper.cardTitleFont,uiStrings.EXTRA_TEXT[1],mX -textWidth/2F + width + textDiff,mY + height + 6F*Settings.scale,textColor);
         }
         else {
-            float textWidth = FontHelper.getSmartWidth(FontHelper.cardTitleFont,right,Float.MAX_VALUE,FontHelper.cardTitleFont.getLineHeight());
+            float textWidth = 0F;
             if(together){
+                textWidth = FontHelper.getSmartWidth(FontHelper.cardTitleFont,right,Float.MAX_VALUE,FontHelper.cardTitleFont.getLineHeight());
                 //left text
                 FontHelper.renderSmartText(sb,FontHelper.cardTitleFont,left,mX -textWidth/2F + width - textDiff,mY + height + 6F*Settings.scale,togetherColor);
                 //right text

@@ -91,7 +91,7 @@ public class TreeHoleSami extends TreeHoleBase {
     public void triggerWhenEnterTreeHole(int i) {
         //暂定不回血
         if(i!=4)
-            AbstractDungeon.player.heal((AbstractDungeon.player.maxHealth-AbstractDungeon.player.currentHealth)/4);
+            AbstractDungeon.player.heal((AbstractDungeon.player.maxHealth-AbstractDungeon.player.currentHealth)/3);
         else {
             AbstractDungeon.player.heal((AbstractDungeon.player.maxHealth-AbstractDungeon.player.currentHealth)/2);
         }

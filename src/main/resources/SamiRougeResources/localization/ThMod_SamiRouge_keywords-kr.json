@@ -58,5 +58,35 @@
       "극지화"
     ],
     "DESCRIPTION": "이 카드로 주는 피해량과 얻는 방어도가 #b50% 증가합니다. 이후 이 효과는 제거됩니다."
+  },
+  {
+    "NAMES": [
+      "reproduce"
+    ],
+    "DESCRIPTION": "The next time this card plays will play twice."
+  },
+  {
+    "NAMES": [
+      "last"
+    ],
+    "DESCRIPTION": "This foldartal is not consumed on first declaration."
+  },
+  {
+    "NAMES": [
+      "sustain"
+    ],
+    "DESCRIPTION": "Recover 10% HP after Declaration If triggered Concord."
+  },
+  {
+    "NAMES": [
+      "cycle"
+    ],
+    "DESCRIPTION": "Gain 25 coins after Declaration If triggered Concord. "
+  },
+  {
+    "NAMES": [
+      "expand"
+    ],
+    "DESCRIPTION": "Increase the X by 1 during declaration."
   }
 ]

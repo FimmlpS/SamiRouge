@@ -28,7 +28,7 @@ public class PowerPatch {
                             info.output -= shared;
                             AbstractPower p = m.getPower(AbsorbFirePower.POWER_ID);
                             p.flash();
-                            AbstractDungeon.actionManager.addToTop(new DamageAction(m,new DamageInfo(null,shared, DamageInfo.DamageType.THORNS)));
+                            AbstractDungeon.actionManager.addToTop(new DamageAction(m,new DamageInfo(AbstractDungeon.player,shared, DamageInfo.DamageType.THORNS)));
                             return;
                         }
                     }

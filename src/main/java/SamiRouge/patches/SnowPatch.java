@@ -38,11 +38,11 @@ public class SnowPatch {
             snowTimer -= Gdx.graphics.getDeltaTime();
             if(snowTimer < 0){
                 snowTimer = 0.1F;
-                int snowLevel = 4 * AbstractDungeon.actNum;
+                int snowLevel = 2 * AbstractDungeon.actNum + 2;
                 if(snowLevel<4)
                     snowLevel = 4;
-                if(snowLevel>12)
-                    snowLevel = 12;
+                if(snowLevel>8)
+                    snowLevel = 8;
                 for(int i =0;i<snowLevel;i++){
                     snows.add(new SingleSnowEffect(Settings.WIDTH * MathUtils.random(-0.05F,0.96F),Settings.WIDTH *MathUtils.random(0.05F,0.12F)));
                 }

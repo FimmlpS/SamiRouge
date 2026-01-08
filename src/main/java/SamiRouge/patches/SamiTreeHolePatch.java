@@ -55,6 +55,7 @@ public class SamiTreeHolePatch {
     public static boolean toTalkWithMountains;
     public static boolean winterFall;
     public static boolean longIntoAnAbyss;
+    public static boolean withHerTalk;
     public static boolean enterDoubleKing;
     public static boolean enteredDoubleKing;
     public static int treeHoleEntered;
@@ -279,16 +280,16 @@ public class SamiTreeHolePatch {
         }
     }
 
-    //特殊精英额外掉落一个普通遗物
-    @SpirePatch(clz = MonsterRoomElite.class,method = "dropReward")
-    public static class RelicElitePatch{
-        @SpirePostfixPatch
-        public static void Postfix(MonsterRoomElite _inst){
-            if(SpireEliteRoomPatch.specialElite.get(_inst)){
-                _inst.addRelicToRewards(AbstractRelic.RelicTier.COMMON);
-            }
-        }
-    }
+    //特殊精英额外掉落一个普通遗物 2025/10/19 废除
+//    @SpirePatch(clz = MonsterRoomElite.class,method = "dropReward")
+//    public static class RelicElitePatch{
+//        @SpirePostfixPatch
+//        public static void Postfix(MonsterRoomElite _inst){
+//            if(SpireEliteRoomPatch.specialElite.get(_inst)){
+//                _inst.addRelicToRewards(AbstractRelic.RelicTier.COMMON);
+//            }
+//        }
+//    }
 
     //树洞内敌人禁止被斩杀或平摊生命
     @SpirePatch(clz = MonsterGroup.class,method = "update")

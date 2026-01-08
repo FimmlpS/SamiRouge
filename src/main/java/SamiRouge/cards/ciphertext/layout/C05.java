@@ -3,6 +3,7 @@ package SamiRouge.cards.ciphertext.layout;
 import SamiRouge.cards.ciphertext.AbstractCipherTextCard;
 import SamiRouge.cards.ciphertext.CipherText;
 import SamiRouge.dungeons.TheSami;
+import TreeHole.mod.TreeHoleHelper;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -18,7 +19,7 @@ public class C05 extends AbstractCipherTextCard {
 
     @Override
     public int declare(boolean together) {
-        if(AbstractDungeon.id == TheSami.ID)
+        if(AbstractDungeon.id != null && TreeHoleHelper.contains(AbstractDungeon.id))
             return super.declare(together)+1;
         return super.declare(together);
     }

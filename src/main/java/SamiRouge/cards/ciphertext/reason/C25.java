@@ -27,11 +27,9 @@ public class C25 extends AbstractCipherTextCard {
         addToBot(new DrawCardAction(2));
         addToBot(new GainEnergyAction(2));
         if(together){
-            if(!AbstractDungeon.player.hasRelic(MedicalKit.ID)){
-                AbstractRelic r = new MedicalKit();
-                DeclareHelper.battleRelicObtain.add(r);
-                addToBot(new ObtainRelicAction(r));
-            }
+            AbstractRelic r = new MedicalKit();
+            DeclareHelper.battleRelicObtain.add(r);
+            addToBot(new ObtainRelicAction(r));
         }
     }
 

@@ -39,6 +39,8 @@ public class TreeHoleEvent extends AbstractImageEvent {
     public static final String[] DESCRIPTIONS;
     public static final String[] OPTIONS;
 
+    public static final String MUELSYSE_ANMA = "muelsyse:Anma";
+
     boolean finalIt;
 
     Random rng;
@@ -70,6 +72,9 @@ public class TreeHoleEvent extends AbstractImageEvent {
             }
             if (!SamiTreeHolePatch.longIntoAnAbyss && AbstractDungeon.player.hasRelic(LimitlessGift.ID)) {
                 bossSections.add(Cresson.ID);
+            }
+            if(BaseMod.hasModID("Muelsyse_FimmlpS:") && !AbstractDungeon.player.name.equals("Muelsyse") && !SamiTreeHolePatch.withHerTalk){
+                bossSections.add(MUELSYSE_ANMA);
             }
         }
 
@@ -108,6 +113,9 @@ public class TreeHoleEvent extends AbstractImageEvent {
                             break;
                         case Cresson.ID:
                             option = 15;
+                            break;
+                        case MUELSYSE_ANMA:
+                            option = 18;
                             break;
                     }
                     if (option > 0) {

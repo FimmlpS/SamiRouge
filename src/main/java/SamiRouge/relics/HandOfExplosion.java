@@ -38,7 +38,7 @@ public class HandOfExplosion extends CustomRelic {
 
     @Override
     public void onAttack(DamageInfo info, int damageAmount, AbstractCreature target) {
-        if(!info.type.equals(DamageInfo.DamageType.NORMAL))
+        if(info!=null && info.type != DamageInfo.DamageType.NORMAL)
             return;
         if(target instanceof AbstractMonster){
             AbstractMonster m = (AbstractMonster) target;
@@ -46,7 +46,7 @@ public class HandOfExplosion extends CustomRelic {
                 damagedThisCombat.add(m);
                 this.flash();
                 addToBot(new RelicAboveCreatureAction(AbstractDungeon.player,this));
-                addToBot(new GainEnergyAction(2));
+                addToBot(new GainEnergyAction(1));
             }
         }
     }

@@ -16,22 +16,22 @@ public class GoldenCup extends CustomRelic {
     private static final String IMG = "SamiRougeResources/img/relics/GoldenCup.png";
     private static final String IMG_O = "SamiRougeResources/img/relics/GoldenCup_O.png";
 
-
     public GoldenCup(){
         super(ID, ImageMaster.loadImage(IMG),ImageMaster.loadImage(IMG_O),RelicTier.RARE,LandingSound.SOLID);
         RelicPatch.TreeHoleRelicPatch.samirgRelic.set(this,true);
     }
 
     @Override
-    public void onAttack(DamageInfo info, int damageAmount, AbstractCreature target) {
+    public int onAttackToChangeDamage(DamageInfo info, int damageAmount) {
         int amt = 0;
         if(AbstractDungeon.player!=null){
-            amt = AbstractDungeon.player.gold/100;
+            amt = AbstractDungeon.player.gold/150;
         }
-        if(amt>0&&info.type== DamageInfo.DamageType.NORMAL && target instanceof AbstractMonster){
+        if(amt>0){
             this.flash();
-            addToTop(new DamageAction(target,new DamageInfo(AbstractDungeon.player,amt, DamageInfo.DamageType.THORNS),true));
+            return damageAmount+amt;
         }
+        return damageAmount;
     }
 
     @Override

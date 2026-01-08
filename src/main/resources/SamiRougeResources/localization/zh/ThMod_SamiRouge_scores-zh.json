@@ -29,6 +29,12 @@
       "击败无垠回荡克雷松。 NL 它睁着那只空洞的眼，审视这个维度的一切，只有当它阖上眼，人类才有机会去一窥大地尽头之后的奥秘。"
     ]
   },
+  "samirg:WithHerTalk": {
+    "NAME": "溯源",
+    "DESCRIPTIONS": [
+      "击败安玛塔卢。 NL 漫步于大地的孤独精灵并未找到她的归属，永被白雪覆盖的森林已无族群的痕迹，或许萨米并不是她的答案。"
+    ]
+  },
   "samirg:WhatBeginsFollowsWhatEnds": {
     "NAME": "终始",
     "DESCRIPTIONS": [

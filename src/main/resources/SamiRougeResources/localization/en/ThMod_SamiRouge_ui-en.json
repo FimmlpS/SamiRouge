@@ -106,9 +106,31 @@
 
   "samirg:CardModifiers": {
     "TEXT": [
-      "samirg:高寒化",
-      "samirg:冻土化",
-      "samirg:极地化"
+      "samirg:Arcticalpine",
+      "samirg:Permafrost",
+      "samirg:Polar",
+      "samirg:Reproduce",
+      "Flair- samirg:Last",
+      "Flair- samirg:Sustain",
+      "Flair- samirg:Cycle",
+      "Flair- samirg:Expand"
+    ]
+  },
+  "samirg:Declare": {
+    "TEXT": [
+      "Concord",
+      "...Choose One Layout and One Sources to declare...",
+      "Close",
+      "Foldartals",
+      "Here are your foldartals. You can pair your foldartals at ANY time."
+    ],
+    "EXTRA_TEXT": [
+      "Foldartals",
+      "You triggered #rClan",
+      "You triggered #gSoul",
+      "You triggered #bNature",
+      "You triggered #ySociety",
+      "Kovardii Concord"
     ]
   }
 }

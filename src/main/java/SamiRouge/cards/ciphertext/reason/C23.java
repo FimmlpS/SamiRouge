@@ -4,6 +4,8 @@ import SamiRouge.actions.IncreaseMaxHpAction;
 import SamiRouge.cards.ciphertext.AbstractCipherTextCard;
 import SamiRouge.cards.ciphertext.CipherText;
 import SamiRouge.helper.DeclareHelper;
+import SamiRouge.powers.ShieldPower;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -24,7 +26,10 @@ public class C23 extends AbstractCipherTextCard {
         DeclareHelper.battleMaxHPIncreased+=hp;
         addToBot(new IncreaseMaxHpAction(true,hp));
         if(together){
-            //tOdo
+            int hh = AbstractDungeon.actNum * 10;
+            if(hh==0)
+                hh = 10;
+            addToBot(new ApplyPowerAction(AbstractDungeon.player,AbstractDungeon.player,new ShieldPower(AbstractDungeon.player,hh),hh));
         }
     }
 

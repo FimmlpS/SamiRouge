@@ -45,8 +45,8 @@ public class ModConfig {
     public static int road_spawn_glv; //3~6 * 5% default-3
 
     public static void initModSettings(){
-        defaultSettings.setProperty(IRREVERSIBLE_BLV,String.valueOf(2));
-        defaultSettings.setProperty(IRREVERSIBLE_BLV_ATTACK,String.valueOf(2));
+        defaultSettings.setProperty(IRREVERSIBLE_BLV,String.valueOf(4));
+        defaultSettings.setProperty(IRREVERSIBLE_BLV_ATTACK,String.valueOf(3));
         defaultSettings.setProperty(EXTRA_FANS,String.valueOf(false));
         defaultSettings.setProperty(ALL_FANS,String.valueOf(false));
         defaultSettings.setProperty(ANTI_FALL_GLV,String.valueOf(2));

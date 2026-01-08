@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.ArtifactPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.powers.watcher.VigorPower;
@@ -34,9 +35,12 @@ public class NorthWind extends CustomRelic {
     @Override
     public int onAttacked(DamageInfo info, int damageAmount) {
         if(info.type == DamageInfo.DamageType.NORMAL){
-            if(info.owner instanceof AbstractMonster && info.owner.hasPower(ArtifactPower.POWER_ID)){
-                this.flash();
-                addToBot(new ApplyPowerAction(info.owner,AbstractDungeon.player,new StrengthPower(info.owner,-2),-2));
+            if(info.owner instanceof AbstractMonster){
+                AbstractPower st = info.owner.getPower(StrengthPower.POWER_ID);
+                if(info.owner.hasPower(ArtifactPower.POWER_ID ) || (st!=null&&st.amount>0)){
+                    this.flash();
+                    addToBot(new ApplyPowerAction(info.owner,AbstractDungeon.player,new StrengthPower(info.owner,-1),-1));
+                }
             }
         }
         return super.onAttacked(info, damageAmount);

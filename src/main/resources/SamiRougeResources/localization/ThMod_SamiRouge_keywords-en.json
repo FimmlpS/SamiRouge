@@ -53,5 +53,35 @@
       "polar"
     ],
     "DESCRIPTION": "Increase the damage this card can deal and the Block this card can gain by 50%. Remove this effect after played."
+  },
+  {
+    "NAMES": [
+      "reproduce"
+    ],
+    "DESCRIPTION": "The next time this card plays will play twice."
+  },
+  {
+    "NAMES": [
+      "last"
+    ],
+    "DESCRIPTION": "This foldartal is not consumed on first declaration."
+  },
+  {
+    "NAMES": [
+      "sustain"
+    ],
+    "DESCRIPTION": "Recover 10% HP after Declaration If triggered Concord."
+  },
+  {
+    "NAMES": [
+      "cycle"
+    ],
+    "DESCRIPTION": "Gain 25 coins after Declaration If triggered Concord. "
+  },
+  {
+    "NAMES": [
+      "expand"
+    ],
+    "DESCRIPTION": "Increase the X by 1 during declaration."
   }
 ]

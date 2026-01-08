@@ -324,8 +324,8 @@ public class SamiRougeMod implements PostInitializeSubscriber,PostBattleSubscrib
 
         BaseMod.addMonster("samirg:TwoChosen",names[19],()->{
             return new MonsterGroup(new AbstractMonster[]{
-                    SamiRougeHelper.monsterModifier(0.5F,new Chosen(-205F,5F)),
-                    SamiRougeHelper.monsterModifier(0.5F,new Chosen(120F,10F))
+                    SamiRougeHelper.monsterModifier(0.4F,new Chosen(-205F,5F)),
+                    SamiRougeHelper.monsterModifier(0.4F,new Chosen(120F,10F))
             });
         });
 
@@ -369,8 +369,8 @@ public class SamiRougeMod implements PostInitializeSubscriber,PostBattleSubscrib
 
         BaseMod.addMonster(AltMonsterHelper.ONE_DAGGERS,extraNames[2],()->{
             return new MonsterGroup(new AbstractMonster[]{
-                    new SnakeDagger(-160F,1F),
-                    new SnakeDagger(-20F,1F)
+                    SamiRougeHelper.monsterModifier(0.8F,new SnakeDagger(-160F,1F)),
+                    SamiRougeHelper.monsterModifier(0.8F,new SnakeDagger(-20F,1F))
             });
         });
 

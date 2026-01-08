@@ -31,7 +31,11 @@ public class THEventRoom extends EventRoom {
                     Collections.shuffle(tmp,eventRngDuplicate.random);
                     if(AbstractDungeon.actNum==1 && tmp.get(0) == Change.ID && tmp.size()>1)
                         tmp.remove(0);
-                    switch (tmp.get(0)) {
+                    String nextRoom = tmp.get(0);
+                    if(AbstractDungeon.actNum>1 && tmp.contains(Change.ID)){
+                        nextRoom = Change.ID;
+                    }
+                    switch (nextRoom) {
                         case BeforeWoodCrack.ID:
                             this.event = new BeforeWoodCrack();
                             break;
@@ -57,8 +61,8 @@ public class THEventRoom extends EventRoom {
                             this.event = new CureRitual();
                             break;
                     }
-                    EventPatch.specialEvents.remove(tmp.get(0));
-                    AbstractDungeon.specialOneTimeEventList.remove(tmp.get(0));
+                    EventPatch.specialEvents.remove(nextRoom);
+                    AbstractDungeon.specialOneTimeEventList.remove(nextRoom);
                 }
             }
         }

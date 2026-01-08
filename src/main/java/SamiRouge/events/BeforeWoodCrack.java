@@ -1,5 +1,8 @@
 package SamiRouge.events;
 
+import SamiRouge.cards.ciphertext.layout.C21;
+import SamiRouge.cards.ciphertext.reason.C43;
+import SamiRouge.helper.DeclareHelper;
 import SamiRouge.patches.EventPatch;
 import SamiRouge.patches.SamiTreeHolePatch;
 import SamiRouge.relics.HatOfTreeScar;
@@ -31,7 +34,7 @@ public class BeforeWoodCrack extends AbstractImageEvent {
 
     public BeforeWoodCrack(){
         super(NAME,DESCRIPTIONS[0],"SamiRougeResources/img/events/BeforeWoodCrack.png");
-        imageEventText.setDialogOption(OPTIONS[0],new HatOfTreeScar());
+        imageEventText.setDialogOption(OPTIONS[0]);
         imageEventText.setDialogOption(OPTIONS[1]);
     }
 
@@ -43,7 +46,9 @@ public class BeforeWoodCrack extends AbstractImageEvent {
                 AbstractBlight b1 = SamiRougeHelper.getRandomBlightToObtain(AbstractDungeon.eventRng);
                 if(b1!=null)
                     AbstractDungeon.getCurrRoom().spawnBlightAndObtain((float) Settings.WIDTH/2F,(float) Settings.HEIGHT/2F, b1);
-                AbstractDungeon.getCurrRoom().spawnRelicAndObtain((float) Settings.WIDTH/2F,(float) Settings.HEIGHT/2F, new HatOfTreeScar());
+                //AbstractDungeon.getCurrRoom().spawnRelicAndObtain((float) Settings.WIDTH/2F,(float) Settings.HEIGHT/2F, new HatOfTreeScar());
+                DeclareHelper.layout.add(new C21());
+                DeclareHelper.reason.add(new C43());
                 imageEventText.updateBodyText(DESCRIPTIONS[1]);
             }
             else if(i==1){

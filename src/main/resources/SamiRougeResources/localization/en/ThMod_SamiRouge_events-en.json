@@ -23,7 +23,9 @@
       "[Stormy icefield] Face #rSamivilinn ",
       "[Dark icefield] Face #r\"#rThe #rScar #rof #rthe #rShattered\" ",
       "[?? ✋︎👍︎☜☞︎✋︎☜☹👎︎] Face #rCrazelyseon, #rthe #rAscendant #rof #rCosmoi ",
-      "[Enter the Bosky Passage] Consume 1 #yAnti-Interference #yIndex "
+      "[Enter the Bosky Passage] Consume 1 #yAnti-Interference #yIndex ",
+      "[Locked] Maybe you need something to guide for you",
+      "[Memorized forest] With assistance of #yMuelsyse, face #rAmma #rTal"
     ]
   },
   "samirg:TreeHoleEnd": {
@@ -52,9 +54,13 @@
       "[Move forward]",
       "[Locked] You don't have relic to exchange",
       "[Locked] You don't have card to exchange",
-      "[Locked] You need Anti-Interference Index to consume",
+      "[Locked] You need 1 Anti-Interference Index to consume",
       "[Leave]",
-      "Choose 1 to exchange"
+      "Choose 1 to exchange",
+      "[Oh?] You have #yDoubt , continue to exchange",
+      "[Exchange] Consume 1 #yAnti-Interference Index to exchange",
+      "[Lack Goods] Consume 2 #yAnti-Interference Index to exchange",
+      "[Locked] You need 2 Anti-Interference Index to consume"
     ]
   },
   "samirg:NoMountains": {
@@ -96,7 +102,7 @@
       "You scavenge whatever remains of the camp and leave with your teammates. You are concerned with the life or death of this one Sami, but the Foldartal already states his fate clearly.  NL ~You~ ~don't~ ~wish~ ~to~ ~put~ ~your~ ~own~ ~life~ ~at~ ~risk.~ "
     ],
     "OPTIONS": [
-      "[Search the camp] Obtain 1 #rParadigm . Obtain #yTreescar #yHelm ",
+      "[Search the camp] Obtain 1 #rParadigm . Obtain 1 group of #pSpecial #pFoldartals",
       "[Grab resources] Lose 1 #rParadigm , #gHeal #g5 #gHP.",
       "[Leave]"
     ]

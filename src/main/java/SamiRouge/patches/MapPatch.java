@@ -1,7 +1,11 @@
 package SamiRouge.patches;
 
 import SamiRouge.blights.AntiInterference;
-import SamiRouge.dungeons.TheSami;
+import SamiRouge.cards.ciphertext.AbstractCipherTextCard;
+import SamiRouge.cards.ciphertext.reason.C38;
+import SamiRouge.cards.ciphertext.reason.C39;
+import SamiRouge.cards.ciphertext.reason.C40;
+import SamiRouge.helper.DeclareHelper;
 import SamiRouge.samiMod.ModConfig;
 import SamiRouge.samiMod.SamiRougeMod;
 import TreeHole.mod.TreeHoleHelper;
@@ -21,8 +25,12 @@ import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.map.MapEdge;
 import com.megacrit.cardcrawl.map.MapRoomNode;
 import com.megacrit.cardcrawl.random.Random;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.rooms.MonsterRoom;
+import com.megacrit.cardcrawl.rooms.MonsterRoomBoss;
+import com.megacrit.cardcrawl.rooms.MonsterRoomElite;
+import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
 import com.megacrit.cardcrawl.screens.DungeonMapScreen;
-import org.omg.CORBA.PUBLIC_MEMBER;
 
 import java.util.ArrayList;
 
@@ -251,6 +259,12 @@ public class MapPatch {
                     if(!notCallCome && anti instanceof AntiInterference){
                         ((AntiInterference) anti).useOne();
                     }
+                    ArrayList<AbstractCipherTextCard> tmp = new ArrayList<>(DeclareHelper.buffed);
+                    for(AbstractCipherTextCard c : tmp){
+                        if(c instanceof C39 || c instanceof C40){
+                            DeclareHelper.otherTrigger(c);
+                        }
+                    }
                 }
             }
             if(leftNodes.contains(AbstractDungeon.getCurrMapNode())) {
@@ -263,6 +277,37 @@ public class MapPatch {
                     AbstractBlight anti = AbstractDungeon.player.getBlight(AntiInterference.ID);
                     if (!notCallCome && anti instanceof AntiInterference) {
                         ((AntiInterference) anti).useOne();
+                    }
+                    ArrayList<AbstractCipherTextCard> tmp = new ArrayList<>(DeclareHelper.buffed);
+                    for(AbstractCipherTextCard c : tmp){
+                        if(c instanceof C39 || c instanceof C40){
+                            DeclareHelper.otherTrigger(c);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //C38修改房间
+    @SpirePatch(clz = AbstractDungeon.class,method = "populatePathTaken")
+    public static class PathTakenPatch {
+        @SpireInsertPatch(rloc = 25)
+        public static void Insert(AbstractDungeon _inst, SaveFile saveFile) {
+            C38.enabled = false;
+            if (AbstractDungeon.nextRoom != null) {
+                AbstractRoom room = AbstractDungeon.nextRoom.room;
+                if (room instanceof MonsterRoom && !(room instanceof MonsterRoomElite) && !(room instanceof MonsterRoomBoss)) {
+                    boolean hasGo = false;
+                    ArrayList<AbstractCipherTextCard> tmp = new ArrayList<>(DeclareHelper.buffed);
+                    for (AbstractCipherTextCard c : tmp) {
+                        if (c instanceof C38) {
+                            hasGo = true;
+                        }
+                    }
+                    if (hasGo) {
+                        C38.enabled = true;
+                        AbstractDungeon.nextRoom.room = new MonsterRoomElite();
                     }
                 }
             }

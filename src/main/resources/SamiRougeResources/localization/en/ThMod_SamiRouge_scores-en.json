@@ -29,6 +29,12 @@
       "Defeat Crazelyseon, the Ascendant of Cosmoi. NL It opens its vacuous eye, examining everything in this dimension. Only when the eye shuts will humanity get to chance a glimpse at the secret beyond the ends of the earth."
     ]
   },
+  "samirg:WithHerTalk": {
+    "NAME": "Source",
+    "DESCRIPTIONS": [
+      "Defeat Amma Tal. NL The lonely elf strolling on the earth has not found her belonging, and the forest covered in white snow has no traces of her tribe. Perhaps Sami is not her answer."
+    ]
+  },
   "samirg:WhatBeginsFollowsWhatEnds": {
     "NAME": "From Start to End",
     "DESCRIPTIONS": [
